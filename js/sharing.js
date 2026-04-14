@@ -112,18 +112,15 @@ const Sharing = {
    */
   getPageInfo() {
     const pageUrl = window.location.href;
-    let pageTitle = document.title;
 
-    // Try to get product name if available
+    // Get title from og:title meta tag (already translated by i18n.js)
+    const ogTitleMeta = document.querySelector('meta[property="og:title"]');
+    let pageTitle = ogTitleMeta ? ogTitleMeta.getAttribute('content') : document.title;
+
+    // Fallback: try to get product name if available
     const productNameEl = document.querySelector('[data-product-name]');
-    if (productNameEl) {
+    if (productNameEl && pageTitle === document.title) {
       pageTitle = productNameEl.dataset.productName + ' - ' + pageTitle;
-    }
-
-    // Try to get i18n title
-    const i18nTitleEl = document.querySelector('[data-i18n="product.detail.title"]');
-    if (i18nTitleEl) {
-      pageTitle = i18nTitleEl.textContent + ' - ' + pageTitle;
     }
 
     return {
