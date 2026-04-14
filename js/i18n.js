@@ -157,6 +157,17 @@ const I18n = {
       }
     });
 
+    // Update meta tags (og:title, og:description, twitter:title, twitter:description, etc.)
+    document.querySelectorAll('[data-i18n]').forEach(el => {
+      if (el.tagName === 'META') {
+        const key = el.getAttribute('data-i18n');
+        const translation = this.getTranslation(key);
+        if (translation) {
+          el.setAttribute('content', translation);
+        }
+      }
+    });
+
     // Update title attributes
     document.querySelectorAll('[data-i18n-title]').forEach(el => {
       const key = el.getAttribute('data-i18n-title');

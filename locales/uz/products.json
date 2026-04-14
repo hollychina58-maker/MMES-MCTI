@@ -6,6 +6,10 @@
     "title": "Inertial o'lchash moduli",
     "shortTitle": "IMU seriyasi",
     "alt": "Inertial o'lchash moduli rasmi",
+    "og": {
+      "title": "Inertial o'lchash moduli IMU | MEMS-MCTI",
+      "description": "Yuqori aniqlikli MEMS giroskop va akselerometr"
+    },
     "description": "Yuqori aniqlikli MEMS giroskop va akselerometr integratsiyasi, kichik o'lcham, yengil vazn, kam quvvat sarfi, yuqori ishonchlilik, kuchli zarba va tebranish qarshiligi, ko'p kommunikatsiya interfeyslarini qo'llab-quvvatlaydi.",
     "features": [
       "Yuqori aniqlikli MEMS giroskop va akselerometr",
@@ -46,6 +50,10 @@
     "title": "Orientatsiya va kurs referens tizimi",
     "shortTitle": "AHRS seriyasi",
     "alt": "AHRS mahsulot rasmi",
+    "og": {
+      "title": "Tezlik va yo'nalish referans sistemasi AHRS | MEMS-MCTI",
+      "description": "Integratsiyalashgan GPS/GLONASS resiver, 100Hz ma'lumot yangilash tezligi"
+    },
     "description": "Integratsiyalashgan GPS/GLONASS qabul qiluvchi, uch o'qli MEMS giroskop, akselerometr va magnitometr, real vaqtda orientatsiya va kurs chiqishi, yuqori ma'lumot yangilash tezligi, NMEA0183 protokolini qo'llab-quvvatlaydi.",
     "features": [
       "Integratsiyalashgan GPS/GLONASS qabul qiluvchi",
@@ -82,6 +90,10 @@
     "title": "Vertikal giroskop",
     "shortTitle": "VG seriyasi",
     "alt": "Vertikal giroskop rasmi",
+    "og": {
+      "title": "Vertikal giroiskop VG | MEMS-MCTI",
+      "description": "Ishonchli uch o'qli barqarorlashtirilgan platforma, avtomatik shimolni qidirish funksiyasi"
+    },
     "description": "Ishonchli uch o'qli barqarorlashtirilgan platforma, avtomatik shimol qidiruv funksiyasi, turli uchish apparatlari uchun mos, kuchli atrof-muhit moslashuvi, oson texnik xizmat ko'rsatish.",
     "features": [
       "Ishonchli uch o'qli barqarorlashtirilgan platforma",
@@ -115,6 +127,10 @@
     "title": "Lazer strangdaut inertial navigatsiya tizimi",
     "shortTitle": "LAS/LAM seriyasi",
     "alt": "Lazer INS mahsulot rasmi",
+    "og": {
+      "title": "Lazer arqon inertial navigatsiya sistemasi LAS/LAM | MEMS-MCTI",
+      "description": "Lazer giroiskop texnologiyasi, yuqori aniqlikli arqon inertial navigatsiya"
+    },
     "description": "Lazer giroskop texnologiyasi, yuqori aniqlikli strangdaut inertial navigatsiya, integratsiyalashgan GPS/Beidou qabul qiluvchi, real vaqtda pozitsiya va orientatsiya, ko'p tizimli fuziya qo'llab-quvvatlash, aviatsiya standartlariga mos.",
     "features": [
       "Lazer giroskop texnologiyasi",
@@ -154,6 +170,10 @@
     "title": "Akselerometr seriyasi",
     "shortTitle": "ARG seriyasi",
     "alt": "Akselerometr mahsulot rasmi",
+    "og": {
+      "title": "Akselerometr seriyasi ARG | MEMS-MCTI",
+      "description": "Kuchlanish-o'lchash printsipi, yuqori o'lchash aniqlik, a'lo barqarorlik"
+    },
     "description": "Strain gauge o'lchash tamoyili, yuqori o'lchash aniqlik, a'lo barqarorlik, kuchli elektr xalaqit qarshiligi, ko'p o'lchov oralig'i variantlari, alyuminiy qotishma korpus, yengil vazn.",
     "features": [
       "Strain gauge o'lchash tamoyili",
@@ -191,6 +211,10 @@
     "title": "GPS pozitsiya va orientatsiya tizimi",
     "shortTitle": "GS seriyasi",
     "alt": "GPS tizim mahsulot rasmi",
+    "og": {
+      "title": "GPS joylashtirish va attitude sistemasi GS | MEMS-MCTI",
+      "description": "Ko'p chastotli GPS/GLONASS/Baidu resiver, real vaqtda attitude va joylashtirish o'lchovi"
+    },
     "description": "Ko'p chastotli GPS/GLONASS/Beidou qabul qiluvchi, real vaqtda orientatsiya va pozitsiya o'lchash, ikki antenna/uch antenna konfiguratsiyasini qo'llab-quvvatlash, yuqori ma'lumot yangilash tezligi, real vaqtda RTK differentsial pozitsiyalashni qo'llab-quvvatlash.",
     "features": [
       "Ko'p chastotli GPS/GLONASS/Beidou qabul qiluvchi",
@@ -231,6 +255,10 @@
     "title": "Quvvat moduli",
     "shortTitle": "C3000 seriyasi",
     "alt": "Quvvat moduli mahsulot rasmi",
+    "og": {
+      "title": "Quvvat moduli C3000 | MEMS-MCTI",
+      "description": "Keng kuchlanish kirishi, yuqori samaradorlik konvertatsiyasi"
+    },
     "description": "Keng kuchlanish kirish oralig'i, yuqori samaradorlik konversiyasi, ko'p chiqish kuchlanishi variantlari, ortiqcha kuchlanish, ortiqcha tok, qisqa tutashuvdan himoya, a'lo issiqlik tarqatish, aviatsiya quvvat standartlariga mos.",
     "features": [
       "Keng kuchlanish kirish oralig'i",

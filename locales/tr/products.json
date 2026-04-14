@@ -6,6 +6,10 @@
     "title": "Ataletsel Ölçüm Ünitesi",
     "shortTitle": "IMU Serisi",
     "alt": "Ataletsel Ölçüm Ünitesi Ürün Görseli",
+    "og": {
+      "title": "Ataletsel Ölçüm Ünitesi IMU | MEMS-MCTI",
+      "description": "Yüksek hassasiyetli MEMS jiroskop ve ivmeölçer"
+    },
     "description": "Yüksek hassasiyetli MEMS jiroskop ve ivmeölçer entegrasyonu, küçük boyut, hafif, düşük güç tüketimi, yüksek güvenilirlik, darbe ve titreşime karşı güçlü direnç, çoklu iletişim arayüzleri desteği.",
     "features": [
       "Yüksek hassasiyetli MEMS jiroskop ve ivmeölçer",
@@ -46,6 +50,10 @@
     "title": "Attitude ve Heading Referans Sistemi",
     "shortTitle": "AHRS Serisi",
     "alt": "AHRS Ürün Görseli",
+    "og": {
+      "title": "Tutum ve Yön Referans Sistemi AHRS | MEMS-MCTI",
+      "description": "Entegre GPS/GLONASS alıcı, 100Hz veri güncelleme hızı"
+    },
     "description": "Entegre GPS/GLONASS alıcı, üç eksenli MEMS jiroskop, ivmeölçer ve manyetometre, gerçek zamanlı attitude ve heading çıkışı, yüksek veri güncelleme hızı, NMEA0183 protokolü desteği.",
     "features": [
       "Entegre GPS/GLONASS alıcı",
@@ -82,6 +90,10 @@
     "title": "Dikey Jiroskop",
     "shortTitle": "VG Serisi",
     "alt": "Dikey Jiroskop Ürün Görseli",
+    "og": {
+      "title": "Dikey Jiroskop VG | MEMS-MCTI",
+      "description": "Güvenilir üç eksenli stabilize platform, otomatik kuzey bulma fonksiyonu"
+    },
     "description": "Güvenilir üç eksenli stabilize platform, otomatik kuzey bulma fonksiyonu, çeşitli hava araçlarına uygun, güçlü çevresel uyum, kolay bakım.",
     "features": [
       "Güvenilir üç eksenli stabilize platform",
@@ -115,6 +127,10 @@
     "title": "Lazer Kayışsız Ataletsel Navigasyon Sistemi",
     "shortTitle": "LAS/LAM Serisi",
     "alt": "Lazer INS Ürün Görseli",
+    "og": {
+      "title": "Lazer Kayışı Atalet Seyrüsefer Sistemi LAS/LAM | MEMS-MCTI",
+      "description": "Lazer jiroskop teknolojisi, yüksek hassasiyetli kayışı atalet seyrüseferi"
+    },
     "description": "Lazer jiroskop teknolojisi, yüksek hassasiyetli kayışsız ataletsel navigasyon, entegre GPS/Beidou alıcı, gerçek zamanlı konum ve yön belirleme, çoklu sistem füzyonu desteği, havacılık standartlarına uyumlu.",
     "features": [
       "Lazer jiroskop teknolojisi",
@@ -154,6 +170,10 @@
     "title": "İvmeölçer Serisi",
     "shortTitle": "ARG Serisi",
     "alt": "İvmeölçer Ürün Görseli",
+    "og": {
+      "title": "İvmeölçer Serisi ARG | MEMS-MCTI",
+      "description": "Strain gauge ölçüm prensibi, yüksek ölçüm hassasiyeti, mükemmel kararlılık"
+    },
     "description": "Strain gauge ölçüm prensibi, yüksek ölçüm hassasiyeti, mükemmel kararlılık, güçlü parazit direnci, çoklu aralık seçenekleri, alüminyum alaşım muhafaza, hafif.",
     "features": [
       "Strain gauge ölçüm prensibi",
@@ -191,6 +211,10 @@
     "title": "GPS Konum ve Attitude Sistemi",
     "shortTitle": "GS Serisi",
     "alt": "GPS Sistemi Ürün Görseli",
+    "og": {
+      "title": "GPS Konumlandırma ve Tutum Sistemi GS | MEMS-MCTI",
+      "description": "Çok frekanslı GPS/GLONASS/Beidou alıcı, gerçek zamanlı tutum ve konum ölçümü"
+    },
     "description": "Çok frekanslı GPS/GLONASS/Beidou alıcı, gerçek zamanlı attitude ve konum ölçümü, çift/üç anten konfigürasyonu desteği, yüksek veri güncelleme hızı, gerçek zamanlı RTK diferansiyel konumlandırma desteği.",
     "features": [
       "Çok frekanslı GPS/GLONASS/Beidou alıcı",
@@ -231,6 +255,10 @@
     "title": "Güç Modülü",
     "shortTitle": "C3000 Serisi",
     "alt": "Güç Modülü Ürün Görseli",
+    "og": {
+      "title": "Güç Modülü C3000 | MEMS-MCTI",
+      "description": "Geniş voltaj girişi, yüksek verimlilik dönüşümü"
+    },
     "description": "Geniş voltaj giriş aralığı, yüksek verimlilik dönüşümü, çoklu çıkış voltajı seçenekleri, aşırı voltaj, aşırı akım, kısa devre koruması, mükemmel ısı dağıtımı, havacılık güç standartlarına uyumlu.",
     "features": [
       "Geniş voltaj giriş aralığı",

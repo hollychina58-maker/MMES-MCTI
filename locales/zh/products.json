@@ -6,6 +6,10 @@
     "title": "惯性测量单元",
     "shortTitle": "IMU系列",
     "alt": "惯性测量单元产品图片",
+    "og": {
+      "title": "惯性测量单元 IMU | MEMS-MCTI",
+      "description": "高精度MEMS陀螺仪和加速度计"
+    },
     "description": "高精度MEMS陀螺仪和加速度计集成，体积小、重量轻、功耗低，可靠性高，抗冲击振动能力强，支持多种通信接口。",
     "features": [
       "高精度MEMS陀螺仪和加速度计",
@@ -36,6 +40,10 @@
     "title": "姿态航向参考系统",
     "shortTitle": "AHRS系列",
     "alt": "姿态航向参考系统产品图片",
+    "og": {
+      "title": "姿态航向参考系统 AHRS | MEMS-MCTI",
+      "description": "集成GPS/GLONASS接收机，100Hz数据更新率"
+    },
     "description": "集成GPS/GLONASS接收机，三轴MEMS陀螺仪、加速度计和磁力计，实时输出姿态角、航向角，数据更新率高，支持NMEA0183协议。",
     "features": [
       "集成GPS/GLONASS接收机",
@@ -72,6 +80,10 @@
     "title": "垂直陀螺仪",
     "shortTitle": "VG系列",
     "alt": "垂直陀螺仪产品图片",
+    "og": {
+      "title": "垂直陀螺仪 VG | MEMS-MCTI",
+      "description": "可靠的三轴稳定平台，自动找北功能"
+    },
     "description": "可靠的三轴稳定平台，自动找北功能，适用于各类飞行器，环境适应性强，维护简便。",
     "features": [
       "可靠的三轴稳定平台",
@@ -105,6 +117,10 @@
     "title": "激光捷联惯性导航系统",
     "shortTitle": "LAS/LAM系列",
     "alt": "激光捷联惯性导航系统产品图片",
+    "og": {
+      "title": "激光捷联惯性导航系统 LAS/LAM | MEMS-MCTI",
+      "description": "激光陀螺技术，高精度捷联惯性导航"
+    },
     "description": "激光陀螺技术，高精度捷联惯性导航，集成GPS/北斗接收机，实时定位定向，支持多系统融合，符合航空标准。",
     "features": [
       "激光陀螺技术",
@@ -144,6 +160,10 @@
     "title": "加速度计系列",
     "shortTitle": "ARG系列",
     "alt": "加速度计产品图片",
+    "og": {
+      "title": "加速度计系列 ARG | MEMS-MCTI",
+      "description": "应变式测量原理，测量精度高，稳定性好"
+    },
     "description": "应变式测量原理，测量精度高，稳定性好，抗干扰能力强，多种量程可选，铝合金外壳，重量轻。",
     "features": [
       "应变式测量原理",
@@ -181,6 +201,10 @@
     "title": "定位测姿系统",
     "shortTitle": "GS系列",
     "alt": "定位测姿系统产品图片",
+    "og": {
+      "title": "定位测姿系统 GS | MEMS-MCTI",
+      "description": "多频GPS/GLONASS/北斗接收机，实时测姿定位"
+    },
     "description": "多频GPS/GLONASS/北斗接收机，实时测姿定位，支持双天线/三天线配置，数据更新率高，支持RTK实时差分定位。",
     "features": [
       "多频GPS/GLONASS/北斗接收机",
@@ -221,6 +245,10 @@
     "title": "电源模块",
     "shortTitle": "C3000系列",
     "alt": "电源模块产品图片",
+    "og": {
+      "title": "电源模块 C3000 | MEMS-MCTI",
+      "description": "宽电压输入，高效率转换"
+    },
     "description": "宽电压输入范围，高效率转换，多种输出电压可选，过压、过流、短路保护，散热性能优良，符合航空电源标准。",
     "features": [
       "宽电压输入范围",

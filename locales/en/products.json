@@ -6,6 +6,10 @@
     "title": "Inertial Measurement Unit",
     "shortTitle": "IMU Series",
     "alt": "Inertial Measurement Unit Product Image",
+    "og": {
+      "title": "Inertial Measurement Unit IMU | MEMS-MCTI",
+      "description": "High-precision MEMS gyroscope and accelerometer"
+    },
     "description": "High-precision MEMS gyroscope and accelerometer integration, small size, lightweight, low power consumption, high reliability, strong shock and vibration resistance, supports multiple communication interfaces.",
     "features": [
       "High-precision MEMS gyroscope and accelerometer",
@@ -46,6 +50,10 @@
     "title": "Attitude and Heading Reference System",
     "shortTitle": "AHRS Series",
     "alt": "AHRS Product Image",
+    "og": {
+      "title": "Attitude and Heading Reference System AHRS | MEMS-MCTI",
+      "description": "Integrated GPS/GLONASS receiver, 100Hz data update rate"
+    },
     "description": "Integrated GPS/GLONASS receiver, three-axis MEMS gyroscope, accelerometer and magnetometer, real-time attitude and heading output, high data update rate, supports NMEA0183 protocol.",
     "features": [
       "Integrated GPS/GLONASS receiver",
@@ -82,6 +90,10 @@
     "title": "Vertical Gyroscope",
     "shortTitle": "VG Series",
     "alt": "Vertical Gyroscope Product Image",
+    "og": {
+      "title": "Vertical Gyroscope VG | MEMS-MCTI",
+      "description": "Reliable three-axis stabilized platform, automatic north-seeking function"
+    },
     "description": "Reliable three-axis stabilized platform, automatic north-seeking function, suitable for various aircraft, strong environmental adaptability, easy maintenance.",
     "features": [
       "Reliable three-axis stabilized platform",
@@ -115,6 +127,10 @@
     "title": "Laser Strapdown Inertial Navigation System",
     "shortTitle": "LAS/LAM Series",
     "alt": "Laser INS Product Image",
+    "og": {
+      "title": "Laser Strapdown Inertial Navigation System LAS/LAM | MEMS-MCTI",
+      "description": "Laser gyroscope technology, high-precision strapdown inertial navigation"
+    },
     "description": "Laser gyroscope technology, high-precision strapdown inertial navigation, integrated GPS/Beidou receiver, real-time positioning and orientation, multi-system fusion support, compliant with aviation standards.",
     "features": [
       "Laser gyroscope technology",
@@ -154,6 +170,10 @@
     "title": "Accelerometer Series",
     "shortTitle": "ARG Series",
     "alt": "Accelerometer Product Image",
+    "og": {
+      "title": "Accelerometer Series ARG | MEMS-MCTI",
+      "description": "Strain gauge measurement principle, high measurement accuracy, excellent stability"
+    },
     "description": "Strain gauge measurement principle, high measurement accuracy, excellent stability, strong anti-interference capability, multiple ranges available, aluminum alloy housing, lightweight.",
     "features": [
       "Strain gauge measurement principle",
@@ -191,6 +211,10 @@
     "title": "GPS Positioning and Attitude System",
     "shortTitle": "GS Series",
     "alt": "GPS System Product Image",
+    "og": {
+      "title": "GPS Positioning and Attitude System GS | MEMS-MCTI",
+      "description": "Multi-frequency GPS/GLONASS/Beidou receiver, real-time attitude and position measurement"
+    },
     "description": "Multi-frequency GPS/GLONASS/Beidou receiver, real-time attitude and position measurement, supports dual-antenna/triple-antenna configuration, high data update rate, supports RTK real-time differential positioning.",
     "features": [
       "Multi-frequency GPS/GLONASS/Beidou receiver",
@@ -231,6 +255,10 @@
     "title": "Power Module",
     "shortTitle": "C3000 Series",
     "alt": "Power Module Product Image",
+    "og": {
+      "title": "Power Module C3000 | MEMS-MCTI",
+      "description": "Wide voltage input, high efficiency conversion"
+    },
     "description": "Wide voltage input range, high efficiency conversion, multiple output voltage options, over-voltage, over-current, short-circuit protection, excellent heat dissipation, compliant with aviation power standards.",
     "features": [
       "Wide voltage input range",

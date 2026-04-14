@@ -6,6 +6,10 @@
     "title": "Unitatis Mensurae Inertialis",
     "shortTitle": "Series IMU",
     "alt": "Imago Unitatis Mensurae Inertialis",
+    "og": {
+      "title": "Unitatis Mensurae Inertialis IMU | MEMS-MCTI",
+      "description": "Integratio gyrographi et accelerometeri MEMS altae precisionis"
+    },
     "description": "Integratio gyrographi et accelerometeri MEMS altae precisionis, magnitudo parva, leve pondus, humilis energiae consumptio, alta fides, robusta resistentia ad impressionem et vibrationem, sustinet plurimas interfaces communicationis.",
     "features": [
       "Gyrographum et accelerometerum MEMS altae precisionis",
@@ -46,6 +50,10 @@
     "title": "Systema Referentiae Attitude et Heading",
     "shortTitle": "Series AHRS",
     "alt": "Imago Systematis AHRS",
+    "og": {
+      "title": "Systema Reference Attitude et Cursus AHRS | MEMS-MCTI",
+      "description": "Reciper GPS/GLONASS integratum, frequentia innovationis datorum 100Hz"
+    },
     "description": " Receptor GPS/GLONASS integratus, gyrographum, accelerometerum et magnetometrum MEMS trium axium, output attitude et heading reali tempore, alta renovatio datorum, sustinet protocollo NMEA0183.",
     "features": [
       "Receptor GPS/GLONASS integratus",
@@ -82,6 +90,10 @@
     "title": "Gyrographum Verticale",
     "shortTitle": "Series VG",
     "alt": "Imago Gyrographi Verticalis",
+    "og": {
+      "title": "Gyroscopium Verticale VG | MEMS-MCTI",
+      "description": "Platforma stabilis trium axium firma, functio quaerendi septentrionem automatica"
+    },
     "description": "Platforma stabilis trium axium надежная, functio automatica quaerendi boream, apta variis aerivolis, robusta adaptatio environmentalis, facilis，维护.",
     "features": [
       "Platforma stabilis trium axium надежная",
@@ -115,6 +127,10 @@
     "title": "Systema Navigationis Inertialis Strapdown Laser",
     "shortTitle": "Series LAS/LAM",
     "alt": "Imago Systematis INS Laser",
+    "og": {
+      "title": "Systema Navigationis Inertialis Laserii LAS/LAM | MEMS-MCTI",
+      "description": "Technologia gyrographii laserii, navigatio intertialis牛皮带高精度"
+    },
     "description": "Technologia gyrographi laseris, altae precisionis navigatio inertialia strapdown, receptor GPS/Beidou integratus, positio et directio reali tempore, sustinet fusionem plurimarum systematum, conforme standardis aviationis.",
     "features": [
       "Technologia gyrographi laseris",
@@ -154,6 +170,10 @@
     "title": "Series Accelerometrorum",
     "shortTitle": "Series ARG",
     "alt": "Imago Accelerometri",
+    "og": {
+      "title": "Series Accelerometrorum ARG | MEMS-MCTI",
+      "description": "Principium mensurae tenisonis, alta precisionis mensura, stabilitas excellens"
+    },
     "description": "Principium mensurae strain gauge, alta praecisio mensurae, excellent stabilitas, robusta resistentia ad interference, plures optiones ranges, corpus ex alumnio alliage, leve pondus.",
     "features": [
       "Principium mensurae strain gauge",
@@ -191,6 +211,10 @@
     "title": "Systema Positionis et Attitude GPS",
     "shortTitle": "Series GS",
     "alt": "Imago Systematis GPS",
+    "og": {
+      "title": "Systema Positionis et Attitude GPS GS | MEMS-MCTI",
+      "description": "Reciper GPS/GLONASS/Baidu multifrequens, mensura attitude et positionis reali tempore"
+    },
     "description": "Receptor multi-frequentiae GPS/GLONASS/Beidou, mensura attitude et positionis reali tempore, sustinet configurationem bi-antennae/tri-antennae, alta renovatio datorum, sustinet RTK differentiale positionens reali tempore.",
     "features": [
       "Receptor multi-frequentiae GPS/GLONASS/Beidou",
@@ -231,6 +255,10 @@
     "title": "Modulus Power",
     "shortTitle": "Series C3000",
     "alt": "Imago Moduli Power",
+    "og": {
+      "title": "Modulus Potentiae C3000 | MEMS-MCTI",
+      "description": "Ingressum voltium late, conversio efficacia alta"
+    },
     "description": "Latum range input voltage, alta efficientia conversio, plures optiones output voltage, protectio ab over-voltage, over-current, short circuit, excellent dissipatio caloris, conforme standardis power aviationis.",
     "features": [
       "Latum range input voltage",
