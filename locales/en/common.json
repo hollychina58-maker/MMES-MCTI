@@ -1,0 +1,148 @@
+{
+  "nav": {
+    "home": "Home",
+    "products": "Products",
+    "about": "About Us",
+    "contact": "Contact",
+    "language": "Language"
+  },
+  "productNames": {
+    "imu": "IMU",
+    "ahrs": "AHRS",
+    "vg": "Vertical Gyro",
+    "las_lam": "Laser INS",
+    "arg": "Accelerometer",
+    "gs": "GPS System",
+    "c3000": "Power Module"
+  },
+  "specTags": {
+    "triAxis": "Three-axis",
+    "dualAxis": "Dual-axis",
+    "autoNorth": "Auto North",
+    "laser": "Laser",
+    "highPrecision": "High Precision",
+    "strainGauge": "Strain Gauge",
+    "multiFreq": "Multi-freq",
+    "wideVoltage": "Wide Voltage",
+    "strapdown": "Strapdown",
+    "highStability": "High Stability",
+    "integrated": "Integrated",
+    "attitude": "Attitude",
+    "dualAntenna": "Dual Antenna",
+    "vehicle": "Vehicle",
+    "aerospace": "Aerospace"
+  },
+  "hero": {
+    "title": "Precision Measurement & Navigation",
+    "subtitle": "Providing high-quality inertial navigation products for aviation, aerospace, maritime, and vehicle industries",
+    "explore": "Explore Products",
+    "contact": "Contact Us"
+  },
+  "products": {
+    "title": "Products",
+    "subtitle": "High-quality inertial navigation products and solutions",
+    "viewDetail": "View Details",
+    "inquiry": "Inquiry",
+    "all": "All Products",
+    "imu": "IMU",
+    "ahrs": "AHRS",
+    "vg": "Vertical Gyro",
+    "las_lam": "Laser INS",
+    "arg": "Accelerometer",
+    "gs": "GPS System",
+    "c3000": "Power Module"
+  },
+  "features": {
+    "title": "Technical Advantages",
+    "highPrecision": {
+      "title": "High Precision",
+      "desc": "Advanced MEMS and FOG technology with industry-leading accuracy"
+    },
+    "compact": {
+      "title": "Compact Size",
+      "desc": "Modular design, small size, lightweight, easy integration"
+    },
+    "lowPower": {
+      "title": "Low Power",
+      "desc": "Optimized circuit design, low power consumption, minimal heat, high reliability"
+    },
+    "highReliability": {
+      "title": "High Reliability",
+      "desc": "Rigorously tested for various harsh environments"
+    }
+  },
+  "applications": {
+    "title": "Applications",
+    "aviation": "Aviation",
+    "aerospace": "Aerospace",
+    "maritime": "Maritime",
+    "vehicle": "Vehicle",
+    "uav": "UAV",
+    "surveying": "Surveying"
+  },
+  "about": {
+    "title": "About Us",
+    "description": "MEMS-MCTI is a high-tech enterprise specializing in navigation and guidance control technology, committed to providing high-quality inertial navigation products, positioning and attitude systems, and solutions for aviation, aerospace, maritime, and vehicle industries.",
+    "mission": "Providing customers with precise, reliable, and efficient navigation and measurement products"
+  },
+  "footer": {
+    "brand": "MEMS-MCTI",
+    "tagline": "Precision Navigation, Intelligent Future",
+    "productsTitle": "Products",
+    "companyTitle": "Company",
+    "contactTitle": "Contact",
+    "email": "Email",
+    "copyright": "© 2024 MEMS-MCTI. All Rights Reserved."
+  },
+  "inquiry": {
+    "title": "Inquiry",
+    "name": "Name",
+    "namePlaceholder": "Enter your name",
+    "email": "Email",
+    "emailPlaceholder": "Enter your email",
+    "product": "Product",
+    "productPlaceholder": "Select a product",
+    "message": "Message",
+    "messagePlaceholder": "Enter your inquiry...",
+    "submit": "Submit Inquiry",
+    "submitting": "Submitting...",
+    "name_error": "Please enter a valid name (at least 2 characters)",
+    "email_error": "Please enter a valid email address",
+    "product_error": "Please select a product",
+    "message_error": "Please enter a message (at least 10 characters)"
+  },
+  "share": {
+    "title": "Share Product",
+    "facebook": "Facebook",
+    "twitter": "Twitter",
+    "linkedin": "LinkedIn",
+    "whatsapp": "WhatsApp",
+    "pinterest": "Pinterest",
+    "instagram": "Instagram",
+    "email": "Email",
+    "instagram_message": "Instagram sharing requires the Instagram App"
+  },
+  "contact": {
+    "title": "Contact Us",
+    "email": "Email",
+    "address": "Address",
+    "phone": "Phone",
+    "company": "Company",
+    "companyPlaceholder": "Enter your company name",
+    "phonePlaceholder": "Enter your phone number",
+    "addressValue": "China",
+    "submit": "Send Message",
+    "successMessage": "Message sent successfully!",
+    "errorMessage": "Failed to send message. Please try again."
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "Error",
+    "success": "Success",
+    "back": "Back",
+    "next": "Next",
+    "previous": "Previous",
+    "close": "Close",
+    "readMore": "Read More"
+  }
+}

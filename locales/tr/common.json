@@ -1,0 +1,148 @@
+{
+  "nav": {
+    "home": "Ana Sayfa",
+    "products": "Ürünler",
+    "about": "Hakkımızda",
+    "contact": "İletişim",
+    "language": "Dil"
+  },
+  "productNames": {
+    "imu": "IMU",
+    "ahrs": "AHRS",
+    "vg": "Dikey Jiroskop",
+    "las_lam": "Lazer INS",
+    "arg": "İvmeölçer",
+    "gs": "GPS Sistemi",
+    "c3000": "Güç Modülü"
+  },
+  "specTags": {
+    "triAxis": "Üç Eksenli",
+    "dualAxis": "Çift Eksenli",
+    "autoNorth": "Otomatik Kuzey",
+    "laser": "Lazer",
+    "highPrecision": "Yüksek Hassasiyet",
+    "strainGauge": "Gerinim Ölçer",
+    "multiFreq": "Çok Frekanslı",
+    "wideVoltage": "Geniş Gerilim",
+    "strapdown": "Kayış",
+    "highStability": "Yüksek Kararlılık",
+    "integrated": "Entegre",
+    "attitude": "Attitude",
+    "dualAntenna": "Çift Anten",
+    "vehicle": "Araç",
+    "aerospace": "Havacılık"
+  },
+  "hero": {
+    "title": "Hassas Ölçüm ve Navigasyon",
+    "subtitle": "Havacılık, uzay, deniz ve araç endüstrileri için yüksek kaliteli ataletsel navigasyon ürünleri",
+    "explore": "Ürünleri Keşfet",
+    "contact": "Bize Ulaşın"
+  },
+  "products": {
+    "title": "Ürünler",
+    "subtitle": "Yüksek kaliteli ataletsel navigasyon ürünleri ve çözümleri",
+    "viewDetail": "Detayları Gör",
+    "inquiry": "Sorgulama",
+    "all": "Tüm Ürünler",
+    "imu": "IMU",
+    "ahrs": "AHRS",
+    "vg": "Dikey Jiroskop",
+    "las_lam": "Lazer INS",
+    "arg": "İvmeölçer",
+    "gs": "GPS Sistemi",
+    "c3000": "Güç Modülü"
+  },
+  "features": {
+    "title": "Teknik Avantajlar",
+    "highPrecision": {
+      "title": "Yüksek Hassasiyet",
+      "desc": "Sektör lideri hassasiyetle gelişmiş MEMS ve fiber optik jiroskop teknolojisi"
+    },
+    "compact": {
+      "title": "Küçük Boyut",
+      "desc": "Modüler tasarım, küçük boyut, hafif, kolay entegrasyon"
+    },
+    "lowPower": {
+      "title": "Düşük Güç",
+      "desc": "Optimizasyon devre tasarımı, düşük güç tüketimi, az ısı, yüksek güvenilirlik"
+    },
+    "highReliability": {
+      "title": "Yüksek Güvenilirlik",
+      "desc": "Çeşitli zorlu ortamlar için sıkı testler"
+    }
+  },
+  "applications": {
+    "title": "Uygulama Alanları",
+    "aviation": "Havacılık",
+    "aerospace": "Uzay",
+    "maritime": "Deniz",
+    "vehicle": "Araç",
+    "uav": "İHA",
+    "surveying": "Ölçme"
+  },
+  "about": {
+    "title": "Hakkımızda",
+    "description": "MEMS-MCTI, navigasyon ve güdüm kontrol teknolojisinde uzmanlaşmış yüksek teknoloji bir şirkettir. Havacılık, uzay, deniz ve araç endüstrileri için yüksek kaliteli ataletsel navigasyon ürünleri, konum ve attitude sistemleri ve çözümleri sunuyoruz.",
+    "mission": "Müşterilere hassas, güvenilir ve verimli navigasyon ve ölçüm ürünleri sunmak"
+  },
+  "footer": {
+    "brand": "MEMS-MCTI",
+    "tagline": "Hassas Navigasyon, Akıllı Gelecek",
+    "productsTitle": "Ürünler",
+    "companyTitle": "Şirket",
+    "contactTitle": "İletişim",
+    "email": "E-posta",
+    "copyright": "© 2024 MEMS-MCTI. Tüm hakları saklıdır."
+  },
+  "inquiry": {
+    "title": "Sorgulama",
+    "name": "Ad",
+    "namePlaceholder": "Adınızı girin",
+    "email": "E-posta",
+    "emailPlaceholder": "E-posta adresinizi girin",
+    "product": "Ürün",
+    "productPlaceholder": "Ürün seçin",
+    "message": "Mesaj",
+    "messagePlaceholder": "Sorgunuzu girin...",
+    "submit": "Sorgu Gönder",
+    "submitting": "Gönderiliyor...",
+    "name_error": "Geçerli bir ad girin (en az 2 karakter)",
+    "email_error": "Geçerli bir e-posta adresi girin",
+    "product_error": "Lütfen bir ürün seçin",
+    "message_error": "Lütfen bir mesaj girin (en az 10 karakter)"
+  },
+  "share": {
+    "title": "Ürünü Paylaş",
+    "facebook": "Facebook",
+    "twitter": "Twitter",
+    "linkedin": "LinkedIn",
+    "whatsapp": "WhatsApp",
+    "pinterest": "Pinterest",
+    "instagram": "Instagram",
+    "email": "E-posta",
+    "instagram_message": "Instagram'da paylaşım için Instagram Uygulaması gereklidir"
+  },
+  "contact": {
+    "title": "Bize Ulaşın",
+    "email": "E-posta",
+    "address": "Adres",
+    "phone": "Telefon",
+    "company": "Şirket",
+    "companyPlaceholder": "Şirket adınızı girin",
+    "phonePlaceholder": "Telefon numaranızı girin",
+    "addressValue": "Çin",
+    "submit": "Mesaj Gönder",
+    "successMessage": "Mesaj başarıyla gönderildi!",
+    "errorMessage": "Mesaj gönderilemedi. Lütfen tekrar deneyin."
+  },
+  "common": {
+    "loading": "Yükleniyor...",
+    "error": "Hata",
+    "success": "Başarılı",
+    "back": "Geri",
+    "next": "Sonraki",
+    "previous": "Önceki",
+    "close": "Kapat",
+    "readMore": "Devamını Oku"
+  }
+}

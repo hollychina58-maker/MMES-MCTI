@@ -1,0 +1,174 @@
+/* ========================================
+   Base Styles - Industrial Precision Theme
+   ======================================== */
+
+body {
+  font-family: var(--font-en);
+  font-size: var(--text-body);
+  line-height: var(--leading-body);
+  color: var(--text-secondary);
+  background-color: var(--bg-primary);
+}
+
+/* Chinese Font */
+html[lang="zh"] body {
+  font-family: var(--font-zh);
+}
+
+/* Arabic/Persian Font */
+html[lang="ar"] body,
+html[lang="fa"] body {
+  font-family: var(--font-ar);
+}
+
+/* Russian Font */
+html[lang="ru"] body {
+  font-family: var(--font-ru);
+}
+
+/* Uzbek Font */
+html[lang="uz"] body {
+  font-family: var(--font-uz);
+}
+
+/* Turkish Font */
+html[lang="tr"] body {
+  font-family: var(--font-tr);
+}
+
+/* Latin Font */
+html[lang="la"] body {
+  font-family: var(--font-la);
+}
+
+/* Typography */
+h1, h2, h3 {
+  color: var(--text-primary);
+}
+
+h1 {
+  font-size: var(--text-display-l);
+  line-height: var(--leading-display-l);
+  font-weight: 700;
+}
+
+h2 {
+  font-size: var(--text-display-m);
+  line-height: var(--leading-display-m);
+  font-weight: 600;
+}
+
+h3 {
+  font-size: var(--text-h1);
+  line-height: var(--leading-h1);
+  font-weight: 600;
+}
+
+h4 {
+  font-size: var(--text-h2);
+  line-height: var(--leading-h2);
+  font-weight: 600;
+  color: var(--text-secondary);
+}
+
+p {
+  margin-bottom: var(--space-md);
+}
+
+p:last-child {
+  margin-bottom: 0;
+}
+
+strong {
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+/* Links */
+a {
+  color: var(--accent-primary);
+  text-decoration: none;
+  transition: color var(--transition-fast) ease;
+}
+
+a:hover {
+  color: var(--accent-secondary);
+}
+
+a.link-underline {
+  position: relative;
+}
+
+a.link-underline::after {
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 0;
+  height: 1px;
+  background: currentColor;
+  transition: width 0.3s ease;
+}
+
+a.link-underline:hover::after {
+  width: 100%;
+}
+
+/* Lists */
+ul, ol {
+  padding-left: var(--space-lg);
+  color: var(--text-secondary);
+}
+
+li {
+  margin-bottom: var(--space-sm);
+}
+
+/* Images */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Horizontal Rule */
+hr {
+  border: none;
+  border-top: 1px solid var(--border-color);
+  margin: var(--space-xl) 0;
+}
+
+/* Selection */
+::selection {
+  background: var(--accent-primary);
+  color: var(--bg-primary);
+}
+
+::-moz-selection {
+  background: var(--accent-primary);
+  color: var(--bg-primary);
+}
+
+/* Scrollbar - Industrial Dark Style */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--bg-secondary);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--metal-dark);
+  border-radius: var(--radius-full);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--metal-medium);
+}
+
+/* RTL Scrollbar */
+[dir="rtl"] ::-webkit-scrollbar {
+  direction: ltr;
+}

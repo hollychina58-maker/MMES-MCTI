@@ -1,0 +1,301 @@
+{
+  "product": {
+    "title": "تفاصيل المنتج"
+  },
+  "imu": {
+    "title": "وحدة القياس بالقصور الذاتي",
+    "shortTitle": "سلسلة IMU",
+    "alt": "صورة وحدة القياس بالقصور الذاتي",
+    "description": "جيروسكوب ومقياس تسارع MEMS عالي الدقة، حجم صغير، وزن خفيف، استهلاك منخفض للطاقة، موثوقية عالية، مقاومة للصدمات والاهتزاز، دعم واجهات اتصال متعددة.",
+    "features": [
+      "جيروسكوب ومقياس تسارع MEMS عالي الدقة",
+      "حجم صغير، وزن خفيف",
+      "استهلاك منخفض للطاقة",
+      "موثوقية عالية",
+      "مقاومة للصدمات والاهتزاز",
+      "دعم واجهات اتصال متعددة"
+    ],
+    "specs": {
+      "gyroscope_range": "±300°/s",
+      "gyroscope_bias": "<0.5°/h",
+      "gyroscope_nonlinearity": "<100ppm",
+      "gyroscope_bandwidth": ">100Hz",
+      "accelerometer_range": "±10g",
+      "accelerometer_bias": "<1mg",
+      "accelerometer_nonlinearity": "<500ppm",
+      "interface": "RS-422 / RS-232 / CAN"
+    },
+    "specsLabels": {
+      "gyroscope_range": "نطاق الجيروسكوب",
+      "gyroscope_bias": "استقرار انحراف الجيروسكوب",
+      "gyroscope_nonlinearity": "عدم خطية الجيروسكوب",
+      "gyroscope_bandwidth": "عرض نطاق الجيروسكوب",
+      "accelerometer_range": "نطاق التسارع",
+      "accelerometer_bias": "استقرار انحراف التسارع",
+      "accelerometer_nonlinearity": "عدم خطية التسارع",
+      "interface": "الواجهة"
+    },
+    "models": {
+      "PA-IMU-01D": "وحدة القياس بالقصور الذاتي PA-IMU-01D",
+      "PA-IMU-01G": "وحدة القياس بالقصور الذاتي PA-IMU-01G",
+      "PA-IMU-02D03D": "جيروسكوب الألياف الضوئية ثنائي المحور PA-IMU-02D03D"
+    },
+    "applications": "التحكم في الطيران، ملاحة الطائرات بدون طيار، قياس الموقف"
+  },
+  "ahrs": {
+    "title": "نظام المرجع الاتجاهي والاتجاه",
+    "shortTitle": "سلسلة AHRS",
+    "alt": "صورة نظام AHRS",
+    "description": "مستقبل GPS/GLONASS متكامل، جيروسكوب MEMS ثلاثي المحور ومقياس تسارع ومقياس مغناطيسي، إخراج الموقف والاتجاه في الوقت الفعلي، معدل تحديث بيانات عالي، دعم بروتوكول NMEA0183.",
+    "features": [
+      "مستقبل GPS/GLONASS متكامل",
+      "جيروسكوب MEMS ثلاثي المحور ومقياس تسارع ومقياس مغناطيسي",
+      "إخراج الموقف والاتجاه في الوقت الفعلي",
+      "معدل تحديث بيانات عالي",
+      "دعم بروتوكول NMEA0183",
+      "حجم مضغوط، سهولة التركيب"
+    ],
+    "specs": {
+      "attitude_accuracy_static": "±0.5°",
+      "attitude_accuracy_dynamic": "±1.0°",
+      "heading_accuracy": "±1.0°",
+      "heading_range": "0° ~ 360°",
+      "data_rate": "100Hz",
+      "voltage": "9~36V DC",
+      "power": "<5W"
+    },
+    "specsLabels": {
+      "attitude_accuracy_static": "دقة الوضع (ثابت)",
+      "attitude_accuracy_dynamic": "دقة الوضع (ديناميكي)",
+      "heading_accuracy": "دقة الاتجاه",
+      "heading_range": "نطاق الاتجاه",
+      "data_rate": "معدل البيانات",
+      "voltage": "جهد الإمداد",
+      "power": "استهلاك الطاقة"
+    },
+    "models": {
+      "PA-AHRS01": "نظام المرجع الاتجاهي والاتجاه PA-AHRS01"
+    },
+    "applications": "التحكم في الطيران بدون طيار، مراقبة موقف السفينة، التحكم في استقرار المركبات"
+  },
+  "vg": {
+    "title": "الجيروسكوب العمودي",
+    "shortTitle": "سلسلة VG",
+    "alt": "صورة الجيروسكوب العمودي",
+    "description": "منصة مستقرة ثلاثية المحور موثوقة، وظيفة البحث عن الشمال التلقائية، مناسبة لأنواع مختلفة من الطائرات، قدرة تكيّف بيئي قوية، صيانة سهلة.",
+    "features": [
+      "منصة مستقرة ثلاثية المحور موثوقة",
+      "وظيفة البحث عن الشمال التلقائية",
+      "مناسبة لأنواع مختلفة من الطائرات",
+      "قدرة تكيّف بيئي قوية",
+      "صيانة سهلة"
+    ],
+    "specs": {
+      "pitch_roll_accuracy": "±0.5°",
+      "heading_accuracy": "±1.0°",
+      "stabilization_time": "<5دقيقة",
+      "working_temp": "-40°C ~ +60°C",
+      "voltage": "115V AC / 400Hz",
+      "weight": "<3كجم"
+    },
+    "specsLabels": {
+      "pitch_roll_accuracy": "دقة الط pitch/roll",
+      "heading_accuracy": "دقة الاتجاه",
+      "stabilization_time": "وقت الاستقرار",
+      "working_temp": "درجة حرارة العمل",
+      "voltage": "جهد الإمداد",
+      "weight": "الوزن"
+    },
+    "models": {
+      "PA-VG11": "الجيروسكوب العمودي PA-VG11"
+    },
+    "applications": "الطائرات ذات الجناح الثابت، المروحيات، التحكم في الطيران بدون طيار"
+  },
+  "las_lam": {
+    "title": "نظام الملاحة بالقصور الذاتي بالليزر",
+    "shortTitle": "سلسلة LAS/LAM",
+    "alt": "صورة نظام الملاحة بالليزر",
+    "description": "تقنية الجيروسكوب بالليزر، ملاحة بالقصور الذاتي عالية الدقة، مستقبل GPS/Beidou متكامل، تحديد الموقع والاتجاه في الوقت الفعلي، دعم اندماج الأنظمة المتعددة، متوافق مع معايير الطيران.",
+    "features": [
+      "تقنية الجيروسكوب بالليزر",
+      "ملاحة بالقصور الذاتي عالية الدقة",
+      "مستقبل GPS/Beidou متكامل",
+      "تحديد الموقع والاتجاه في الوقت الفعلي",
+      "دعم اندماج الأنظمة المتعددة",
+      "متوافق مع معايير الطيران"
+    ],
+    "specs": {
+      "position_accuracy_las_i": "<1م (CEP)",
+      "position_accuracy_las_iii": "<0.5م (CEP)",
+      "attitude_accuracy_las_i": "±0.1°",
+      "attitude_accuracy_las_iii": "±0.05°",
+      "heading_accuracy_las_i": "±0.2°",
+      "heading_accuracy_las_iii": "±0.1°",
+      "gyro_bias_stability_las_i": "<0.01°/س",
+      "gyro_bias_stability_las_iii": "<0.005°/س"
+    },
+    "specsLabels": {
+      "position_accuracy_las_i": "دقة تحديد الموقع (LAS-I)",
+      "position_accuracy_las_iii": "دقة تحديد الموقع (LAS-III)",
+      "attitude_accuracy_las_i": "دقة الوضع (LAS-I)",
+      "attitude_accuracy_las_iii": "دقة الوضع (LAS-III)",
+      "heading_accuracy_las_i": "دقة الاتجاه (LAS-I)",
+      "heading_accuracy_las_iii": "دقة الاتجاه (LAS-III)",
+      "gyro_bias_stability_las_i": "استقرار انحراف الجيروسكوب (LAS-I)",
+      "gyro_bias_stability_las_iii": "استقرار انحراف الجيروسكوب (LAS-III)"
+    },
+    "models": {
+      "PA-LASI-A": "نظام الملاحة بالقصور الذاتي بالليزر PA-LASI-A",
+      "PA-LASIII-A": "نظام الملاحة بالقصور الذاتي بالليزر PA-LASIII-A"
+    },
+    "applications": "الطيران المدني، الطائرات العسكرية، الطائرات بدون طيار的高端"
+  },
+  "arg": {
+    "title": "سلسلة مقاييس التسارع",
+    "shortTitle": "سلسلة ARG",
+    "alt": "صورة مقياس التسارع",
+    "description": "مبدأ القياس بفتحة السلالة، دقة قياس عالية، استقرار ممتاز، قدرة قوية على مقاومة التداخل، نطاقات متعددة متاحة، هيكل من سبائك الألومنيوم، وزن خفيف.",
+    "features": [
+      "مبدأ القياس بفتحة السلالة",
+      "دقة قياس عالية",
+      "استقرار ممتاز",
+      "قدرة قوية على مقاومة التداخل",
+      "نطاقات متعددة متاحة",
+      "هيكل من سبائك الألومنيوم، وزن خفيف"
+    ],
+    "specs": {
+      "range": "±10g / ±20g / ±50g",
+      "bias_stability": "<0.5mg",
+      "resolution": "<0.1mg",
+      "frequency_response": "0~500Hz",
+      "nonlinearity": "<0.1% FS",
+      "working_temp": "-40°C ~ +85°C"
+    },
+    "specsLabels": {
+      "range": "نطاق القياس",
+      "bias_stability": "استقرار الانحراف",
+      "resolution": "الدقة",
+      "frequency_response": "الاستجابة الترددية",
+      "nonlinearity": "عدم الخطية",
+      "working_temp": "درجة حرارة العمل"
+    },
+    "models": {
+      "PA-ARG-A": "مقياس التسارع بفتحة السلالة PA-ARG-A",
+      "PA-ARG-D": "مقياس التسارع بفتحة السلالة PA-ARG-D",
+      "PA-3ARG-A": "نظام الملاحة المتكامل ثلاثي المحور PA-3ARG-A",
+      "PA-3ARG-D": "نظام الملاحة المتكامل ثلاثي المحور PA-3ARG-D"
+    },
+    "applications": "مراقبة صحة الهياكل، فحص الجسور، المراقبة الزلزالية، الأتمتة الصناعية"
+  },
+  "gs": {
+    "title": "نظام تحديد الموقع والاتجاه GPS",
+    "shortTitle": "سلسلة GS",
+    "alt": "صورة نظام GPS",
+    "description": "مستقبل GPS/GLONASS/Beidou متعدد الترددات، قياس الموقف والموقع في الوقت الفعلي، دعم تكوين الهوائي المزدوج/الثلاثي، معدل تحديث بيانات عالي، دعم تحديد المواقع RTK في الوقت الفعلي.",
+    "features": [
+      "مستقبل GPS/GLONASS/Beidou متعدد الترددات",
+      "قياس الموقف والموقع في الوقت الفعلي",
+      "دعم تكوين الهوائي المزدوج/الثلاثي",
+      "معدل تحديث بيانات عالي",
+      "دعم تحديد المواقع RTK في الوقت الفعلي",
+      "متوافق مع برامج المعالجة اللاحية المختلفة"
+    ],
+    "specs": {
+      "position_accuracy_single": "<1.5م (CEP)",
+      "position_accuracy_rtk": "<2سم",
+      "heading_accuracy": "±0.2° (خط أساس 2م)",
+      "attitude_accuracy": "±0.5°",
+      "data_rate": "20Hz / 100Hz",
+      "channels": "584",
+      "signals": "GPS L1/L2, GLONASS L1/L2, BDS B1/B2"
+    },
+    "specsLabels": {
+      "position_accuracy_single": "دقة تحديد الموقع (نقطة مفردة)",
+      "position_accuracy_rtk": "دقة تحديد الموقع (RTK)",
+      "heading_accuracy": "دقة الاتجاه",
+      "attitude_accuracy": "دقة الوضع",
+      "data_rate": "معدل البيانات",
+      "channels": "القنوات",
+      "signals": "الإشارات"
+    },
+    "models": {
+      "PA-GS": "نظام تحديد الموقع والاتجاه PA-GS",
+      "PA-GS01": "نظام تحديد موقع GPS PA-GS01",
+      "PA-GS02": "نظام تحديد موقع GPS مزدوج الهوائي PA-GS02",
+      "PA-GSAUTO": "نظام GPS للسيارات PA-GSAUTO",
+      "PA-GSFA1": "نظام GPS للسيارات PA-GSFA1"
+    },
+    "applications": "التسوية، نظم المعلومات الجغرافية، رسم الخرائط المتنقل"
+  },
+  "c3000": {
+    "title": "وحدة الطاقة",
+    "shortTitle": "سلسلة C3000",
+    "alt": "صورة وحدة الطاقة",
+    "description": "نطاق جهد إدخال واسع، تحويل عالي الكفاءة، خيارات جهد إخراج متعددة، حماية من الجهد الزائد والتيار الزائد والقصر، تبديد حراري ممتاز، متوافق مع معايير الطاقة للطيران.",
+    "features": [
+      "نطاق جهد إدخال واسع",
+      "تحويل عالي الكفاءة",
+      "خيارات جهد إخراج متعددة",
+      "حماية من الجهد الزائد والتيار الزائد والقصر",
+      "تبديد حراري ممتاز",
+      "متوافق مع معايير الطاقة للطيران"
+    ],
+    "specs": {
+      "input_voltage_c3000": "18~36V DC",
+      "input_voltage_vg": "115V AC / 400Hz",
+      "output_voltage_c3000": "5V / 12V / ±15V",
+      "output_voltage_vg": "28V / 12V / 5V",
+      "output_power_c3000": "30W",
+      "output_power_vg": "50W",
+      "efficiency": ">85%",
+      "ripple_c3000": "<100mV p-p",
+      "ripple_vg": "<50mV"
+    },
+    "specsLabels": {
+      "input_voltage_c3000": "جهد الإدخال (C3000)",
+      "input_voltage_vg": "جهد الإدخال (TS-VG)",
+      "output_voltage_c3000": "جهد الإخراج (C3000)",
+      "output_voltage_vg": "جهد الإخراج (TS-VG)",
+      "output_power_c3000": "الطاقة الإخراجية (C3000)",
+      "output_power_vg": "الطاقة الإخراجية (TS-VG)",
+      "efficiency": "الكفاءة",
+      "ripple_c3000": "التذبذب (C3000)",
+      "ripple_vg": "التذبذب (TS-VG)"
+    },
+    "models": {
+      "PM-C3000": "وحدة الطاقة PM-C3000",
+      "PM-TS-VG": "وحدة الطاقة PM-TS-VG"
+    },
+    "applications": "المعدات الإلكترونية للطائرات، معدات الاختبار الأرضية، الأنظمة غير المأهولة"
+  },
+  "inquiry": {
+    "title": "استفسار المنتج",
+    "selectProduct": "اختر منتجاً",
+    "submit_success": "شكراً لاستفسارك! سنتواصل معك قريباً.",
+    "submit_failed": "فشل الإرسال. يرجى المحاولة لاحقاً.",
+    "validation_failed": "يرجى ملء جميع الحقول المطلوبة."
+  },
+  "products": {
+    "productCount": "عرض {count} منتجات",
+    "descriptions": {
+      "PA-IMU-01D": "جيروسكوب ومقياس تسارع MEMS عالي الدقة",
+      "PA-IMU-01G": "جيروسكوب ومقياس تسارع MEMS عالي الدقة",
+      "PA-IMU-02D03D": "جيروسكوب الألياف الضوئية ثنائي المحور",
+      "PA-AHRS01": "مستقبل GPS/GLONASS متكامل",
+      "PA-VG11": "منصة مستقرة ثلاثية المحور موثوقة",
+      "PA-LASI-A": "تقنية الجيروسكوب بالليزر",
+      "PA-LASIII-A": "ملاحة بالقصور الذاتي عالية الدقة",
+      "PA-ARG-A": "مقياس التسارع strain gauge",
+      "PA-ARG-D": "مقياس التسارع strain gauge",
+      "PA-3ARG-A": "نظام الملاحة المتكامل ثلاثي المحور",
+      "PA-3ARG-D": "نظام الملاحة المتكامل ثلاثي المحور",
+      "PA-GS": "مستقبل GPS متعدد الترددات",
+      "PA-GS01": "نظام تحديد موقع GPS",
+      "PA-GS02": "نظام تحديد موقع GPS مزدوج الهوائي",
+      "PA-GSAUTO": "نظام GPS للسيارات",
+      "PA-GSFA1": "نظام GPS للسيارات",
+      "PM-C3000": "مدخل جهد واسع، تحويل عالي الكفاءة",
+      "PM-TS-VG": "وحدة الطاقة"
+    }
+  }
+}

@@ -1,0 +1,301 @@
+{
+  "product": {
+    "title": "Ürün Detayları"
+  },
+  "imu": {
+    "title": "Ataletsel Ölçüm Ünitesi",
+    "shortTitle": "IMU Serisi",
+    "alt": "Ataletsel Ölçüm Ünitesi Ürün Görseli",
+    "description": "Yüksek hassasiyetli MEMS jiroskop ve ivmeölçer entegrasyonu, küçük boyut, hafif, düşük güç tüketimi, yüksek güvenilirlik, darbe ve titreşime karşı güçlü direnç, çoklu iletişim arayüzleri desteği.",
+    "features": [
+      "Yüksek hassasiyetli MEMS jiroskop ve ivmeölçer",
+      "Küçük boyut, hafif",
+      "Düşük güç tüketimi",
+      "Yüksek güvenilirlik",
+      "Darbe ve titreşime karşı güçlü direnç",
+      "Çoklu iletişim arayüzleri desteği"
+    ],
+    "specs": {
+      "gyroscope_range": "±300°/s",
+      "gyroscope_bias": "<0.5°/saat",
+      "gyroscope_nonlinearity": "<100ppm",
+      "gyroscope_bandwidth": ">100Hz",
+      "accelerometer_range": "±10g",
+      "accelerometer_bias": "<1mg",
+      "accelerometer_nonlinearity": "<500ppm",
+      "interface": "RS-422 / RS-232 / CAN"
+    },
+    "specsLabels": {
+      "gyroscope_range": "Jiroskop Araligi",
+      "gyroscope_bias": "Jiroskop Bias Kararliligi",
+      "gyroscope_nonlinearity": "Jiroskop Dogrusal Olmama",
+      "gyroscope_bandwidth": "Jiroskop Bant Genisligi",
+      "accelerometer_range": "Akselerometre Araligi",
+      "accelerometer_bias": "Akselerometre Bias Kararliligi",
+      "accelerometer_nonlinearity": "Akselerometre Dogrusal Olmama",
+      "interface": "Arayuz"
+    },
+    "models": {
+      "PA-IMU-01D": "Ataletsel Ölçüm Ünitesi PA-IMU-01D",
+      "PA-IMU-01G": "Ataletsel Ölçüm Ünitesi PA-IMU-01G",
+      "PA-IMU-02D03D": "Çift Eksenli Fiber Optik Jiroskop PA-IMU-02D03D"
+    },
+    "applications": "Havacılık uçuş kontrolü, İHA navigasyonu, attitude ölçümü"
+  },
+  "ahrs": {
+    "title": "Attitude ve Heading Referans Sistemi",
+    "shortTitle": "AHRS Serisi",
+    "alt": "AHRS Ürün Görseli",
+    "description": "Entegre GPS/GLONASS alıcı, üç eksenli MEMS jiroskop, ivmeölçer ve manyetometre, gerçek zamanlı attitude ve heading çıkışı, yüksek veri güncelleme hızı, NMEA0183 protokolü desteği.",
+    "features": [
+      "Entegre GPS/GLONASS alıcı",
+      "Üç eksenli MEMS jiroskop, ivmeölçer ve manyetometre",
+      "Gerçek zamanlı attitude ve heading çıkışı",
+      "Yüksek veri güncelleme hızı",
+      "NMEA0183 protokolü desteği",
+      "Kompakt boyut, kolay kurulum"
+    ],
+    "specs": {
+      "attitude_accuracy_static": "±0.5°",
+      "attitude_accuracy_dynamic": "±1.0°",
+      "heading_accuracy": "±1.0°",
+      "heading_range": "0° ~ 360°",
+      "data_rate": "100Hz",
+      "voltage": "9~36V DC",
+      "power": "<5W"
+    },
+    "specsLabels": {
+      "attitude_accuracy_static": "Attitude Hassasiyeti (Statik)",
+      "attitude_accuracy_dynamic": "Attitude Hassasiyeti (Dinamik)",
+      "heading_accuracy": "Heading Hassasiyeti",
+      "heading_range": "Heading Araligi",
+      "data_rate": "Veri Hizi",
+      "voltage": "Guc Gerilimi",
+      "power": "Guc Tuketimi"
+    },
+    "models": {
+      "PA-AHRS01": "Attitude ve Heading Referans Sistemi PA-AHRS01"
+    },
+    "applications": "İHA uçuş kontrolü, deniz aracı attitude izleme, araç stabilite kontrolü"
+  },
+  "vg": {
+    "title": "Dikey Jiroskop",
+    "shortTitle": "VG Serisi",
+    "alt": "Dikey Jiroskop Ürün Görseli",
+    "description": "Güvenilir üç eksenli stabilize platform, otomatik kuzey bulma fonksiyonu, çeşitli hava araçlarına uygun, güçlü çevresel uyum, kolay bakım.",
+    "features": [
+      "Güvenilir üç eksenli stabilize platform",
+      "Otomatik kuzey bulma fonksiyonu",
+      "Çeşitli hava araçlarına uygun",
+      "Güçlü çevresel uyum",
+      "Kolay bakım"
+    ],
+    "specs": {
+      "pitch_roll_accuracy": "±0.5°",
+      "heading_accuracy": "±1.0°",
+      "stabilization_time": "<5 dakika",
+      "working_temp": "-40°C ~ +60°C",
+      "voltage": "115V AC / 400Hz",
+      "weight": "<3 kg"
+    },
+    "specsLabels": {
+      "pitch_roll_accuracy": "Pitch/Roll Hassasiyeti",
+      "heading_accuracy": "Heading Hassasiyeti",
+      "stabilization_time": "Kararlilasma Suresi",
+      "working_temp": "Calisma Sicakligi",
+      "voltage": "Guc Gerilimi",
+      "weight": "Agirlik"
+    },
+    "models": {
+      "PA-VG11": "Dikey Jiroskop PA-VG11"
+    },
+    "applications": "Sabit kanatlı uçaklar, helikopterler, İHA uçuş kontrolü"
+  },
+  "las_lam": {
+    "title": "Lazer Kayışsız Ataletsel Navigasyon Sistemi",
+    "shortTitle": "LAS/LAM Serisi",
+    "alt": "Lazer INS Ürün Görseli",
+    "description": "Lazer jiroskop teknolojisi, yüksek hassasiyetli kayışsız ataletsel navigasyon, entegre GPS/Beidou alıcı, gerçek zamanlı konum ve yön belirleme, çoklu sistem füzyonu desteği, havacılık standartlarına uyumlu.",
+    "features": [
+      "Lazer jiroskop teknolojisi",
+      "Yüksek hassasiyetli kayışsız ataletsel navigasyon",
+      "Entegre GPS/Beidou alıcı",
+      "Gerçek zamanlı konum ve yön belirleme",
+      "Çoklu sistem füzyonu desteği",
+      "Havacılık standartlarına uyumlu"
+    ],
+    "specs": {
+      "position_accuracy_las_i": "<1 m (CEP)",
+      "position_accuracy_las_iii": "<0.5 m (CEP)",
+      "attitude_accuracy_las_i": "±0.1°",
+      "attitude_accuracy_las_iii": "±0.05°",
+      "heading_accuracy_las_i": "±0.2°",
+      "heading_accuracy_las_iii": "±0.1°",
+      "gyro_bias_stability_las_i": "<0.01°/saat",
+      "gyro_bias_stability_las_iii": "<0.005°/saat"
+    },
+    "specsLabels": {
+      "position_accuracy_las_i": "Konum Hassasiyeti (LAS-I)",
+      "position_accuracy_las_iii": "Konum Hassasiyeti (LAS-III)",
+      "attitude_accuracy_las_i": "Attitude Hassasiyeti (LAS-I)",
+      "attitude_accuracy_las_iii": "Attitude Hassasiyeti (LAS-III)",
+      "heading_accuracy_las_i": "Heading Hassasiyeti (LAS-I)",
+      "heading_accuracy_las_iii": "Heading Hassasiyeti (LAS-III)",
+      "gyro_bias_stability_las_i": "Jiroskop Bias Kararliligi (LAS-I)",
+      "gyro_bias_stability_las_iii": "Jiroskop Bias Kararliligi (LAS-III)"
+    },
+    "models": {
+      "PA-LASI-A": "Lazer Kayışsız INS PA-LASI-A",
+      "PA-LASIII-A": "Lazer Kayışsız INS PA-LASIII-A"
+    },
+    "applications": "Sivil havacılık, askeri hava araçları, yüksek performanslı İHA"
+  },
+  "arg": {
+    "title": "İvmeölçer Serisi",
+    "shortTitle": "ARG Serisi",
+    "alt": "İvmeölçer Ürün Görseli",
+    "description": "Strain gauge ölçüm prensibi, yüksek ölçüm hassasiyeti, mükemmel kararlılık, güçlü parazit direnci, çoklu aralık seçenekleri, alüminyum alaşım muhafaza, hafif.",
+    "features": [
+      "Strain gauge ölçüm prensibi",
+      "Yüksek ölçüm hassasiyeti",
+      "Mükemmel kararlılık",
+      "Güçlü parazit direnci",
+      "Çoklu aralık seçenekleri",
+      "Alüminyum alaşım muhafaza, hafif"
+    ],
+    "specs": {
+      "range": "±10g / ±20g / ±50g",
+      "bias_stability": "<0.5 mg",
+      "resolution": "<0.1 mg",
+      "frequency_response": "0~500 Hz",
+      "nonlinearity": "<0.1% FS",
+      "working_temp": "-40°C ~ +85°C"
+    },
+    "specsLabels": {
+      "range": "Olcum Araligi",
+      "bias_stability": "Bias Kararliligi",
+      "resolution": "Cozunurluk",
+      "frequency_response": "Frekans Yaniti",
+      "nonlinearity": "Dogrusal Olmama",
+      "working_temp": "Calisma Sicakligi"
+    },
+    "models": {
+      "PA-ARG-A": "Strain Gauge İvmeölçer PA-ARG-A",
+      "PA-ARG-D": "Strain Gauge İvmeölçer PA-ARG-D",
+      "PA-3ARG-A": "Üç Eksenli Entegre Navigasyon Sistemi PA-3ARG-A",
+      "PA-3ARG-D": "Üç Eksenli Entegre Navigasyon Sistemi PA-3ARG-D"
+    },
+    "applications": "Yapı sağlığı izleme, köprü muayenesi, deprem izleme, endüstriyel otomasyon"
+  },
+  "gs": {
+    "title": "GPS Konum ve Attitude Sistemi",
+    "shortTitle": "GS Serisi",
+    "alt": "GPS Sistemi Ürün Görseli",
+    "description": "Çok frekanslı GPS/GLONASS/Beidou alıcı, gerçek zamanlı attitude ve konum ölçümü, çift/üç anten konfigürasyonu desteği, yüksek veri güncelleme hızı, gerçek zamanlı RTK diferansiyel konumlandırma desteği.",
+    "features": [
+      "Çok frekanslı GPS/GLONASS/Beidou alıcı",
+      "Gerçek zamanlı attitude ve konum ölçümü",
+      "Çift/üç anten konfigürasyonu desteği",
+      "Yüksek veri güncelleme hızı",
+      "Gerçek zamanlı RTK diferansiyel konumlandırma desteği",
+      "Çeşitli son işlem yazılımlarıyla uyumluluk"
+    ],
+    "specs": {
+      "position_accuracy_single": "<1.5 m (CEP)",
+      "position_accuracy_rtk": "<2 cm",
+      "heading_accuracy": "±0.2° (2 m baz hattı)",
+      "attitude_accuracy": "±0.5°",
+      "data_rate": "20 Hz / 100 Hz",
+      "channels": "584",
+      "signals": "GPS L1/L2, GLONASS L1/L2, BDS B1/B2"
+    },
+    "specsLabels": {
+      "position_accuracy_single": "Konum Hassasiyeti (Tek Nokta)",
+      "position_accuracy_rtk": "Konum Hassasiyeti (RTK)",
+      "heading_accuracy": "Heading Hassasiyeti",
+      "attitude_accuracy": "Attitude Hassasiyeti",
+      "data_rate": "Veri Hizi",
+      "channels": "Kanallar",
+      "signals": "Sinyaller"
+    },
+    "models": {
+      "PA-GS": "GPS Konum ve Attitude Sistemi PA-GS",
+      "PA-GS01": "GPS Konum Sistemi PA-GS01",
+      "PA-GS02": "Çift Antenli GPS Konum Sistemi PA-GS02",
+      "PA-GSAUTO": "Araç Üstü GPS Sistemi PA-GSAUTO",
+      "PA-GSFA1": "Araç Üstü GPS Sistemi PA-GSFA1"
+    },
+    "applications": "Ölçme, CBS, mobil haritalama"
+  },
+  "c3000": {
+    "title": "Güç Modülü",
+    "shortTitle": "C3000 Serisi",
+    "alt": "Güç Modülü Ürün Görseli",
+    "description": "Geniş voltaj giriş aralığı, yüksek verimlilik dönüşümü, çoklu çıkış voltajı seçenekleri, aşırı voltaj, aşırı akım, kısa devre koruması, mükemmel ısı dağıtımı, havacılık güç standartlarına uyumlu.",
+    "features": [
+      "Geniş voltaj giriş aralığı",
+      "Yüksek verimlilik dönüşümü",
+      "Çoklu çıkış voltajı seçenekleri",
+      "Aşırı voltaj, aşırı akım, kısa devre koruması",
+      "Mükemmel ısı dağıtımı",
+      "Havacılık güç standartlarına uyumlu"
+    ],
+    "specs": {
+      "input_voltage_c3000": "18~36V DC",
+      "input_voltage_vg": "115V AC / 400Hz",
+      "output_voltage_c3000": "5V / 12V / ±15V",
+      "output_voltage_vg": "28V / 12V / 5V",
+      "output_power_c3000": "30W",
+      "output_power_vg": "50W",
+      "efficiency": ">85%",
+      "ripple_c3000": "<100 mV p-p",
+      "ripple_vg": "<50 mV"
+    },
+    "specsLabels": {
+      "input_voltage_c3000": "Giris Gerilimi (C3000)",
+      "input_voltage_vg": "Giris Gerilimi (TS-VG)",
+      "output_voltage_c3000": "Cikis Gerilimi (C3000)",
+      "output_voltage_vg": "Cikis Gerilimi (TS-VG)",
+      "output_power_c3000": "Cikis Gucu (C3000)",
+      "output_power_vg": "Cikis Gucu (TS-VG)",
+      "efficiency": "Verimlilik",
+      "ripple_c3000": "Dalgalanma (C3000)",
+      "ripple_vg": "Dalgalanma (TS-VG)"
+    },
+    "models": {
+      "PM-C3000": "Güç Modülü PM-C3000",
+      "PM-TS-VG": "Güç Modülü PM-TS-VG"
+    },
+    "applications": "Hava aracı elektronik ekipmanları, yerde test ekipmanları, insansız sistemler"
+  },
+  "inquiry": {
+    "title": "Ürün Sorgulaması",
+    "selectProduct": "Ürün seçin",
+    "submit_success": "Sorgunuz için teşekkür ederiz! En kısa sürede size ulaşacağız.",
+    "submit_failed": "Gönderme başarısız. Lütfen daha sonra tekrar deneyin.",
+    "validation_failed": "Lütfen tüm zorunlu alanları doldurun."
+  },
+  "products": {
+    "productCount": "{count} ürün gösteriliyor",
+    "descriptions": {
+      "PA-IMU-01D": "Yüksek hassasiyetli MEMS jiroskop ve ivmeölçer",
+      "PA-IMU-01G": "Yüksek hassasiyetli MEMS jiroskop ve ivmeölçer",
+      "PA-IMU-02D03D": "Çift Eksenli Fiber Optik Jiroskop",
+      "PA-AHRS01": "Entegre GPS/GLONASS alıcı",
+      "PA-VG11": "Güvenilir üç eksenli stabilize platform",
+      "PA-LASI-A": "Lazer jiroskop teknolojisi",
+      "PA-LASIII-A": "Yüksek hassasiyetli kayışsız ataletsel navigasyon",
+      "PA-ARG-A": "Strain gauge ivmeölçer",
+      "PA-ARG-D": "Strain gauge ivmeölçer",
+      "PA-3ARG-A": "Üç Eksenli Entegre Navigasyon Sistemi",
+      "PA-3ARG-D": "Üç Eksenli Entegre Navigasyon Sistemi",
+      "PA-GS": "Çok frekanslı GPS alıcı",
+      "PA-GS01": "GPS konum ve attitude sistemi",
+      "PA-GS02": "Çift Antenli GPS Konum Sistemi",
+      "PA-GSAUTO": "Araç Üstü GPS Sistemi",
+      "PA-GSFA1": "Araç Üstü GPS Sistemi",
+      "PM-C3000": "Geniş voltaj girişi, yüksek verimlilik",
+      "PM-TS-VG": "Güç modülü"
+    }
+  }
+}

@@ -1,0 +1,148 @@
+{
+  "nav": {
+    "home": "首页",
+    "products": "产品中心",
+    "about": "关于我们",
+    "contact": "联系我们",
+    "language": "语言"
+  },
+  "productNames": {
+    "imu": "惯性测量单元",
+    "ahrs": "姿态航向参考系统",
+    "vg": "垂直陀螺仪",
+    "las_lam": "激光捷联惯性导航系统",
+    "arg": "加速度计",
+    "gs": "定位测姿系统",
+    "c3000": "电源模块"
+  },
+  "specTags": {
+    "triAxis": "三轴",
+    "dualAxis": "双轴",
+    "autoNorth": "自动找北",
+    "laser": "激光",
+    "highPrecision": "高精度",
+    "strainGauge": "应变式",
+    "multiFreq": "多频",
+    "wideVoltage": "宽电压",
+    "strapdown": "捷联",
+    "highStability": "高稳定",
+    "integrated": "一体化",
+    "attitude": "测姿",
+    "dualAntenna": "双天线",
+    "vehicle": "车载",
+    "aerospace": "航空"
+  },
+  "hero": {
+    "title": "精密测控与导航",
+    "subtitle": "为航空、航天、船舶、车辆等领域提供高品质惯性导航产品",
+    "explore": "探索产品",
+    "contact": "联系我们"
+  },
+  "products": {
+    "title": "产品中心",
+    "subtitle": "高品质惯性导航产品与解决方案",
+    "viewDetail": "查看详情",
+    "inquiry": "在线咨询",
+    "all": "全部产品",
+    "imu": "惯性测量单元",
+    "ahrs": "姿态航向参考系统",
+    "vg": "垂直陀螺仪",
+    "las_lam": "激光捷联惯性导航系统",
+    "arg": "加速度计",
+    "gs": "定位测姿系统",
+    "c3000": "电源模块"
+  },
+  "features": {
+    "title": "技术优势",
+    "highPrecision": {
+      "title": "高精度",
+      "desc": "采用先进MEMS和光纤陀螺技术，精度达到行业领先水平"
+    },
+    "compact": {
+      "title": "小体积",
+      "desc": "模块化设计，体积小，重量轻，便于集成"
+    },
+    "lowPower": {
+      "title": "低功耗",
+      "desc": "优化电路设计，功耗低，发热小，可靠性高"
+    },
+    "highReliability": {
+      "title": "高可靠",
+      "desc": "经过严格环境测试，适用于各种恶劣条件"
+    }
+  },
+  "applications": {
+    "title": "应用领域",
+    "aviation": "航空",
+    "aerospace": "航天",
+    "maritime": "船舶",
+    "vehicle": "车辆",
+    "uav": "无人机",
+    "surveying": "测绘"
+  },
+  "about": {
+    "title": "关于我们",
+    "description": "测控与导航专业公司是一家专注于导航与制导控制技术的高新技术企业，致力于为航空、航天、船舶、车辆等领域的客户提供高品质的惯性导航产品、定位测姿系统及解决方案。",
+    "mission": "为客户提供精准、可靠、高效的导航与测控产品"
+  },
+  "footer": {
+    "brand": "测控与导航",
+    "tagline": "精准导航 智控未来",
+    "productsTitle": "产品中心",
+    "companyTitle": "公司信息",
+    "contactTitle": "联系方式",
+    "email": "邮箱",
+    "copyright": "© 2024 测控与导航专业公司 版权所有"
+  },
+  "inquiry": {
+    "title": "在线询价",
+    "name": "姓名",
+    "namePlaceholder": "请输入您的姓名",
+    "email": "邮箱",
+    "emailPlaceholder": "请输入您的邮箱",
+    "product": "产品",
+    "productPlaceholder": "请选择产品",
+    "message": "留言",
+    "messagePlaceholder": "请输入您的询价信息...",
+    "submit": "提交询价",
+    "submitting": "提交中...",
+    "name_error": "请输入有效的姓名（至少2个字符）",
+    "email_error": "请输入有效的邮箱地址",
+    "product_error": "请选择产品",
+    "message_error": "请输入询价信息（至少10个字符）"
+  },
+  "share": {
+    "title": "分享产品",
+    "facebook": "Facebook",
+    "twitter": "Twitter",
+    "linkedin": "LinkedIn",
+    "whatsapp": "WhatsApp",
+    "pinterest": "Pinterest",
+    "instagram": "Instagram",
+    "email": "邮件",
+    "instagram_message": "Instagram分享需要使用Instagram App"
+  },
+  "contact": {
+    "title": "联系我们",
+    "email": "邮箱",
+    "address": "地址",
+    "phone": "电话",
+    "company": "公司",
+    "companyPlaceholder": "请输入您的公司名称",
+    "phonePlaceholder": "请输入您的电话号码",
+    "addressValue": "中国",
+    "submit": "发送消息",
+    "successMessage": "消息发送成功！",
+    "errorMessage": "消息发送失败，请重试。"
+  },
+  "common": {
+    "loading": "加载中...",
+    "error": "出错了",
+    "success": "操作成功",
+    "back": "返回",
+    "next": "下一步",
+    "previous": "上一步",
+    "close": "关闭",
+    "readMore": "阅读更多"
+  }
+}

@@ -1,0 +1,291 @@
+{
+  "product": {
+    "title": "产品详情"
+  },
+  "imu": {
+    "title": "惯性测量单元",
+    "shortTitle": "IMU系列",
+    "alt": "惯性测量单元产品图片",
+    "description": "高精度MEMS陀螺仪和加速度计集成，体积小、重量轻、功耗低，可靠性高，抗冲击振动能力强，支持多种通信接口。",
+    "features": [
+      "高精度MEMS陀螺仪和加速度计",
+      "体积小、重量轻",
+      "功耗低",
+      "可靠性高",
+      "抗冲击振动能力强",
+      "支持多种通信接口"
+    ],
+    "specs": {
+      "gyroscope_range": "±300°/s",
+      "gyroscope_bias": "<0.5°/h",
+      "gyroscope_nonlinearity": "<100ppm",
+      "gyroscope_bandwidth": ">100Hz",
+      "accelerometer_range": "±10g",
+      "accelerometer_bias": "<1mg",
+      "accelerometer_nonlinearity": "<500ppm",
+      "interface": "RS-422 / RS-232 / CAN"
+    },
+    "models": {
+      "PA-IMU-01D": "惯性测量单元 PA-IMU-01D",
+      "PA-IMU-01G": "惯性测量单元 PA-IMU-01G",
+      "PA-IMU-02D03D": "双轴光纤陀螺仪 PA-IMU-02D03D"
+    },
+    "applications": "航空飞行控制、无人机导航、姿态测量"
+  },
+  "ahrs": {
+    "title": "姿态航向参考系统",
+    "shortTitle": "AHRS系列",
+    "alt": "姿态航向参考系统产品图片",
+    "description": "集成GPS/GLONASS接收机，三轴MEMS陀螺仪、加速度计和磁力计，实时输出姿态角、航向角，数据更新率高，支持NMEA0183协议。",
+    "features": [
+      "集成GPS/GLONASS接收机",
+      "三轴MEMS陀螺仪、加速度计和磁力计",
+      "实时输出姿态角、航向角",
+      "数据更新率高",
+      "支持NMEA0183协议",
+      "体积紧凑，安装方便"
+    ],
+    "specs": {
+      "attitude_accuracy_static": "±0.5°",
+      "attitude_accuracy_dynamic": "±1.0°",
+      "heading_accuracy": "±1.0°",
+      "heading_range": "0° ~ 360°",
+      "data_rate": "100Hz",
+      "voltage": "9~36V DC",
+      "power": "<5W"
+    },
+    "specsLabels": {
+      "attitude_accuracy_static": "姿态精度（静态）",
+      "attitude_accuracy_dynamic": "姿态精度（动态）",
+      "heading_accuracy": "航向精度",
+      "heading_range": "航向范围",
+      "data_rate": "数据更新率",
+      "voltage": "供电电压",
+      "power": "功耗"
+    },
+    "models": {
+      "PA-AHRS01": "姿态航向参考系统 PA-AHRS01"
+    },
+    "applications": "无人机飞行控制、船舶姿态监控、车辆稳定性控制"
+  },
+  "vg": {
+    "title": "垂直陀螺仪",
+    "shortTitle": "VG系列",
+    "alt": "垂直陀螺仪产品图片",
+    "description": "可靠的三轴稳定平台，自动找北功能，适用于各类飞行器，环境适应性强，维护简便。",
+    "features": [
+      "可靠的三轴稳定平台",
+      "自动找北功能",
+      "适用于各类飞行器",
+      "环境适应性强",
+      "维护简便"
+    ],
+    "specs": {
+      "pitch_roll_accuracy": "±0.5°",
+      "heading_accuracy": "±1.0°",
+      "stabilization_time": "<5min",
+      "working_temp": "-40°C ~ +60°C",
+      "voltage": "115V AC / 400Hz",
+      "weight": "<3kg"
+    },
+    "specsLabels": {
+      "pitch_roll_accuracy": "俯仰/横滚精度",
+      "heading_accuracy": "航向精度",
+      "stabilization_time": "稳定时间",
+      "working_temp": "工作温度",
+      "voltage": "供电电压",
+      "weight": "重量"
+    },
+    "models": {
+      "PA-VG11": "垂直陀螺仪 PA-VG11"
+    },
+    "applications": "固定翼飞机、直升机、无人机飞行控制"
+  },
+  "las_lam": {
+    "title": "激光捷联惯性导航系统",
+    "shortTitle": "LAS/LAM系列",
+    "alt": "激光捷联惯性导航系统产品图片",
+    "description": "激光陀螺技术，高精度捷联惯性导航，集成GPS/北斗接收机，实时定位定向，支持多系统融合，符合航空标准。",
+    "features": [
+      "激光陀螺技术",
+      "高精度捷联惯性导航",
+      "集成GPS/北斗接收机",
+      "实时定位定向",
+      "支持多系统融合",
+      "符合航空标准"
+    ],
+    "specs": {
+      "position_accuracy_las_i": "<1m (CEP)",
+      "position_accuracy_las_iii": "<0.5m (CEP)",
+      "attitude_accuracy_las_i": "±0.1°",
+      "attitude_accuracy_las_iii": "±0.05°",
+      "heading_accuracy_las_i": "±0.2°",
+      "heading_accuracy_las_iii": "±0.1°",
+      "gyro_bias_stability_las_i": "<0.01°/h",
+      "gyro_bias_stability_las_iii": "<0.005°/h"
+    },
+    "specsLabels": {
+      "position_accuracy_las_i": "定位精度 (LAS-I)",
+      "position_accuracy_las_iii": "定位精度 (LAS-III)",
+      "attitude_accuracy_las_i": "姿态精度 (LAS-I)",
+      "attitude_accuracy_las_iii": "姿态精度 (LAS-III)",
+      "heading_accuracy_las_i": "航向精度 (LAS-I)",
+      "heading_accuracy_las_iii": "航向精度 (LAS-III)",
+      "gyro_bias_stability_las_i": "陀螺零偏稳定性 (LAS-I)",
+      "gyro_bias_stability_las_iii": "陀螺零偏稳定性 (LAS-III)"
+    },
+    "models": {
+      "PA-LASI-A": "激光捷联惯性导航系统 PA-LASI-A",
+      "PA-LASIII-A": "激光捷联惯性导航系统 PA-LASIII-A"
+    },
+    "applications": "民用航空、军用飞机、高端无人机"
+  },
+  "arg": {
+    "title": "加速度计系列",
+    "shortTitle": "ARG系列",
+    "alt": "加速度计产品图片",
+    "description": "应变式测量原理，测量精度高，稳定性好，抗干扰能力强，多种量程可选，铝合金外壳，重量轻。",
+    "features": [
+      "应变式测量原理",
+      "测量精度高",
+      "稳定性好",
+      "抗干扰能力强",
+      "多种量程可选",
+      "铝合金外壳，重量轻"
+    ],
+    "specs": {
+      "range": "±10g / ±20g / ±50g",
+      "bias_stability": "<0.5mg",
+      "resolution": "<0.1mg",
+      "frequency_response": "0~500Hz",
+      "nonlinearity": "<0.1% FS",
+      "working_temp": "-40°C ~ +85°C"
+    },
+    "specsLabels": {
+      "range": "测量范围",
+      "bias_stability": "零偏稳定性",
+      "resolution": "分辨率",
+      "frequency_response": "频率响应",
+      "nonlinearity": "非线性",
+      "working_temp": "工作温度"
+    },
+    "models": {
+      "PA-ARG-A": "应变式加速度计 PA-ARG-A",
+      "PA-ARG-D": "应变式加速度计 PA-ARG-D",
+      "PA-3ARG-A": "三轴一体化导航系统 PA-3ARG-A",
+      "PA-3ARG-D": "三轴一体化导航系统 PA-3ARG-D"
+    },
+    "applications": "结构健康监测、桥梁检测、地震监测、工业自动化"
+  },
+  "gs": {
+    "title": "定位测姿系统",
+    "shortTitle": "GS系列",
+    "alt": "定位测姿系统产品图片",
+    "description": "多频GPS/GLONASS/北斗接收机，实时测姿定位，支持双天线/三天线配置，数据更新率高，支持RTK实时差分定位。",
+    "features": [
+      "多频GPS/GLONASS/北斗接收机",
+      "实时测姿定位",
+      "支持双天线/三天线配置",
+      "数据更新率高",
+      "支持RTK实时差分定位",
+      "兼容多种后处理软件"
+    ],
+    "specs": {
+      "position_accuracy_single": "<1.5m (CEP)",
+      "position_accuracy_rtk": "<2cm",
+      "heading_accuracy": "±0.2° (2m基线)",
+      "attitude_accuracy": "±0.5°",
+      "data_rate": "20Hz / 100Hz",
+      "channels": "584",
+      "signals": "GPS L1/L2, GLONASS L1/L2, BDS B1/B2"
+    },
+    "specsLabels": {
+      "position_accuracy_single": "定位精度（单点）",
+      "position_accuracy_rtk": "定位精度（RTK）",
+      "heading_accuracy": "测姿精度（航向）",
+      "attitude_accuracy": "测姿精度（姿态）",
+      "data_rate": "数据更新率",
+      "channels": "通道数",
+      "signals": "跟踪信号"
+    },
+    "models": {
+      "PA-GS": "定位测姿系统 PA-GS",
+      "PA-GS01": "GPS定位测姿系统 PA-GS01",
+      "PA-GS02": "双天线GPS定位测姿系统 PA-GS02",
+      "PA-GSAUTO": "车载GPS定位测姿系统 PA-GSAUTO",
+      "PA-GSFA1": "车载GPS定位测姿系统 PA-GSFA1"
+    },
+    "applications": "测绘、地理信息系统、移动测图"
+  },
+  "c3000": {
+    "title": "电源模块",
+    "shortTitle": "C3000系列",
+    "alt": "电源模块产品图片",
+    "description": "宽电压输入范围，高效率转换，多种输出电压可选，过压、过流、短路保护，散热性能优良，符合航空电源标准。",
+    "features": [
+      "宽电压输入范围",
+      "高效率转换",
+      "多种输出电压可选",
+      "过压、过流、短路保护",
+      "散热性能优良",
+      "符合航空电源标准"
+    ],
+    "specs": {
+      "input_voltage_c3000": "18~36V DC",
+      "input_voltage_vg": "115V AC / 400Hz",
+      "output_voltage_c3000": "5V / 12V / ±15V",
+      "output_voltage_vg": "28V / 12V / 5V",
+      "output_power_c3000": "30W",
+      "output_power_vg": "50W",
+      "efficiency": ">85%",
+      "ripple_c3000": "<100mV p-p",
+      "ripple_vg": "<50mV"
+    },
+    "specsLabels": {
+      "input_voltage_c3000": "输入电压 (C3000)",
+      "input_voltage_vg": "输入电压 (TS-VG)",
+      "output_voltage_c3000": "输出电压 (C3000)",
+      "output_voltage_vg": "输出电压 (TS-VG)",
+      "output_power_c3000": "输出功率 (C3000)",
+      "output_power_vg": "输出功率 (TS-VG)",
+      "efficiency": "效率",
+      "ripple_c3000": "纹波 (C3000)",
+      "ripple_vg": "纹波 (TS-VG)"
+    },
+    "models": {
+      "PM-C3000": "电源模块 PM-C3000",
+      "PM-TS-VG": "电源模块 PM-TS-VG"
+    },
+    "applications": "机载电子设备、地面测试设备、无人系统"
+  },
+  "inquiry": {
+    "title": "产品询价",
+    "selectProduct": "请选择产品",
+    "submit_success": "感谢您的询价！我们会尽快与您联系。",
+    "submit_failed": "提交失败，请稍后重试。",
+    "validation_failed": "请填写所有必填字段。"
+  },
+  "products": {
+    "productCount": "显示 {count} 个产品",
+    "descriptions": {
+      "PA-IMU-01D": "高精度MEMS陀螺仪和加速度计",
+      "PA-IMU-01G": "高精度MEMS陀螺仪和加速度计",
+      "PA-IMU-02D03D": "双轴光纤陀螺仪",
+      "PA-AHRS01": "集成GPS/GLONASS接收机",
+      "PA-VG11": "可靠的三轴稳定平台",
+      "PA-LASI-A": "激光陀螺技术",
+      "PA-LASIII-A": "高精度捷联惯性导航",
+      "PA-ARG-A": "应变式加速度计",
+      "PA-ARG-D": "应变式加速度计",
+      "PA-3ARG-A": "三轴一体化导航系统",
+      "PA-3ARG-D": "三轴一体化导航系统",
+      "PA-GS": "多频GPS接收机",
+      "PA-GS01": "GPS定位测姿系统",
+      "PA-GS02": "双天线GPS定位测姿系统",
+      "PA-GSAUTO": "车载GPS定位测姿系统",
+      "PA-GSFA1": "车载GPS定位测姿系统",
+      "PM-C3000": "宽电压输入，高效率转换",
+      "PM-TS-VG": "电源模块"
+    }
+  }
+}

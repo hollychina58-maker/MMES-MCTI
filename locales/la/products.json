@@ -1,0 +1,301 @@
+{
+  "product": {
+    "title": "Detalla Producti"
+  },
+  "imu": {
+    "title": "Unitatis Mensurae Inertialis",
+    "shortTitle": "Series IMU",
+    "alt": "Imago Unitatis Mensurae Inertialis",
+    "description": "Integratio gyrographi et accelerometeri MEMS altae precisionis, magnitudo parva, leve pondus, humilis energiae consumptio, alta fides, robusta resistentia ad impressionem et vibrationem, sustinet plurimas interfaces communicationis.",
+    "features": [
+      "Gyrographum et accelerometerum MEMS altae precisionis",
+      "Magnitudo parva, leve pondus",
+      "Humilis energiae consumptio",
+      "Alta fides",
+      "Robusta resistentia ad impressionem et vibrationem",
+      "Sustinet plurimas interfaces communicationis"
+    ],
+    "specs": {
+      "gyroscope_range": "±300°/s",
+      "gyroscope_bias": "<0.5°/h",
+      "gyroscope_nonlinearity": "<100ppm",
+      "gyroscope_bandwidth": ">100Hz",
+      "accelerometer_range": "±10g",
+      "accelerometer_bias": "<1mg",
+      "accelerometer_nonlinearity": "<500ppm",
+      "interface": "RS-422 / RS-232 / CAN"
+    },
+    "specsLabels": {
+      "gyroscope_range": "Gyroscopii ambitus",
+      "gyroscope_bias": "Gyroscopii bias stabilitas",
+      "gyroscope_nonlinearity": "Gyroscopii non-linearitas",
+      "gyroscope_bandwidth": "Gyroscopii latitudo",
+      "accelerometer_range": "Accelerometri ambitus",
+      "accelerometer_bias": "Accelerometri bias stabilitas",
+      "accelerometer_nonlinearity": "Accelerometri non-linearitas",
+      "interface": "Interface"
+    },
+    "models": {
+      "PA-IMU-01D": "Unitatis Mensurae Inertialis PA-IMU-01D",
+      "PA-IMU-01G": "Unitatis Mensurae Inertialis PA-IMU-01G",
+      "PA-IMU-02D03D": "Gyrographum Fibra Optica Biviale PA-IMU-02D03D"
+    },
+    "applications": "Controllus volatus aviatilis, navigatio UAV, mensura attitude"
+  },
+  "ahrs": {
+    "title": "Systema Referentiae Attitude et Heading",
+    "shortTitle": "Series AHRS",
+    "alt": "Imago Systematis AHRS",
+    "description": " Receptor GPS/GLONASS integratus, gyrographum, accelerometerum et magnetometrum MEMS trium axium, output attitude et heading reali tempore, alta renovatio datorum, sustinet protocollo NMEA0183.",
+    "features": [
+      "Receptor GPS/GLONASS integratus",
+      "Gyrographum, accelerometerum et magnetometrum MEMS trium axium",
+      "Output attitude et heading reali tempore",
+      "Alta renovatio datorum",
+      "Sustinet protocollo NMEA0183",
+      "Magnitudo compacta, facilis installatio"
+    ],
+    "specs": {
+      "attitude_accuracy_static": "±0.5°",
+      "attitude_accuracy_dynamic": "±1.0°",
+      "heading_accuracy": "±1.0°",
+      "heading_range": "0° ~ 360°",
+      "data_rate": "100Hz",
+      "voltage": "9~36V DC",
+      "power": "<5W"
+    },
+    "specsLabels": {
+      "attitude_accuracy_static": "Attitude praecisio (statica)",
+      "attitude_accuracy_dynamic": "Attitude praecisio (dynamica)",
+      "heading_accuracy": "Heading praecisio",
+      "heading_range": "Heading ambitus",
+      "data_rate": "Data rate",
+      "voltage": "Voltage",
+      "power": "Power"
+    },
+    "models": {
+      "PA-AHRS01": "Systema Referentiae Attitude et Heading PA-AHRS01"
+    },
+    "applications": "Controllus volatus UAV, monitoratio attitude navis, stabilitas vehiculi"
+  },
+  "vg": {
+    "title": "Gyrographum Verticale",
+    "shortTitle": "Series VG",
+    "alt": "Imago Gyrographi Verticalis",
+    "description": "Platforma stabilis trium axium надежная, functio automatica quaerendi boream, apta variis aerivolis, robusta adaptatio environmentalis, facilis，维护.",
+    "features": [
+      "Platforma stabilis trium axium надежная",
+      "Functio automatica quaerendi boream",
+      "Apta variis aerivolis",
+      "Robusta adaptatio environmentalis",
+      "Facilis，维护"
+    ],
+    "specs": {
+      "pitch_roll_accuracy": "±0.5°",
+      "heading_accuracy": "±1.0°",
+      "stabilization_time": "<5 min",
+      "working_temp": "-40°C ~ +60°C",
+      "voltage": "115V AC / 400Hz",
+      "weight": "<3 kg"
+    },
+    "specsLabels": {
+      "pitch_roll_accuracy": "Pitch/Roll praecisio",
+      "heading_accuracy": "Heading praecisio",
+      "stabilization_time": "Stabilization tempus",
+      "working_temp": "Working temperatura",
+      "voltage": "Voltage",
+      "weight": "Pondus"
+    },
+    "models": {
+      "PA-VG11": "Gyrographum Verticale PA-VG11"
+    },
+    "applications": "Aeroplanes alis fixis, helicopters, controllus volatus UAV"
+  },
+  "las_lam": {
+    "title": "Systema Navigationis Inertialis Strapdown Laser",
+    "shortTitle": "Series LAS/LAM",
+    "alt": "Imago Systematis INS Laser",
+    "description": "Technologia gyrographi laseris, altae precisionis navigatio inertialia strapdown, receptor GPS/Beidou integratus, positio et directio reali tempore, sustinet fusionem plurimarum systematum, conforme standardis aviationis.",
+    "features": [
+      "Technologia gyrographi laseris",
+      "Altae precisionis navigatio inertialia strapdown",
+      "Receptor GPS/Beidou integratus",
+      "Positio et directio reali tempore",
+      "Sustinet fusionem plurimarum systematum",
+      "Conforme standardis aviationis"
+    ],
+    "specs": {
+      "position_accuracy_las_i": "<1 m (CEP)",
+      "position_accuracy_las_iii": "<0.5 m (CEP)",
+      "attitude_accuracy_las_i": "±0.1°",
+      "attitude_accuracy_las_iii": "±0.05°",
+      "heading_accuracy_las_i": "±0.2°",
+      "heading_accuracy_las_iii": "±0.1°",
+      "gyro_bias_stability_las_i": "<0.01°/h",
+      "gyro_bias_stability_las_iii": "<0.005°/h"
+    },
+    "specsLabels": {
+      "position_accuracy_las_i": "Positionis praecisio (LAS-I)",
+      "position_accuracy_las_iii": "Positionis praecisio (LAS-III)",
+      "attitude_accuracy_las_i": "Attitude praecisio (LAS-I)",
+      "attitude_accuracy_las_iii": "Attitude praecisio (LAS-III)",
+      "heading_accuracy_las_i": "Heading praecisio (LAS-I)",
+      "heading_accuracy_las_iii": "Heading praecisio (LAS-III)",
+      "gyro_bias_stability_las_i": "Gyri bias stabilitas (LAS-I)",
+      "gyro_bias_stability_las_iii": "Gyri bias stabilitas (LAS-III)"
+    },
+    "models": {
+      "PA-LASI-A": "INS Strapdown Laser PA-LASI-A",
+      "PA-LASIII-A": "INS Strapdown Laser PA-LASIII-A"
+    },
+    "applications": "Aviatio civilis, aviatio militaris, UAV altum"
+  },
+  "arg": {
+    "title": "Series Accelerometrorum",
+    "shortTitle": "Series ARG",
+    "alt": "Imago Accelerometri",
+    "description": "Principium mensurae strain gauge, alta praecisio mensurae, excellent stabilitas, robusta resistentia ad interference, plures optiones ranges, corpus ex alumnio alliage, leve pondus.",
+    "features": [
+      "Principium mensurae strain gauge",
+      "Alta praecisio mensurae",
+      "Excellent stabilitas",
+      "Robusta resistentia ad interference",
+      "Plures optiones ranges",
+      "Corpus ex alumnio alliage, leve pondus"
+    ],
+    "specs": {
+      "range": "±10g / ±20g / ±50g",
+      "bias_stability": "<0.5 mg",
+      "resolution": "<0.1 mg",
+      "frequency_response": "0~500 Hz",
+      "nonlinearity": "<0.1% FS",
+      "working_temp": "-40°C ~ +85°C"
+    },
+    "specsLabels": {
+      "range": "Mensurae ambitus",
+      "bias_stability": "Bias stabilitas",
+      "resolution": "Resolutio",
+      "frequency_response": "Frequentiae responsum",
+      "nonlinearity": "Non-linearitas",
+      "working_temp": "Working temperatura"
+    },
+    "models": {
+      "PA-ARG-A": "Accelerometrum Strain Gauge PA-ARG-A",
+      "PA-ARG-D": "Accelerometrum Strain Gauge PA-ARG-D",
+      "PA-3ARG-A": "Systema Navigationis Integratum Trium Axium PA-3ARG-A",
+      "PA-3ARG-D": "Systema Navigationis Integratum Trium Axium PA-3ARG-D"
+    },
+    "applications": "Monitoratio sanitatis structurae, inspectio pontium, monitoratio seismica, automatio industrialis"
+  },
+  "gs": {
+    "title": "Systema Positionis et Attitude GPS",
+    "shortTitle": "Series GS",
+    "alt": "Imago Systematis GPS",
+    "description": "Receptor multi-frequentiae GPS/GLONASS/Beidou, mensura attitude et positionis reali tempore, sustinet configurationem bi-antennae/tri-antennae, alta renovatio datorum, sustinet RTK differentiale positionens reali tempore.",
+    "features": [
+      "Receptor multi-frequentiae GPS/GLONASS/Beidou",
+      "Mensura attitude et positionis reali tempore",
+      "Sustinet configurationem bi-antennae/tri-antennae",
+      "Alta renovatio datorum",
+      "Sustinet RTK differentiale positionens reali tempore",
+      "Compatibile cum variis software post-processing"
+    ],
+    "specs": {
+      "position_accuracy_single": "<1.5 m (CEP)",
+      "position_accuracy_rtk": "<2 cm",
+      "heading_accuracy": "±0.2° (basis 2 m)",
+      "attitude_accuracy": "±0.5°",
+      "data_rate": "20 Hz / 100 Hz",
+      "channels": "584",
+      "signals": "GPS L1/L2, GLONASS L1/L2, BDS B1/B2"
+    },
+    "specsLabels": {
+      "position_accuracy_single": "Positionis praecisio (singularis)",
+      "position_accuracy_rtk": "Positionis praecisio (RTK)",
+      "heading_accuracy": "Heading praecisio",
+      "attitude_accuracy": "Attitude praecisio",
+      "data_rate": "Data rate",
+      "channels": "Channels",
+      "signals": "Signals"
+    },
+    "models": {
+      "PA-GS": "Systema Positionis et Attitude GPS PA-GS",
+      "PA-GS01": "Systema Positionis GPS PA-GS01",
+      "PA-GS02": "Systema Positionis GPS Bi-antennae PA-GS02",
+      "PA-GSAUTO": "Systema GPS Vehiculare PA-GSAUTO",
+      "PA-GSFA1": "Systema GPS Vehiculare PA-GSFA1"
+    },
+    "applications": "Mensura, GIS, mappatura mobilis"
+  },
+  "c3000": {
+    "title": "Modulus Power",
+    "shortTitle": "Series C3000",
+    "alt": "Imago Moduli Power",
+    "description": "Latum range input voltage, alta efficientia conversio, plures optiones output voltage, protectio ab over-voltage, over-current, short circuit, excellent dissipatio caloris, conforme standardis power aviationis.",
+    "features": [
+      "Latum range input voltage",
+      "Alta efficientia conversio",
+      "Plures optiones output voltage",
+      "Protectio ab over-voltage, over-current, short circuit",
+      "Excellent dissipatio caloris",
+      "Conforme standardis power aviationis"
+    ],
+    "specs": {
+      "input_voltage_c3000": "18~36V DC",
+      "input_voltage_vg": "115V AC / 400Hz",
+      "output_voltage_c3000": "5V / 12V / ±15V",
+      "output_voltage_vg": "28V / 12V / 5V",
+      "output_power_c3000": "30W",
+      "output_power_vg": "50W",
+      "efficiency": ">85%",
+      "ripple_c3000": "<100 mV p-p",
+      "ripple_vg": "<50 mV"
+    },
+    "specsLabels": {
+      "input_voltage_c3000": "Ingressus voltage (C3000)",
+      "input_voltage_vg": "Ingressus voltage (TS-VG)",
+      "output_voltage_c3000": "Egressus voltage (C3000)",
+      "output_voltage_vg": "Egressus voltage (TS-VG)",
+      "output_power_c3000": "Egressus power (C3000)",
+      "output_power_vg": "Egressus power (TS-VG)",
+      "efficiency": "Efficientia",
+      "ripple_c3000": "Ripple (C3000)",
+      "ripple_vg": "Ripple (TS-VG)"
+    },
+    "models": {
+      "PM-C3000": "Modulus Power PM-C3000",
+      "PM-TS-VG": "Modulus Power PM-TS-VG"
+    },
+    "applications": "Equipmenta electronica aerialia, equipmenta probationis terrestria, systemata insonica"
+  },
+  "inquiry": {
+    "title": "Interrogatio Producti",
+    "selectProduct": "Elige productum",
+    "submit_success": "Gratias pro tua interrogatione! Cito te contactabimus.",
+    "submit_failed": "Submitio defuit. Quaeso postea iterum tenta.",
+    "validation_failed": "Quaeso comple omnium campos obligatoria."
+  },
+  "products": {
+    "productCount": "{count} producta ostenduntur",
+    "descriptions": {
+      "PA-IMU-01D": "Gyrographum et accelerometerum MEMS altae precisionis",
+      "PA-IMU-01G": "Gyrographum et accelerometerum MEMS altae precisionis",
+      "PA-IMU-02D03D": "Gyrographum Fibra Optica Biviale",
+      "PA-AHRS01": "Receptor GPS/GLONASS integratus",
+      "PA-VG11": "Platforma stabilis trium axium",
+      "PA-LASI-A": "Technologia gyrographi laseris",
+      "PA-LASIII-A": "Altae precisionis navigatio inertialia strapdown",
+      "PA-ARG-A": "Accelerometrum Strain Gauge",
+      "PA-ARG-D": "Accelerometrum Strain Gauge",
+      "PA-3ARG-A": "Systema Navigationis Integratum Trium Axium",
+      "PA-3ARG-D": "Systema Navigationis Integratum Trium Axium",
+      "PA-GS": "Receptor GPS multi-frequentiae",
+      "PA-GS01": "Systema Positionis et Attitude GPS",
+      "PA-GS02": "Systema Positionis GPS Bi-antennae",
+      "PA-GSAUTO": "Systema GPS Vehiculare",
+      "PA-GSFA1": "Systema GPS Vehiculare",
+      "PM-C3000": "Latum voltage ingressus, alta efficientia",
+      "PM-TS-VG": "Modulus Power"
+    }
+  }
+}

@@ -1,0 +1,301 @@
+{
+  "product": {
+    "title": "Mahsulot tafsilotlari"
+  },
+  "imu": {
+    "title": "Inertial o'lchash moduli",
+    "shortTitle": "IMU seriyasi",
+    "alt": "Inertial o'lchash moduli rasmi",
+    "description": "Yuqori aniqlikli MEMS giroskop va akselerometr integratsiyasi, kichik o'lcham, yengil vazn, kam quvvat sarfi, yuqori ishonchlilik, kuchli zarba va tebranish qarshiligi, ko'p kommunikatsiya interfeyslarini qo'llab-quvvatlaydi.",
+    "features": [
+      "Yuqori aniqlikli MEMS giroskop va akselerometr",
+      "Kichik o'lcham, yengil vazn",
+      "Kam quvvat sarfi",
+      "Yuqori ishonchlilik",
+      "Kuchli zarba va tebranish qarshiligi",
+      "Ko'p kommunikatsiya interfeyslarini qo'llab-quvvatlaydi"
+    ],
+    "specs": {
+      "gyroscope_range": "±300°/s",
+      "gyroscope_bias": "<0.5°/soat",
+      "gyroscope_nonlinearity": "<100ppm",
+      "gyroscope_bandwidth": ">100Hz",
+      "accelerometer_range": "±10g",
+      "accelerometer_bias": "<1mg",
+      "accelerometer_nonlinearity": "<500ppm",
+      "interface": "RS-422 / RS-232 / CAN"
+    },
+    "specsLabels": {
+      "gyroscope_range": "Giroskop oralig'i",
+      "gyroscope_bias": "Giroskop siljish barqarorligi",
+      "gyroscope_nonlinearity": "Giroskop chiziqli emaslik",
+      "gyroscope_bandwidth": "Giroskop chastota tasmasi",
+      "accelerometer_range": "Akselerometr oralig'i",
+      "accelerometer_bias": "Akselerometr siljish barqarorligi",
+      "accelerometer_nonlinearity": "Akselerometr chiziqli emaslik",
+      "interface": "Interfeys"
+    },
+    "models": {
+      "PA-IMU-01D": "Inertial o'lchash moduli PA-IMU-01D",
+      "PA-IMU-01G": "Inertial o'lchash moduli PA-IMU-01G",
+      "PA-IMU-02D03D": "Ikki o'qli tolali giroskop PA-IMU-02D03D"
+    },
+    "applications": "Aviatsiya parvoz boshqaruvi, pildron navigatsiyasi, orientatsiya o'lchash"
+  },
+  "ahrs": {
+    "title": "Orientatsiya va kurs referens tizimi",
+    "shortTitle": "AHRS seriyasi",
+    "alt": "AHRS mahsulot rasmi",
+    "description": "Integratsiyalashgan GPS/GLONASS qabul qiluvchi, uch o'qli MEMS giroskop, akselerometr va magnitometr, real vaqtda orientatsiya va kurs chiqishi, yuqori ma'lumot yangilash tezligi, NMEA0183 protokolini qo'llab-quvvatlaydi.",
+    "features": [
+      "Integratsiyalashgan GPS/GLONASS qabul qiluvchi",
+      "Uch o'qli MEMS giroskop, akselerometr va magnitometr",
+      "Real vaqtda orientatsiya va kurs chiqishi",
+      "Yuqori ma'lumot yangilash tezligi",
+      "NMEA0183 protokolini qo'llab-quvvatlaydi",
+      "Kompakt o'lcham, oson o'rnatish"
+    ],
+    "specs": {
+      "attitude_accuracy_static": "±0.5°",
+      "attitude_accuracy_dynamic": "±1.0°",
+      "heading_accuracy": "±1.0°",
+      "heading_range": "0° ~ 360°",
+      "data_rate": "100Hz",
+      "voltage": "9~36V DC",
+      "power": "<5W"
+    },
+    "specsLabels": {
+      "attitude_accuracy_static": "Orientatsiya aniqligi (statik)",
+      "attitude_accuracy_dynamic": "Orientatsiya aniqligi (dinamik)",
+      "heading_accuracy": "Kurs aniqligi",
+      "heading_range": "Kurs oralig'i",
+      "data_rate": "Ma'lumot yangilash tezligi",
+      "voltage": "Ta'minot kuchlanishi",
+      "power": "Quvvat sarfi"
+    },
+    "models": {
+      "PA-AHRS01": "Orientatsiya va kurs referens tizimi PA-AHRS01"
+    },
+    "applications": "Pildron parvoz boshqaruvi, kema orientatsiyasi nazorati, avtomobil barqarorlik boshqaruvi"
+  },
+  "vg": {
+    "title": "Vertikal giroskop",
+    "shortTitle": "VG seriyasi",
+    "alt": "Vertikal giroskop rasmi",
+    "description": "Ishonchli uch o'qli barqarorlashtirilgan platforma, avtomatik shimol qidiruv funksiyasi, turli uchish apparatlari uchun mos, kuchli atrof-muhit moslashuvi, oson texnik xizmat ko'rsatish.",
+    "features": [
+      "Ishonchli uch o'qli barqarorlashtirilgan platforma",
+      "Avtomatik shimol qidiruv funksiyasi",
+      "Turli uchish apparatlari uchun mos",
+      "Kuchli atrof-muhit moslashuvi",
+      "Oson texnik xizmat ko'rsatish"
+    ],
+    "specs": {
+      "pitch_roll_accuracy": "±0.5°",
+      "heading_accuracy": "±1.0°",
+      "stabilization_time": "<5 daqiqa",
+      "working_temp": "-40°C ~ +60°C",
+      "voltage": "115V AC / 400Hz",
+      "weight": "<3 kg"
+    },
+    "specsLabels": {
+      "pitch_roll_accuracy": "Pitch/Roll aniqligi",
+      "heading_accuracy": "Kurs aniqligi",
+      "stabilization_time": "Barqarorlashish vaqti",
+      "working_temp": "Ishlash harorati",
+      "voltage": "Ta'minot kuchlanishi",
+      "weight": "Vazn"
+    },
+    "models": {
+      "PA-VG11": "Vertikal giroskop PA-VG11"
+    },
+    "applications": "Qanotli samolyotlar, vertolyotlar, pildron parvoz boshqaruvi"
+  },
+  "las_lam": {
+    "title": "Lazer strangdaut inertial navigatsiya tizimi",
+    "shortTitle": "LAS/LAM seriyasi",
+    "alt": "Lazer INS mahsulot rasmi",
+    "description": "Lazer giroskop texnologiyasi, yuqori aniqlikli strangdaut inertial navigatsiya, integratsiyalashgan GPS/Beidou qabul qiluvchi, real vaqtda pozitsiya va orientatsiya, ko'p tizimli fuziya qo'llab-quvvatlash, aviatsiya standartlariga mos.",
+    "features": [
+      "Lazer giroskop texnologiyasi",
+      "Yuqori aniqlikli strangdaut inertial navigatsiya",
+      "Integratsiyalashgan GPS/Beidou qabul qiluvchi",
+      "Real vaqtda pozitsiya va orientatsiya",
+      "Ko'p tizimli fuziya qo'llab-quvvatlash",
+      "Aviatsiya standartlariga mos"
+    ],
+    "specs": {
+      "position_accuracy_las_i": "<1 m (CEP)",
+      "position_accuracy_las_iii": "<0.5 m (CEP)",
+      "attitude_accuracy_las_i": "±0.1°",
+      "attitude_accuracy_las_iii": "±0.05°",
+      "heading_accuracy_las_i": "±0.2°",
+      "heading_accuracy_las_iii": "±0.1°",
+      "gyro_bias_stability_las_i": "<0.01°/soat",
+      "gyro_bias_stability_las_iii": "<0.005°/soat"
+    },
+    "specsLabels": {
+      "position_accuracy_las_i": "Pozitsiya aniqligi (LAS-I)",
+      "position_accuracy_las_iii": "Pozitsiya aniqligi (LAS-III)",
+      "attitude_accuracy_las_i": "Orientatsiya aniqligi (LAS-I)",
+      "attitude_accuracy_las_iii": "Orientatsiya aniqligi (LAS-III)",
+      "heading_accuracy_las_i": "Kurs aniqligi (LAS-I)",
+      "heading_accuracy_las_iii": "Kurs aniqligi (LAS-III)",
+      "gyro_bias_stability_las_i": "Giroskop siljish barqarorligi (LAS-I)",
+      "gyro_bias_stability_las_iii": "Giroskop siljish barqarorligi (LAS-III)"
+    },
+    "models": {
+      "PA-LASI-A": "Lazer strangdaut INS PA-LASI-A",
+      "PA-LASIII-A": "Lazer strangdaut INS PA-LASIII-A"
+    },
+    "applications": "Fuqaro aviatsiyasi, harbiy aviatsiya, yuqori darajali pildronlar"
+  },
+  "arg": {
+    "title": "Akselerometr seriyasi",
+    "shortTitle": "ARG seriyasi",
+    "alt": "Akselerometr mahsulot rasmi",
+    "description": "Strain gauge o'lchash tamoyili, yuqori o'lchash aniqlik, a'lo barqarorlik, kuchli elektr xalaqit qarshiligi, ko'p o'lchov oralig'i variantlari, alyuminiy qotishma korpus, yengil vazn.",
+    "features": [
+      "Strain gauge o'lchash tamoyili",
+      "Yuqori o'lchash aniqlik",
+      "A'lo barqarorlik",
+      "Kuchli elektr xalaqit qarshiligi",
+      "Ko'p o'lchov oralig'i variantlari",
+      "Alyuminiy qotishma korpus, yengil vazn"
+    ],
+    "specs": {
+      "range": "±10g / ±20g / ±50g",
+      "bias_stability": "<0.5 mg",
+      "resolution": "<0.1 mg",
+      "frequency_response": "0~500 Hz",
+      "nonlinearity": "<0.1% FS",
+      "working_temp": "-40°C ~ +85°C"
+    },
+    "specsLabels": {
+      "range": "O'lchov oralig'i",
+      "bias_stability": "Siljish barqarorligi",
+      "resolution": "Ajratish qobiliyati",
+      "frequency_response": "Chastota javobi",
+      "nonlinearity": "Chiziqli emaslik",
+      "working_temp": "Ishlash harorati"
+    },
+    "models": {
+      "PA-ARG-A": "Strain gauge akselerometr PA-ARG-A",
+      "PA-ARG-D": "Strain gauge akselerometr PA-ARG-D",
+      "PA-3ARG-A": "Uch o'qli integratsiyalashgan navigatsiya tizimi PA-3ARG-A",
+      "PA-3ARG-D": "Uch o'qli integratsiyalashgan navigatsiya tizimi PA-3ARG-D"
+    },
+    "applications": "Inshoot sog'liqni saqlash nazorati, ko'prik tekshirish, zilzila nazorati, sanoat avtomatizatsiyasi"
+  },
+  "gs": {
+    "title": "GPS pozitsiya va orientatsiya tizimi",
+    "shortTitle": "GS seriyasi",
+    "alt": "GPS tizim mahsulot rasmi",
+    "description": "Ko'p chastotli GPS/GLONASS/Beidou qabul qiluvchi, real vaqtda orientatsiya va pozitsiya o'lchash, ikki antenna/uch antenna konfiguratsiyasini qo'llab-quvvatlash, yuqori ma'lumot yangilash tezligi, real vaqtda RTK differentsial pozitsiyalashni qo'llab-quvvatlash.",
+    "features": [
+      "Ko'p chastotli GPS/GLONASS/Beidou qabul qiluvchi",
+      "Real vaqtda orientatsiya va pozitsiya o'lchash",
+      "Ikki antenna/uch antenna konfiguratsiyasini qo'llab-quvvatlash",
+      "Yuqori ma'lumot yangilash tezligi",
+      "Real vaqtda RTK differentsial pozitsiyalashni qo'llab-quvvatlash",
+      "Turli post-processing dasturlari bilan moslik"
+    ],
+    "specs": {
+      "position_accuracy_single": "<1.5 m (CEP)",
+      "position_accuracy_rtk": "<2 sm",
+      "heading_accuracy": "±0.2° (2 m asos chiziq)",
+      "attitude_accuracy": "±0.5°",
+      "data_rate": "20 Hz / 100 Hz",
+      "channels": "584",
+      "signals": "GPS L1/L2, GLONASS L1/L2, BDS B1/B2"
+    },
+    "specsLabels": {
+      "position_accuracy_single": "Pozitsiya aniqligi (bitta nuqta)",
+      "position_accuracy_rtk": "Pozitsiya aniqligi (RTK)",
+      "heading_accuracy": "Kurs aniqligi",
+      "attitude_accuracy": "Orientatsiya aniqligi",
+      "data_rate": "Ma'lumot yangilash tezligi",
+      "channels": "Kanallar",
+      "signals": "Signallar"
+    },
+    "models": {
+      "PA-GS": "GPS pozitsiya va orientatsiya tizimi PA-GS",
+      "PA-GS01": "GPS pozitsiya tizimi PA-GS01",
+      "PA-GS02": "Ikki antenna GPS pozitsiya tizimi PA-GS02",
+      "PA-GSAUTO": "Avtomobil GPS pozitsiya tizimi PA-GSAUTO",
+      "PA-GSFA1": "Avtomobil GPS pozitsiya tizimi PA-GSFA1"
+    },
+    "applications": "Geodeziya, GIS, mobil xaritalash"
+  },
+  "c3000": {
+    "title": "Quvvat moduli",
+    "shortTitle": "C3000 seriyasi",
+    "alt": "Quvvat moduli mahsulot rasmi",
+    "description": "Keng kuchlanish kirish oralig'i, yuqori samaradorlik konversiyasi, ko'p chiqish kuchlanishi variantlari, ortiqcha kuchlanish, ortiqcha tok, qisqa tutashuvdan himoya, a'lo issiqlik tarqatish, aviatsiya quvvat standartlariga mos.",
+    "features": [
+      "Keng kuchlanish kirish oralig'i",
+      "Yuqori samaradorlik konversiyasi",
+      "Ko'p chiqish kuchlanishi variantlari",
+      "Ortiqcha kuchlanish, ortiqcha tok, qisqa tutashuvdan himoya",
+      "A'lo issiqlik tarqatish",
+      "Aviatsiya quvvat standartlariga mos"
+    ],
+    "specs": {
+      "input_voltage_c3000": "18~36V DC",
+      "input_voltage_vg": "115V AC / 400Hz",
+      "output_voltage_c3000": "5V / 12V / ±15V",
+      "output_voltage_vg": "28V / 12V / 5V",
+      "output_power_c3000": "30W",
+      "output_power_vg": "50W",
+      "efficiency": ">85%",
+      "ripple_c3000": "<100 mV p-p",
+      "ripple_vg": "<50 mV"
+    },
+    "specsLabels": {
+      "input_voltage_c3000": "Kirish kuchlanishi (C3000)",
+      "input_voltage_vg": "Kirish kuchlanishi (TS-VG)",
+      "output_voltage_c3000": "Chiqish kuchlanishi (C3000)",
+      "output_voltage_vg": "Chiqish kuchlanishi (TS-VG)",
+      "output_power_c3000": "Chiqish quvvati (C3000)",
+      "output_power_vg": "Chiqish quvvati (TS-VG)",
+      "efficiency": "Samaradorlik",
+      "ripple_c3000": "Tiklanish (C3000)",
+      "ripple_vg": "Tiklanish (TS-VG)"
+    },
+    "models": {
+      "PM-C3000": "Quvvat moduli PM-C3000",
+      "PM-TS-VG": "Quvvat moduli PM-TS-VG"
+    },
+    "applications": "Bort elektron jihozlari, yerdagi sinov jihozlari, pilotsiz tizimlar"
+  },
+  "inquiry": {
+    "title": "Mahsulot so'rovi",
+    "selectProduct": "Mahsulot tanlang",
+    "submit_success": "So'rovingiz uchun tashakkur! Tez orada bog'lanamiz.",
+    "submit_failed": "Yuborish muvaffaqiyatsiz tugadi. Iltimos, keyinroq qayta urinib ko'ring.",
+    "validation_failed": "Iltimos, barcha talab qilinadigan maydonlarni to'ldiring."
+  },
+  "products": {
+    "productCount": "{count} ta mahsulot ko'rsatilmoqda",
+    "descriptions": {
+      "PA-IMU-01D": "Yuqori aniqlikli MEMS giroskop va akselerometr",
+      "PA-IMU-01G": "Yuqori aniqlikli MEMS giroskop va akselerometr",
+      "PA-IMU-02D03D": "Ikki o'qli tolali giroskop",
+      "PA-AHRS01": "Integratsiyalashgan GPS/GLONASS qabul qiluvchi",
+      "PA-VG11": "Ishonchli uch o'qli barqarorlashtirilgan platforma",
+      "PA-LASI-A": "Lazer giroskop texnologiyasi",
+      "PA-LASIII-A": "Yuqori aniqlikli strapdown inertial navigatsiya",
+      "PA-ARG-A": "Strain gauge akselerometr",
+      "PA-ARG-D": "Strain gauge akselerometr",
+      "PA-3ARG-A": "Uch o'qli integratsiyalashgan navigatsiya tizimi",
+      "PA-3ARG-D": "Uch o'qli integratsiyalashgan navigatsiya tizimi",
+      "PA-GS": "Ko'p chastotli GPS qabul qiluvchi",
+      "PA-GS01": "GPS pozitsiya va orientatsiya tizimi",
+      "PA-GS02": "Ikki antenna GPS pozitsiya tizimi",
+      "PA-GSAUTO": "Avtomobil GPS pozitsiya tizimi",
+      "PA-GSFA1": "Avtomobil GPS pozitsiya tizimi",
+      "PM-C3000": "Keng kuchlanish kirish, yuqori samaradorlik",
+      "PM-TS-VG": "Quvvat moduli"
+    }
+  }
+}

@@ -1,0 +1,386 @@
+/* ========================================
+   RTL (Right-to-Left) Styles
+   ======================================== */
+
+/* ----------------------------------------
+   Base RTL Direction
+   ---------------------------------------- */
+
+html[dir="rtl"] {
+  direction: rtl;
+}
+
+html[dir="rtl"] body {
+  text-align: right;
+}
+
+/* ----------------------------------------
+   RTL Navigation
+   ---------------------------------------- */
+
+[dir="rtl"] .nav-logo {
+  margin-right: 0;
+  margin-left: auto;
+}
+
+[dir="rtl"] .nav-menu {
+  flex-direction: row-reverse;
+}
+
+[dir="rtl"] .nav-link::after {
+  left: auto;
+  right: 0;
+}
+
+[dir="rtl"] .nav-actions {
+  flex-direction: row-reverse;
+}
+
+/* Mobile Menu */
+[dir="rtl"] .nav-menu {
+  left: auto;
+  right: 0;
+}
+
+[dir="rtl"] .nav-mobile-toggle {
+  margin-left: 0;
+  margin-right: auto;
+}
+
+/* ----------------------------------------
+   RTL Language Switcher
+   ---------------------------------------- */
+
+[dir="rtl"] .lang-dropdown {
+  right: auto;
+  left: 0;
+}
+
+[dir="rtl"] .lang-option {
+  flex-direction: row-reverse;
+}
+
+/* ----------------------------------------
+   RTL Grid & Flex
+   ---------------------------------------- */
+
+[dir="rtl"] .row {
+  flex-direction: row-reverse;
+}
+
+[dir="rtl"] .flex-row {
+  flex-direction: row-reverse;
+}
+
+[dir="rtl"] .justify-start {
+  justify-content: flex-end;
+}
+
+[dir="rtl"] .justify-end {
+  justify-content: flex-start;
+}
+
+[dir="rtl"] .ml-auto { margin-left: 0; margin-right: auto; }
+[dir="rtl"] .mr-auto { margin-right: 0; margin-left: auto; }
+
+/* ----------------------------------------
+   RTL Text Alignment
+   ---------------------------------------- */
+
+[dir="rtl"] .text-left {
+  text-align: right;
+}
+
+[dir="rtl"] .text-right {
+  text-align: left;
+}
+
+[dir="rtl"] .breadcrumb {
+  flex-direction: row-reverse;
+}
+
+/* ----------------------------------------
+   RTL Icons - Flip Horizontal
+   ---------------------------------------- */
+
+[dir="rtl"] .flip-rtl {
+  transform: scaleX(-1);
+}
+
+[dir="rtl"] .icon-arrow-next {
+  transform: scaleX(-1);
+}
+
+[dir="rtl"] .icon-arrow-prev {
+  transform: scaleX(-1);
+}
+
+[dir="rtl"] .icon-chevron-right {
+  transform: scaleX(-1);
+}
+
+[dir="rtl"] .icon-chevron-left {
+  transform: scaleX(-1);
+}
+
+[dir="rtl"] .icon-double-arrow-right {
+  transform: scaleX(-1);
+}
+
+[dir="rtl"] .icon-double-arrow-left {
+  transform: scaleX(-1);
+}
+
+/* ----------------------------------------
+   RTL Buttons
+   ---------------------------------------- */
+
+[dir="rtl"] .btn-icon-left {
+  margin-left: 0;
+  margin-right: var(--space-sm);
+}
+
+[dir="rtl"] .btn-icon-right {
+  margin-right: 0;
+  margin-left: var(--space-sm);
+}
+
+/* ----------------------------------------
+   RTL Cards
+   ---------------------------------------- */
+
+[dir="rtl"] .card-content {
+  text-align: right;
+}
+
+/* ----------------------------------------
+   RTL Forms
+   ---------------------------------------- */
+
+[dir="rtl"] .form-select {
+  background-position: left 12px center;
+  padding-right: 16px;
+  padding-left: 40px;
+}
+
+[dir="rtl"] .form-icon-left {
+  left: auto;
+  right: 12px;
+}
+
+[dir="rtl"] .form-icon-right {
+  right: auto;
+  left: 12px;
+}
+
+/* ----------------------------------------
+   RTL Footer
+   ---------------------------------------- */
+
+[dir="rtl"] .footer {
+  text-align: right;
+}
+
+[dir="rtl"] .footer-links {
+  align-items: flex-end;
+}
+
+[dir="rtl"] .footer-bottom {
+  flex-direction: row-reverse;
+}
+
+[dir="rtl"] .footer-social {
+  flex-direction: row-reverse;
+}
+
+/* ----------------------------------------
+   RTL Hero
+   ---------------------------------------- */
+
+[dir="rtl"] .hero-content {
+  text-align: center;
+}
+
+/* ----------------------------------------
+   RTL Product Grid
+   ---------------------------------------- */
+
+[dir="rtl"] .product-grid {
+  direction: rtl;
+}
+
+/* ----------------------------------------
+   RTL Breadcrumb
+   ---------------------------------------- */
+
+[dir="rtl"] .breadcrumb-separator {
+  transform: scaleX(-1);
+}
+
+/* ----------------------------------------
+   RTL Modal
+   ---------------------------------------- */
+
+[dir="rtl"] .modal-close {
+  right: auto;
+  left: var(--space-md);
+}
+
+[dir="rtl"] .modal {
+  text-align: right;
+}
+
+/* ----------------------------------------
+   RTL Share Buttons
+   ---------------------------------------- */
+
+[dir="rtl"] .share-buttons {
+  flex-direction: row-reverse;
+}
+
+/* ----------------------------------------
+   RTL Toast
+   ---------------------------------------- */
+
+[dir="rtl"] .toast {
+  right: auto;
+  left: var(--space-xl);
+  text-align: right;
+}
+
+/* ----------------------------------------
+   RTL Tabs
+   ---------------------------------------- */
+
+[dir="rtl"] .tabs {
+  flex-direction: row-reverse;
+}
+
+/* ----------------------------------------
+   RTL About Section
+   ---------------------------------------- */
+
+[dir="rtl"] .about-grid {
+  direction: rtl;
+}
+
+[dir="rtl"] .about-content {
+  text-align: right;
+}
+
+/* ----------------------------------------
+   RTL Two Column Layout
+   ---------------------------------------- */
+
+[dir="rtl"] .two-col-layout {
+  direction: rtl;
+}
+
+/* ----------------------------------------
+   RTL Section Headers
+   ---------------------------------------- */
+
+[dir="rtl"] .section-header {
+  text-align: right;
+}
+
+[dir="rtl"] .section-header .section-subtitle {
+  margin: 0;
+}
+
+/* ----------------------------------------
+   RTL Page Header
+   ---------------------------------------- */
+
+[dir="rtl"] .page-header {
+  text-align: right;
+}
+
+/* ----------------------------------------
+   RTL Pagination
+   ---------------------------------------- */
+
+[dir="rtl"] .pagination {
+  flex-direction: row-reverse;
+}
+
+/* ----------------------------------------
+   RTL List Styles
+   ---------------------------------------- */
+
+[dir="rtl"] ul,
+[dir="rtl"] ol {
+  padding-left: 0;
+  padding-right: var(--space-lg);
+}
+
+/* ----------------------------------------
+   RTL Progress Bar
+   ---------------------------------------- */
+
+[dir="rtl"] .progress-bar {
+  transform-origin: right;
+}
+
+/* ----------------------------------------
+   RTL Carousel
+   ---------------------------------------- */
+
+[dir="rtl"] .carousel-prev {
+  left: auto;
+  right: var(--space-md);
+}
+
+[dir="rtl"] .carousel-next {
+  right: auto;
+  left: var(--space-md);
+}
+
+/* ----------------------------------------
+   RTL Image with Text
+   ---------------------------------------- */
+
+[dir="rtl"] .image-text-grid {
+  direction: rtl;
+}
+
+[dir="rtl"] .image-text-grid > * {
+  direction: ltr;
+}
+
+/* ----------------------------------------
+   Keep Numbers LTR
+   ---------------------------------------- */
+
+[dir="rtl"] input[type="tel"],
+[dir="rtl"] input[type="number"],
+[dir="rtl"] .number {
+  direction: ltr;
+  text-align: left;
+}
+
+/* ----------------------------------------
+   RTL Badge
+   ---------------------------------------- */
+
+[dir="rtl"] .badge {
+  margin-left: 0;
+  margin-right: var(--space-sm);
+}
+
+/* ----------------------------------------
+   RTL Spacing Utilities
+   ---------------------------------------- */
+
+[dir="rtl"] .pl-4 { padding-left: 0; padding-right: 1rem; }
+[dir="rtl"] .pr-4 { padding-right: 0; padding-left: 1rem; }
+[dir="rtl"] .pl-md { padding-left: 0; padding-right: var(--space-md); }
+[dir="rtl"] .pr-md { padding-right: 0; padding-left: var(--space-md); }
+
+/* ----------------------------------------
+   Scrollbar for RTL
+   ---------------------------------------- */
+
+[dir="rtl"] ::-webkit-scrollbar {
+  direction: rtl;
+}

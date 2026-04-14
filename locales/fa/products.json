@@ -1,0 +1,301 @@
+{
+  "product": {
+    "title": "جزئیات محصول"
+  },
+  "imu": {
+    "title": "واحد اندازه‌گیری اینرسی",
+    "shortTitle": "سری IMU",
+    "alt": "تصویر واحد اندازه‌گیری اینرسی",
+    "description": "یژیروسکوپ و شتاب‌سنج MEMS با دقت بالا، اندازه کوچک، وزن سبک، مصرف کم انرژی، قابلیت اطمینان بالا، مقاومت بالا در برابر ضربه و لرزش، پشتیبانی از رابط‌های ارتباطی متعدد.",
+    "features": [
+      "ژیروسکوپ و شتاب‌سنج MEMS با دقت بالا",
+      "اندازه کوچک، وزن سبک",
+      "مصرف کم انرژی",
+      "قابلیت اطمینان بالا",
+      "مقاومت بالا در برابر ضربه و لرزش",
+      "پشتیبانی از رابط‌های ارتباطی متعدد"
+    ],
+    "specs": {
+      "gyroscope_range": "±300°/s",
+      "gyroscope_bias": "<0.5°/h",
+      "gyroscope_nonlinearity": "<100ppm",
+      "gyroscope_bandwidth": ">100Hz",
+      "accelerometer_range": "±10g",
+      "accelerometer_bias": "<1mg",
+      "accelerometer_nonlinearity": "<500ppm",
+      "interface": "RS-422 / RS-232 / CAN"
+    },
+    "specsLabels": {
+      "gyroscope_range": "محدوده ژیروسکوپ",
+      "gyroscope_bias": "پایداری بایاس ژیروسکوپ",
+      "gyroscope_nonlinearity": "غیرخطی بودن ژیروسکوپ",
+      "gyroscope_bandwidth": "پهنای باند ژیروسکوپ",
+      "accelerometer_range": "محدوده شتاب‌سنج",
+      "accelerometer_bias": "پایداری بایاس شتاب‌سنج",
+      "accelerometer_nonlinearity": "غیرخطی بودن شتاب‌سنج",
+      "interface": "رابط"
+    },
+    "models": {
+      "PA-IMU-01D": "واحد اندازه‌گیری اینرسی PA-IMU-01D",
+      "PA-IMU-01G": "واحد اندازه‌گیری اینرسی PA-IMU-01G",
+      "PA-IMU-02D03D": "ژیروسکوپ فیبر نوری دو محوره PA-IMU-02D03D"
+    },
+    "applications": "کنترل پرواز هوانوردی، ناوبری پهپاد، اندازه‌گیری وضعیت"
+  },
+  "ahrs": {
+    "title": "سیستم مرجع وضعیت و سمت",
+    "shortTitle": "سری AHRS",
+    "alt": "تصویر سیستم AHRS",
+    "description": "گیرنده GPS/GLONASS یکپارچه، ژیروسکوپ، شتاب‌سنج و مغناطیس‌سنج MEMS سه محوره، خروجی وضعیت و سمت در زمان واقعی، نرخ به‌روزرسانی داده بالا، پشتیبانی از پروتکل NMEA0183.",
+    "features": [
+      "گیرنده GPS/GLONASS یکپارچه",
+      "ژیروسکوپ، شتاب‌سنج و مغناطیس‌سنج MEMS سه محوره",
+      "خروجی وضعیت و سمت در زمان واقعی",
+      "نرخ به‌روزرسانی داده بالا",
+      "پشتیبانی از پروتکل NMEA0183",
+      "اندازه فشرده، نصب آسان"
+    ],
+    "specs": {
+      "attitude_accuracy_static": "±0.5°",
+      "attitude_accuracy_dynamic": "±1.0°",
+      "heading_accuracy": "±1.0°",
+      "heading_range": "0° ~ 360°",
+      "data_rate": "100Hz",
+      "voltage": "9~36V DC",
+      "power": "<5W"
+    },
+    "specsLabels": {
+      "attitude_accuracy_static": "دقت وضعیت (ایستا)",
+      "attitude_accuracy_dynamic": "دقت وضعیت (پویا)",
+      "heading_accuracy": "دقت سمت",
+      "heading_range": "محدوده سمت",
+      "data_rate": "نرخ داده",
+      "voltage": "ولتاژ تغذیه",
+      "power": "مصرف توان"
+    },
+    "models": {
+      "PA-AHRS01": "سیستم مرجع وضعیت و سمت PA-AHRS01"
+    },
+    "applications": "کنترل پرواز پهپاد، پایش وضعیت کشتی، کنترل پایداری خودرو"
+  },
+  "vg": {
+    "title": "ژیروسکوپ عمودی",
+    "shortTitle": "سری VG",
+    "alt": "تصویر ژیروسکوپ عمودی",
+    "description": "پلتفرم پایدار سه محوره قابل اعتماد، عملکرد جستجوی شمال خودکار، مناسب برای انواع هواپیماها، سازگاری محیطی قوی، نگهداری آسان.",
+    "features": [
+      "پلتفرم پایدار سه محوره قابل اعتماد",
+      "عملکرد جستجوی شمال خودکار",
+      "مناسب برای انواع هواپیماها",
+      "سازگاری محیطی قوی",
+      "نگهداری آسان"
+    ],
+    "specs": {
+      "pitch_roll_accuracy": "±0.5°",
+      "heading_accuracy": "±1.0°",
+      "stabilization_time": "<5 دقیقه",
+      "working_temp": "-40°C ~ +60°C",
+      "voltage": "115V AC / 400Hz",
+      "weight": "<3 kg"
+    },
+    "specsLabels": {
+      "pitch_roll_accuracy": "دقت پیچ/غلتان",
+      "heading_accuracy": "دقت سمت",
+      "stabilization_time": "زمان پایداری",
+      "working_temp": "دمای کاری",
+      "voltage": "ولتاژ تغذیه",
+      "weight": "وزن"
+    },
+    "models": {
+      "PA-VG11": "ژیروسکوپ عمودی PA-VG11"
+    },
+    "applications": "هواپیماهای بال ثابت، بالگردها، کنترل پرواز پهپاد"
+  },
+  "las_lam": {
+    "title": "سیستم ناوبری اینرسی strapdown لیزری",
+    "shortTitle": "سری LAS/LAM",
+    "alt": "تصویر سیستم INS لیزری",
+    "description": "فناوری ژیروسکوپ لیزری، ناوبری اینرسی strapdown با دقت بالا، گیرنده GPS/Beidou یکپارچه، موقعیت‌یابی و تعیین جهت در زمان واقعی، پشتیبانی از ادغام چند سیستم، مطابق با استانداردهای هوانوردی.",
+    "features": [
+      "فناوری ژیروسکوپ لیزری",
+      "ناوبری اینرسی strapdown با دقت بالا",
+      "گیرنده GPS/Beidou یکپارچه",
+      "موقعیت‌یابی و تعیین جهت در زمان واقعی",
+      "پشتیبانی از ادغام چند سیستم",
+      "مطابق با استانداردهای هوانوردی"
+    ],
+    "specs": {
+      "position_accuracy_las_i": "<1 m (CEP)",
+      "position_accuracy_las_iii": "<0.5 m (CEP)",
+      "attitude_accuracy_las_i": "±0.1°",
+      "attitude_accuracy_las_iii": "±0.05°",
+      "heading_accuracy_las_i": "±0.2°",
+      "heading_accuracy_las_iii": "±0.1°",
+      "gyro_bias_stability_las_i": "<0.01°/h",
+      "gyro_bias_stability_las_iii": "<0.005°/h"
+    },
+    "specsLabels": {
+      "position_accuracy_las_i": "دقت موقعیت‌یابی (LAS-I)",
+      "position_accuracy_las_iii": "دقت موقعیت‌یابی (LAS-III)",
+      "attitude_accuracy_las_i": "دقت وضعیت (LAS-I)",
+      "attitude_accuracy_las_iii": "دقت وضعیت (LAS-III)",
+      "heading_accuracy_las_i": "دقت سمت (LAS-I)",
+      "heading_accuracy_las_iii": "دقت سمت (LAS-III)",
+      "gyro_bias_stability_las_i": "پایداری بایاس ژیروسکوپ (LAS-I)",
+      "gyro_bias_stability_las_iii": "پایداری بایاس ژیروسکوپ (LAS-III)"
+    },
+    "models": {
+      "PA-LASI-A": "INS strapdown لیزری PA-LASI-A",
+      "PA-LASIII-A": "INS strapdown لیزری PA-LASIII-A"
+    },
+    "applications": "هوانوردی غیرنظامی، هواپیماهای نظامی، پهپادهای پیشرفته"
+  },
+  "arg": {
+    "title": "سری شتاب‌سنج",
+    "shortTitle": "سری ARG",
+    "alt": "تصویر شتاب‌سنج",
+    "description": "اصل اندازه‌گیری strain gauge، دقت اندازه‌گیری بالا، پایداری عالی، مقاومت بالا در برابر نویز، محدوده‌های اندازه‌گیری متعدد، корпуس آلومینیومی، وزن سبک.",
+    "features": [
+      "اصل اندازه‌گیری strain gauge",
+      "دقت اندازه‌گیری بالا",
+      "پایداری عالی",
+      "مقاومت بالا در برابر نویز",
+      "محدوده‌های اندازه‌گیری متعدد",
+      " корпуس آلومینیومی، وزن سبک"
+    ],
+    "specs": {
+      "range": "±10g / ±20g / ±50g",
+      "bias_stability": "<0.5 mg",
+      "resolution": "<0.1 mg",
+      "frequency_response": "0~500 Hz",
+      "nonlinearity": "<0.1% FS",
+      "working_temp": "-40°C ~ +85°C"
+    },
+    "specsLabels": {
+      "range": "محدوده اندازه‌گیری",
+      "bias_stability": "پایداری بایاس",
+      "resolution": "وضوح",
+      "frequency_response": "پاسخ فرکانسی",
+      "nonlinearity": "غیرخطی بودن",
+      "working_temp": "دمای کاری"
+    },
+    "models": {
+      "PA-ARG-A": "شتاب‌سنج strain gauge PA-ARG-A",
+      "PA-ARG-D": "شتاب‌سنج strain gauge PA-ARG-D",
+      "PA-3ARG-A": "سیستم ناوبری یکپارچه سه محوره PA-3ARG-A",
+      "PA-3ARG-D": "سیستم ناوبری یکپارچه سه محوره PA-3ARG-D"
+    },
+    "applications": "پایش سلامت سازه، بازرسی پل، پایش زلزله، اتوماسیون صنعتی"
+  },
+  "gs": {
+    "title": "سیستم موقعیت‌یابی و وضعیت GPS",
+    "shortTitle": "سری GS",
+    "alt": "تصویر سیستم GPS",
+    "description": "گیرنده چند فرکانسه GPS/GLONASS/Beidou، اندازه‌گیری وضعیت و موقعیت در زمان واقعی، پشتیبانی از پیکربندی دو آنتن/سه آنتن، نرخ به‌روزرسانی داده بالا، پشتیبانی از RTK دیفرانسیل در زمان واقعی.",
+    "features": [
+      "گیرنده چند فرکانسه GPS/GLONASS/Beidou",
+      "اندازه‌گیری وضعیت و موقعیت در زمان واقعی",
+      "پشتیبانی از پیکربندی دو آنتن/سه آنتن",
+      "نرخ به‌روزرسانی داده بالا",
+      "پشتیبانی از RTK دیفرانسیل در زمان واقعی",
+      "سازگاری با نرم‌افزارهای پردازش پس از فروش مختلف"
+    ],
+    "specs": {
+      "position_accuracy_single": "<1.5 m (CEP)",
+      "position_accuracy_rtk": "<2 cm",
+      "heading_accuracy": "±0.2° (خط پایه ۲ متری)",
+      "attitude_accuracy": "±0.5°",
+      "data_rate": "20 Hz / 100 Hz",
+      "channels": "584",
+      "signals": "GPS L1/L2, GLONASS L1/L2, BDS B1/B2"
+    },
+    "specsLabels": {
+      "position_accuracy_single": "دقت موقعیت‌یابی (نقطه منفرد)",
+      "position_accuracy_rtk": "دقت موقعیت‌یابی (RTK)",
+      "heading_accuracy": "دقت سمت",
+      "attitude_accuracy": "دقت وضعیت",
+      "data_rate": "نرخ داده",
+      "channels": "کانال‌ها",
+      "signals": "سیگنال‌ها"
+    },
+    "models": {
+      "PA-GS": "سیستم موقعیت‌یابی و وضعیت PA-GS",
+      "PA-GS01": "سیستم موقعیت‌یابی GPS PA-GS01",
+      "PA-GS02": "سیستم موقعیت‌یابی GPS دو آنتنه PA-GS02",
+      "PA-GSAUTO": "سیستم GPS خودرویی PA-GSAUTO",
+      "PA-GSFA1": "سیستم GPS خودرویی PA-GSFA1"
+    },
+    "applications": "نقشه‌برداری، GIS، نقشه‌برداری سیار"
+  },
+  "c3000": {
+    "title": "ماژول توان",
+    "shortTitle": "سری C3000",
+    "alt": "تصویر ماژول توان",
+    "description": "محدوده ورودی ولتاژ گسترده، تبدیل با راندمان بالا، گزینه‌های ولتاژ خروجی متعدد، محافظت در برابر اضافه ولتاژ، اضافه جریان و اتصال کوتاه، دفع حرارت عالی، مطابق با استانداردهای توان هوانوردی.",
+    "features": [
+      "محدوده ورودی ولتاژ گسترده",
+      "تبدیل با راندمان بالا",
+      "گزینه‌های ولتاژ خروجی متعدد",
+      "محافظت در برابر اضافه ولتاژ، اضافه جریان و اتصال کوتاه",
+      "دفع حرارت عالی",
+      "مطابق با استانداردهای توان هوانوردی"
+    ],
+    "specs": {
+      "input_voltage_c3000": "18~36V DC",
+      "input_voltage_vg": "115V AC / 400Hz",
+      "output_voltage_c3000": "5V / 12V / ±15V",
+      "output_voltage_vg": "28V / 12V / 5V",
+      "output_power_c3000": "30W",
+      "output_power_vg": "50W",
+      "efficiency": ">85%",
+      "ripple_c3000": "<100 mV p-p",
+      "ripple_vg": "<50 mV"
+    },
+    "specsLabels": {
+      "input_voltage_c3000": "ولتاژ ورودی (C3000)",
+      "input_voltage_vg": "ولتاژ ورودی (TS-VG)",
+      "output_voltage_c3000": "ولتاژ خروجی (C3000)",
+      "output_voltage_vg": "ولتاژ خروجی (TS-VG)",
+      "output_power_c3000": "توان خروجی (C3000)",
+      "output_power_vg": "توان خروجی (TS-VG)",
+      "efficiency": "راندمان",
+      "ripple_c3000": "تغییرات (C3000)",
+      "ripple_vg": "تغییرات (TS-VG)"
+    },
+    "models": {
+      "PM-C3000": "ماژول توان PM-C3000",
+      "PM-TS-VG": "ماژول توان PM-TS-VG"
+    },
+    "applications": "تجهیزات الکترونیکی هوایی، تجهیزات تست زمینی، سیستم‌های بدون سرنشین"
+  },
+  "inquiry": {
+    "title": "استعلام محصول",
+    "selectProduct": "محصول را انتخاب کنید",
+    "submit_success": "با تشکر از استعلام شما! به زودی با شما تماس خواهیم گرفت.",
+    "submit_failed": "ارسال ناموفق بود. لطفاً بعداً دوباره تلاش کنید.",
+    "validation_failed": "لطفاً تمام فیلدهای الزامی را پر کنید."
+  },
+  "products": {
+    "productCount": "نمایش {count} محصول",
+    "descriptions": {
+      "PA-IMU-01D": "ژیروسکوپ و شتاب‌سنج MEMS با دقت بالا",
+      "PA-IMU-01G": "ژیروسکوپ و شتاب‌سنج MEMS با دقت بالا",
+      "PA-IMU-02D03D": "ژیروسکوپ فیبر نوری دو محوره",
+      "PA-AHRS01": "گیرنده GPS/GLONASS یکپارچه",
+      "PA-VG11": "پلتفرم پایدار سه محوره قابل اعتماد",
+      "PA-LASI-A": "فناوری ژیروسکوپ لیزری",
+      "PA-LASIII-A": "ناوبری اینرسی strapdown با دقت بالا",
+      "PA-ARG-A": "شتاب‌سنج strain gauge",
+      "PA-ARG-D": "شتاب‌سنج strain gauge",
+      "PA-3ARG-A": "سیستم ناوبری یکپارچه سه محوره",
+      "PA-3ARG-D": "سیستم ناوبری یکپارچه سه محوره",
+      "PA-GS": "گیرنده GPS چند فرکانسه",
+      "PA-GS01": "سیستم موقعیت‌یابی GPS",
+      "PA-GS02": "سیستم موقعیت‌یابی GPS دو آنتنه",
+      "PA-GSAUTO": "سیستم GPS خودرویی",
+      "PA-GSFA1": "سیستم GPS خودرویی",
+      "PM-C3000": "ورودی ولتاژ گسترده، تبدیل با راندمان بالا",
+      "PM-TS-VG": "ماژول توان"
+    }
+  }
+}

@@ -1,0 +1,301 @@
+{
+  "product": {
+    "title": "Product Details"
+  },
+  "imu": {
+    "title": "Inertial Measurement Unit",
+    "shortTitle": "IMU Series",
+    "alt": "Inertial Measurement Unit Product Image",
+    "description": "High-precision MEMS gyroscope and accelerometer integration, small size, lightweight, low power consumption, high reliability, strong shock and vibration resistance, supports multiple communication interfaces.",
+    "features": [
+      "High-precision MEMS gyroscope and accelerometer",
+      "Small size, lightweight",
+      "Low power consumption",
+      "High reliability",
+      "Strong shock and vibration resistance",
+      "Supports multiple communication interfaces"
+    ],
+    "specs": {
+      "gyroscope_range": "±300°/s",
+      "gyroscope_bias": "<0.5°/h",
+      "gyroscope_nonlinearity": "<100ppm",
+      "gyroscope_bandwidth": ">100Hz",
+      "accelerometer_range": "±10g",
+      "accelerometer_bias": "<1mg",
+      "accelerometer_nonlinearity": "<500ppm",
+      "interface": "RS-422 / RS-232 / CAN"
+    },
+    "specsLabels": {
+      "gyroscope_range": "Gyroscope Range",
+      "gyroscope_bias": "Gyroscope Bias Stability",
+      "gyroscope_nonlinearity": "Gyroscope Non-linearity",
+      "gyroscope_bandwidth": "Gyroscope Bandwidth",
+      "accelerometer_range": "Accelerometer Range",
+      "accelerometer_bias": "Accelerometer Bias Stability",
+      "accelerometer_nonlinearity": "Accelerometer Non-linearity",
+      "interface": "Interface"
+    },
+    "models": {
+      "PA-IMU-01D": "Inertial Measurement Unit PA-IMU-01D",
+      "PA-IMU-01G": "Inertial Measurement Unit PA-IMU-01G",
+      "PA-IMU-02D03D": "Dual-axis Fiber Optic Gyroscope PA-IMU-02D03D"
+    },
+    "applications": "Aviation flight control, UAV navigation, attitude measurement"
+  },
+  "ahrs": {
+    "title": "Attitude and Heading Reference System",
+    "shortTitle": "AHRS Series",
+    "alt": "AHRS Product Image",
+    "description": "Integrated GPS/GLONASS receiver, three-axis MEMS gyroscope, accelerometer and magnetometer, real-time attitude and heading output, high data update rate, supports NMEA0183 protocol.",
+    "features": [
+      "Integrated GPS/GLONASS receiver",
+      "Three-axis MEMS gyroscope, accelerometer and magnetometer",
+      "Real-time attitude and heading output",
+      "High data update rate",
+      "Supports NMEA0183 protocol",
+      "Compact size, easy installation"
+    ],
+    "specs": {
+      "attitude_accuracy_static": "±0.5°",
+      "attitude_accuracy_dynamic": "±1.0°",
+      "heading_accuracy": "±1.0°",
+      "heading_range": "0° ~ 360°",
+      "data_rate": "100Hz",
+      "voltage": "9~36V DC",
+      "power": "<5W"
+    },
+    "specsLabels": {
+      "attitude_accuracy_static": "Attitude Accuracy (Static)",
+      "attitude_accuracy_dynamic": "Attitude Accuracy (Dynamic)",
+      "heading_accuracy": "Heading Accuracy",
+      "heading_range": "Heading Range",
+      "data_rate": "Data Rate",
+      "voltage": "Supply Voltage",
+      "power": "Power Consumption"
+    },
+    "models": {
+      "PA-AHRS01": "Attitude and Heading Reference System PA-AHRS01"
+    },
+    "applications": "UAV flight control, maritime attitude monitoring, vehicle stability control"
+  },
+  "vg": {
+    "title": "Vertical Gyroscope",
+    "shortTitle": "VG Series",
+    "alt": "Vertical Gyroscope Product Image",
+    "description": "Reliable three-axis stabilized platform, automatic north-seeking function, suitable for various aircraft, strong environmental adaptability, easy maintenance.",
+    "features": [
+      "Reliable three-axis stabilized platform",
+      "Automatic north-seeking function",
+      "Suitable for various aircraft",
+      "Strong environmental adaptability",
+      "Easy maintenance"
+    ],
+    "specs": {
+      "pitch_roll_accuracy": "±0.5°",
+      "heading_accuracy": "±1.0°",
+      "stabilization_time": "<5min",
+      "working_temp": "-40°C ~ +60°C",
+      "voltage": "115V AC / 400Hz",
+      "weight": "<3kg"
+    },
+    "specsLabels": {
+      "pitch_roll_accuracy": "Pitch/Roll Accuracy",
+      "heading_accuracy": "Heading Accuracy",
+      "stabilization_time": "Stabilization Time",
+      "working_temp": "Working Temperature",
+      "voltage": "Supply Voltage",
+      "weight": "Weight"
+    },
+    "models": {
+      "PA-VG11": "Vertical Gyroscope PA-VG11"
+    },
+    "applications": "Fixed-wing aircraft, helicopters, UAV flight control"
+  },
+  "las_lam": {
+    "title": "Laser Strapdown Inertial Navigation System",
+    "shortTitle": "LAS/LAM Series",
+    "alt": "Laser INS Product Image",
+    "description": "Laser gyroscope technology, high-precision strapdown inertial navigation, integrated GPS/Beidou receiver, real-time positioning and orientation, multi-system fusion support, compliant with aviation standards.",
+    "features": [
+      "Laser gyroscope technology",
+      "High-precision strapdown inertial navigation",
+      "Integrated GPS/Beidou receiver",
+      "Real-time positioning and orientation",
+      "Multi-system fusion support",
+      "Compliant with aviation standards"
+    ],
+    "specs": {
+      "position_accuracy_las_i": "<1m (CEP)",
+      "position_accuracy_las_iii": "<0.5m (CEP)",
+      "attitude_accuracy_las_i": "±0.1°",
+      "attitude_accuracy_las_iii": "±0.05°",
+      "heading_accuracy_las_i": "±0.2°",
+      "heading_accuracy_las_iii": "±0.1°",
+      "gyro_bias_stability_las_i": "<0.01°/h",
+      "gyro_bias_stability_las_iii": "<0.005°/h"
+    },
+    "specsLabels": {
+      "position_accuracy_las_i": "Position Accuracy (LAS-I)",
+      "position_accuracy_las_iii": "Position Accuracy (LAS-III)",
+      "attitude_accuracy_las_i": "Attitude Accuracy (LAS-I)",
+      "attitude_accuracy_las_iii": "Attitude Accuracy (LAS-III)",
+      "heading_accuracy_las_i": "Heading Accuracy (LAS-I)",
+      "heading_accuracy_las_iii": "Heading Accuracy (LAS-III)",
+      "gyro_bias_stability_las_i": "Gyro Bias Stability (LAS-I)",
+      "gyro_bias_stability_las_iii": "Gyro Bias Stability (LAS-III)"
+    },
+    "models": {
+      "PA-LASI-A": "Laser Strapdown INS PA-LASI-A",
+      "PA-LASIII-A": "Laser Strapdown INS PA-LASIII-A"
+    },
+    "applications": "Civil aviation, military aircraft, high-end UAV"
+  },
+  "arg": {
+    "title": "Accelerometer Series",
+    "shortTitle": "ARG Series",
+    "alt": "Accelerometer Product Image",
+    "description": "Strain gauge measurement principle, high measurement accuracy, excellent stability, strong anti-interference capability, multiple ranges available, aluminum alloy housing, lightweight.",
+    "features": [
+      "Strain gauge measurement principle",
+      "High measurement accuracy",
+      "Excellent stability",
+      "Strong anti-interference capability",
+      "Multiple ranges available",
+      "Aluminum alloy housing, lightweight"
+    ],
+    "specs": {
+      "range": "±10g / ±20g / ±50g",
+      "bias_stability": "<0.5mg",
+      "resolution": "<0.1mg",
+      "frequency_response": "0~500Hz",
+      "nonlinearity": "<0.1% FS",
+      "working_temp": "-40°C ~ +85°C"
+    },
+    "specsLabels": {
+      "range": "Measurement Range",
+      "bias_stability": "Bias Stability",
+      "resolution": "Resolution",
+      "frequency_response": "Frequency Response",
+      "nonlinearity": "Non-linearity",
+      "working_temp": "Working Temperature"
+    },
+    "models": {
+      "PA-ARG-A": "Strain Gauge Accelerometer PA-ARG-A",
+      "PA-ARG-D": "Strain Gauge Accelerometer PA-ARG-D",
+      "PA-3ARG-A": "Three-axis Integrated Navigation System PA-3ARG-A",
+      "PA-3ARG-D": "Three-axis Integrated Navigation System PA-3ARG-D"
+    },
+    "applications": "Structural health monitoring, bridge inspection, seismic monitoring, industrial automation"
+  },
+  "gs": {
+    "title": "GPS Positioning and Attitude System",
+    "shortTitle": "GS Series",
+    "alt": "GPS System Product Image",
+    "description": "Multi-frequency GPS/GLONASS/Beidou receiver, real-time attitude and position measurement, supports dual-antenna/triple-antenna configuration, high data update rate, supports RTK real-time differential positioning.",
+    "features": [
+      "Multi-frequency GPS/GLONASS/Beidou receiver",
+      "Real-time attitude and position measurement",
+      "Supports dual-antenna/triple-antenna configuration",
+      "High data update rate",
+      "Supports RTK real-time differential positioning",
+      "Compatible with various post-processing software"
+    ],
+    "specs": {
+      "position_accuracy_single": "<1.5m (CEP)",
+      "position_accuracy_rtk": "<2cm",
+      "heading_accuracy": "±0.2° (2m baseline)",
+      "attitude_accuracy": "±0.5°",
+      "data_rate": "20Hz / 100Hz",
+      "channels": "584",
+      "signals": "GPS L1/L2, GLONASS L1/L2, BDS B1/B2"
+    },
+    "specsLabels": {
+      "position_accuracy_single": "Position Accuracy (Single Point)",
+      "position_accuracy_rtk": "Position Accuracy (RTK)",
+      "heading_accuracy": "Heading Accuracy",
+      "attitude_accuracy": "Attitude Accuracy",
+      "data_rate": "Data Rate",
+      "channels": "Channels",
+      "signals": "Signals"
+    },
+    "models": {
+      "PA-GS": "GPS Positioning and Attitude System PA-GS",
+      "PA-GS01": "GPS Positioning System PA-GS01",
+      "PA-GS02": "Dual-antenna GPS Positioning System PA-GS02",
+      "PA-GSAUTO": "Vehicle-mounted GPS System PA-GSAUTO",
+      "PA-GSFA1": "Vehicle-mounted GPS System PA-GSFA1"
+    },
+    "applications": "Surveying, GIS, mobile mapping"
+  },
+  "c3000": {
+    "title": "Power Module",
+    "shortTitle": "C3000 Series",
+    "alt": "Power Module Product Image",
+    "description": "Wide voltage input range, high efficiency conversion, multiple output voltage options, over-voltage, over-current, short-circuit protection, excellent heat dissipation, compliant with aviation power standards.",
+    "features": [
+      "Wide voltage input range",
+      "High efficiency conversion",
+      "Multiple output voltage options",
+      "Over-voltage, over-current, short-circuit protection",
+      "Excellent heat dissipation",
+      "Compliant with aviation power standards"
+    ],
+    "specs": {
+      "input_voltage_c3000": "18~36V DC",
+      "input_voltage_vg": "115V AC / 400Hz",
+      "output_voltage_c3000": "5V / 12V / ±15V",
+      "output_voltage_vg": "28V / 12V / 5V",
+      "output_power_c3000": "30W",
+      "output_power_vg": "50W",
+      "efficiency": ">85%",
+      "ripple_c3000": "<100mV p-p",
+      "ripple_vg": "<50mV"
+    },
+    "specsLabels": {
+      "input_voltage_c3000": "Input Voltage (C3000)",
+      "input_voltage_vg": "Input Voltage (TS-VG)",
+      "output_voltage_c3000": "Output Voltage (C3000)",
+      "output_voltage_vg": "Output Voltage (TS-VG)",
+      "output_power_c3000": "Output Power (C3000)",
+      "output_power_vg": "Output Power (TS-VG)",
+      "efficiency": "Efficiency",
+      "ripple_c3000": "Ripple (C3000)",
+      "ripple_vg": "Ripple (TS-VG)"
+    },
+    "models": {
+      "PM-C3000": "Power Module PM-C3000",
+      "PM-TS-VG": "Power Module PM-TS-VG"
+    },
+    "applications": "Airborne electronic equipment, ground test equipment, unmanned systems"
+  },
+  "inquiry": {
+    "title": "Product Inquiry",
+    "selectProduct": "Select a product",
+    "submit_success": "Thank you for your inquiry! We will contact you soon.",
+    "submit_failed": "Submission failed. Please try again later.",
+    "validation_failed": "Please fill in all required fields."
+  },
+  "products": {
+    "productCount": "Showing {count} products",
+    "descriptions": {
+      "PA-IMU-01D": "High-precision MEMS gyroscope and accelerometer",
+      "PA-IMU-01G": "High-precision MEMS gyroscope and accelerometer",
+      "PA-IMU-02D03D": "Dual-axis fiber optic gyroscope",
+      "PA-AHRS01": "Integrated GPS/GLONASS receiver",
+      "PA-VG11": "Reliable three-axis stabilized platform",
+      "PA-LASI-A": "Laser gyroscope technology",
+      "PA-LASIII-A": "High-precision strapdown inertial navigation",
+      "PA-ARG-A": "Strain gauge accelerometer",
+      "PA-ARG-D": "Strain gauge accelerometer",
+      "PA-3ARG-A": "Three-axis integrated navigation system",
+      "PA-3ARG-D": "Three-axis integrated navigation system",
+      "PA-GS": "Multi-frequency GPS receiver",
+      "PA-GS01": "GPS positioning and attitude system",
+      "PA-GS02": "Dual-antenna GPS positioning system",
+      "PA-GSAUTO": "Vehicle-mounted GPS positioning system",
+      "PA-GSFA1": "Vehicle-mounted GPS positioning system",
+      "PM-C3000": "Wide voltage input, high efficiency conversion",
+      "PM-TS-VG": "Power module"
+    }
+  }
+}

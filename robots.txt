@@ -1,0 +1,18 @@
+# MEMS-MCTI Robots.txt
+# https://www.mems-mcti.com
+
+User-agent: *
+Allow: /
+
+# Disallow non-essential paths
+Disallow: /css/*.map
+Disallow: /js/*.map
+Disallow: /locales/
+Disallow: /images/thumbnails/
+Disallow: /shared/
+
+# Sitemap
+Sitemap: https://www.mems-mcti.com/sitemap.xml
+
+# Crawl-delay (optional, be considerate to search engines)
+Crawl-delay: 1

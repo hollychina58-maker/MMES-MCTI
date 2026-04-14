@@ -1,0 +1,148 @@
+{
+  "nav": {
+    "home": "Initium",
+    "products": "Producta",
+    "about": "De Nobis",
+    "contact": "Contactus",
+    "language": "Lingua"
+  },
+  "productNames": {
+    "imu": "IMU",
+    "ahrs": "AHRS",
+    "vg": "Gyro Verticalis",
+    "las_lam": "INS Laser",
+    "arg": "Accelerometrum",
+    "gs": "Systema GPS",
+    "c3000": "Modulus Power"
+  },
+  "specTags": {
+    "triAxis": "Tri-axis",
+    "dualAxis": "Bi-axis",
+    "autoNorth": "Auto North",
+    "laser": "Laser",
+    "highPrecision": "Alta Praecisio",
+    "strainGauge": "Tensometrum",
+    "multiFreq": "Multi-frequens",
+    "wideVoltage": "Lata Voltage",
+    "strapdown": "Strapdown",
+    "highStability": "Alta Stabilitas",
+    "integrated": "Integratum",
+    "attitude": "Attitudo",
+    "dualAntenna": "Duo Antenna",
+    "vehicle": "Vehiculum",
+    "aerospace": "Aviatio"
+  },
+  "hero": {
+    "title": "Praecisio Mensura et Navigatio",
+    "subtitle": "Altae qualitatis producta navigationis inertialium pro aviatione, spatio, mari et vehiculis",
+    "explore": "Explore Producta",
+    "contact": "Contactus"
+  },
+  "products": {
+    "title": "Producta",
+    "subtitle": "Altae qualitatis producta navigationis inertialium et solutiones",
+    "viewDetail": "Vide Detalla",
+    "inquiry": "Interrogatio",
+    "all": "Omnia Producta",
+    "imu": "IMU",
+    "ahrs": "AHRS",
+    "vg": "Gyro Verticalis",
+    "las_lam": "INS Laser",
+    "arg": "Accelerometrum",
+    "gs": "Systema GPS",
+    "c3000": "Modulus Power"
+  },
+  "features": {
+    "title": "Utilitates Technicae",
+    "highPrecision": {
+      "title": "Alta Praecisio",
+      "desc": "Technologiae MEMS et gyrographi fibrarum opticarum advanced cum praecisione industriae ducendae"
+    },
+    "compact": {
+      "title": "Magnitudo Parva",
+      "desc": "Designatio modularis, magnitudo parva, leve pondus, facilis integratio"
+    },
+    "lowPower": {
+      "title": "Humilis Potentia",
+      "desc": "Circuitus optimatus, humilis energiae consumptio, calor minimus, alta fides"
+    },
+    "highReliability": {
+      "title": "Alta Fides",
+      "desc": "Probationes severa pro variis environmentis difficilibus"
+    }
+  },
+  "applications": {
+    "title": "Applicationes",
+    "aviation": "Aviatio",
+    "aerospace": "Spatium",
+    "maritime": "Maritimus",
+    "vehicle": "Vehiculum",
+    "uav": "UAV",
+    "surveying": "Mensura"
+  },
+  "about": {
+    "title": "De Nobis",
+    "description": "MEMS-MCTI est societas altae technologiae in navigatione et technologia gubernaculi. Praebemus producta navigationis inertialium altae qualitatis, systemata positionis et attitude et solutiones pro aviatione, spatio, mari et vehiculis.",
+    "mission": "Praebere clientibus producta navigationis et mensurae praecisa, fida et efficacia"
+  },
+  "footer": {
+    "brand": "MEMS-MCTI",
+    "tagline": "Praecisio Navigatio, Futurum Intelligens",
+    "productsTitle": "Producta",
+    "companyTitle": "Societas",
+    "contactTitle": "Contactus",
+    "email": "Epistula",
+    "copyright": "© 2024 MEMS-MCTI. Omnia iura reservata."
+  },
+  "inquiry": {
+    "title": "Interrogatio",
+    "name": "Nomen",
+    "namePlaceholder": "Intra tuum nomen",
+    "email": "Epistula electronica",
+    "emailPlaceholder": "Intra tuam epistulam electronicam",
+    "product": "Productum",
+    "productPlaceholder": "Elige productum",
+    "message": "Nuntius",
+    "messagePlaceholder": "Intra tuam interrogationem...",
+    "submit": "Submit Interrogationem",
+    "submitting": "Submittens...",
+    "name_error": "Quaeso intra validum nomen (saltem 2 litterae)",
+    "email_error": "Quaeso intra validam epistulam electronicam",
+    "product_error": "Quaeso elige productum",
+    "message_error": "Quaeso intra nuntium (saltem 10 litterae)"
+  },
+  "share": {
+    "title": "Communicatio Producti",
+    "facebook": "Facebook",
+    "twitter": "Twitter",
+    "linkedin": "LinkedIn",
+    "whatsapp": "WhatsApp",
+    "pinterest": "Pinterest",
+    "instagram": "Instagram",
+    "email": "Epistula",
+    "instagram_message": "Communicatio Instagram indigeat App Instagram"
+  },
+  "contact": {
+    "title": "Contactus",
+    "email": "Epistula electronica",
+    "address": "Address",
+    "phone": "Telefonum",
+    "company": "Societas",
+    "companyPlaceholder": "Intra societatis nomen",
+    "phonePlaceholder": "Intra numerum telephonicum",
+    "addressValue": "Sina",
+    "submit": "Mittere Nuntium",
+    "successMessage": "Nuntium prospere missum est!",
+    "errorMessage": "Nuntium mittere non potuit. Quaeso iterum tenta."
+  },
+  "common": {
+    "loading": "Legens...",
+    "error": "Error",
+    "success": "Successus",
+    "back": "Retro",
+    "next": "Proximum",
+    "previous": "Antecedens",
+    "close": "Claudere",
+    "readMore": "Legere Plura"
+  }
+}

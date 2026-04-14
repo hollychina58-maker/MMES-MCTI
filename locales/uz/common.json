@@ -1,0 +1,148 @@
+{
+  "nav": {
+    "home": "Bosh sahifa",
+    "products": "Mahsulotlar",
+    "about": "Biz haqimizda",
+    "contact": "Bog'lanish",
+    "language": "Til"
+  },
+  "productNames": {
+    "imu": "IMU",
+    "ahrs": "AHRS",
+    "vg": "Vertikal giro",
+    "las_lam": "Laser INS",
+    "arg": "Akselerometr",
+    "gs": "GPS tizim",
+    "c3000": "Quvvat moduli"
+  },
+  "specTags": {
+    "triAxis": "Uch o'qli",
+    "dualAxis": "Ikki o'qli",
+    "autoNorth": "Avto Shimol",
+    "laser": "Lazer",
+    "highPrecision": "Yuqori aniqlik",
+    "strainGauge": "Zo'riqish o'lchagichi",
+    "multiFreq": "Ko'p chastotali",
+    "wideVoltage": "Keng kuchlanish",
+    "strapdown": "Biriktirilgan",
+    "highStability": "Yuqori barqarorlik",
+    "integrated": "Integratsiyalangan",
+    "attitude": "Orientatsiya",
+    "dualAntenna": "Ikkita antenna",
+    "vehicle": "Avtomobil",
+    "aerospace": "Aviatsiya"
+  },
+  "hero": {
+    "title": "Aniq o'lchash va navigatsiya",
+    "subtitle": "Aviatsiya, kosmos, dengiz va avtomobil sohalari uchun yuqori sifatli inertial navigatsiya mahsulotlari",
+    "explore": "Mahsulotlarni ko'rish",
+    "contact": "Bog'lanish"
+  },
+  "products": {
+    "title": "Mahsulotlar",
+    "subtitle": "Yuqori sifatli inertial navigatsiya mahsulotlari va yechimlar",
+    "viewDetail": "Batafsil",
+    "inquiry": "So'rov",
+    "all": "Barcha mahsulotlar",
+    "imu": "IMU",
+    "ahrs": "AHRS",
+    "vg": "Vertikal giro",
+    "las_lam": "Laser INS",
+    "arg": "Akselerometr",
+    "gs": "GPS tizim",
+    "c3000": "Quvvat moduli"
+  },
+  "features": {
+    "title": "Texnik afzalliklar",
+    "highPrecision": {
+      "title": "Yuqori aniqlik",
+      "desc": "Industriya yetakchi aniqlikdagi ilg'or MEMS va tolali giroskop texnologiyasi"
+    },
+    "compact": {
+      "title": "Kichik o'lcham",
+      "desc": "Modulli dizayn, kichik o'lcham, yengil vazn, oson integratsiya"
+    },
+    "lowPower": {
+      "title": "Kam quvvat",
+      "desc": "Optimizatsiya qilingan sxema, kam quvvat sarfi, kam issiqlik, yuqori ishonchlilik"
+    },
+    "highReliability": {
+      "title": "Yuqori ishonchlilik",
+      "desc": "Turli qattiq sharoitlar uchun qattiq sinov"
+    }
+  },
+  "applications": {
+    "title": "Qo'llash sohalari",
+    "aviation": "Aviatsiya",
+    "aerospace": "Kosmos",
+    "maritime": "Dengiz",
+    "vehicle": "Avtomobil",
+    "uav": "Pildron",
+    "surveying": "Geodeziya"
+  },
+  "about": {
+    "title": "Biz haqimizda",
+    "description": "MEMS-MCTI - navigatsiya va boshqaruv texnologiyalari sohasida ixtisoslashgan yuqori texnologiya korxonasi. Biz aviatsiya, kosmos, dengiz va avtomobil sohalari uchun yuqori sifatli inertial navigatsiya mahsulotlari, pozitsiya va orientatsiya tizimlari va yechimlarini taqdim etamiz.",
+    "mission": "Mijozlarga aniq, ishonchli va samarali navigatsiya va o'lchash mahsulotlarini taqdim etish"
+  },
+  "footer": {
+    "brand": "MEMS-MCTI",
+    "tagline": "Aniq navigatsiya, zamonaviy kelajak",
+    "productsTitle": "Mahsulotlar",
+    "companyTitle": "Kompaniya",
+    "contactTitle": "Bog'lanish",
+    "email": "Email",
+    "copyright": "© 2024 MEMS-MCTI. Barcha huquqlar himoyalangan."
+  },
+  "inquiry": {
+    "title": "So'rov",
+    "name": "Ism",
+    "namePlaceholder": "Ismingizni kiriting",
+    "email": "Email",
+    "emailPlaceholder": "Email manzilingizni kiriting",
+    "product": "Mahsulot",
+    "productPlaceholder": "Mahsulot tanlang",
+    "message": "Xabar",
+    "messagePlaceholder": "So'rovingizni kiriting...",
+    "submit": "So'rov yuborish",
+    "submitting": "Yuborilmoqda...",
+    "name_error": "Iltimos, to'g'ri ism kiriting (kamida 2 belgi)",
+    "email_error": "Iltimos, to'g'ri email manzil kiriting",
+    "product_error": "Iltimos, mahsulot tanlang",
+    "message_error": "Iltimos, xabar kiriting (kamida 10 belgi)"
+  },
+  "share": {
+    "title": "Mahsulotni ulashish",
+    "facebook": "Facebook",
+    "twitter": "Twitter",
+    "linkedin": "LinkedIn",
+    "whatsapp": "WhatsApp",
+    "pinterest": "Pinterest",
+    "instagram": "Instagram",
+    "email": "Email",
+    "instagram_message": "Instagramda ulashish uchun Instagram ilovasi kerak"
+  },
+  "contact": {
+    "title": "Bog'lanish",
+    "email": "Email",
+    "address": "Manzil",
+    "phone": "Telefon",
+    "company": "Kompaniya",
+    "companyPlaceholder": "Kompaniyangiz nomini kiriting",
+    "phonePlaceholder": "Telefon raqamingizni kiriting",
+    "addressValue": "Xitoy",
+    "submit": "Xabar yuborish",
+    "successMessage": "Xabar muvaffaqiyatli yuborildi!",
+    "errorMessage": "Xabarni yuborish muvaffaqiyatsiz tugadi. Iltimos, qayta urinib ko'ring."
+  },
+  "common": {
+    "loading": "Yuklanmoqda...",
+    "error": "Xato",
+    "success": "Muvaffaqiyat",
+    "back": "Orqaga",
+    "next": "Keyingi",
+    "previous": "Oldingi",
+    "close": "Yopish",
+    "readMore": "Ko'proq o'qish"
+  }
+}
