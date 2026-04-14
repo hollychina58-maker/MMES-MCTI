@@ -3,7 +3,7 @@
         xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <!-- Homepage -->
   <url>
-    <loc>https://www.mems-mcti.com/index.html</loc>
+    <loc>https://https://mmes-mcti.hollychina58.workers.dev//index.html</loc>
     <lastmod>2026-04-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
@@ -18,7 +18,7 @@
   </url>
   <!-- Products Listing -->
   <url>
-    <loc>https://www.mems-mcti.com/products/index.html</loc>
+    <loc>https://https://mmes-mcti.hollychina58.workers.dev/products/index.html</loc>
     <lastmod>2026-04-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
@@ -33,7 +33,7 @@
   </url>
   <!-- IMU Product -->
   <url>
-    <loc>https://www.mems-mcti.com/products/imu.html</loc>
+    <loc>https://https://mmes-mcti.hollychina58.workers.dev/products/imu.html</loc>
     <lastmod>2026-04-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -48,7 +48,7 @@
   </url>
   <!-- AHRS Product -->
   <url>
-    <loc>https://www.mems-mcti.com/products/ahrs.html</loc>
+    <loc>https://https://mmes-mcti.hollychina58.workers.dev/products/ahrs.html</loc>
     <lastmod>2026-04-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -63,7 +63,7 @@
   </url>
   <!-- VG Product -->
   <url>
-    <loc>https://www.mems-mcti.com/products/vg.html</loc>
+    <loc>https://https://mmes-mcti.hollychina58.workers.dev/products/vg.html</loc>
     <lastmod>2026-04-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -78,7 +78,7 @@
   </url>
   <!-- GS Product -->
   <url>
-    <loc>https://www.mems-mcti.com/products/gs.html</loc>
+    <loc>https://https://mmes-mcti.hollychina58.workers.dev/products/gs.html</loc>
     <lastmod>2026-04-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -93,7 +93,7 @@
   </url>
   <!-- LAS/LAM Product -->
   <url>
-    <loc>https://www.mems-mcti.com/products/las-lam.html</loc>
+    <loc>https://https://mmes-mcti.hollychina58.workers.dev/products/las-lam.html</loc>
     <lastmod>2026-04-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -108,7 +108,7 @@
   </url>
   <!-- ARG Product -->
   <url>
-    <loc>https://www.mems-mcti.com/products/arg.html</loc>
+    <loc>https://https://mmes-mcti.hollychina58.workers.dev/products/arg.html</loc>
     <lastmod>2026-04-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -123,7 +123,7 @@
   </url>
   <!-- C3000 Product -->
   <url>
-    <loc>https://www.mems-mcti.com/products/c3000.html</loc>
+    <loc>https://https://mmes-mcti.hollychina58.workers.dev/products/c3000.html</loc>
     <lastmod>2026-04-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>

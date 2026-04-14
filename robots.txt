@@ -12,7 +12,7 @@ Disallow: /images/thumbnails/
 Disallow: /shared/
 
 # Sitemap
-Sitemap: https://www.mems-mcti.com/sitemap.xml
+Sitemap: https://mmes-mcti.hollychina58.workers.dev/sitemap.xml
 
 # Crawl-delay (optional, be considerate to search engines)
 Crawl-delay: 1
