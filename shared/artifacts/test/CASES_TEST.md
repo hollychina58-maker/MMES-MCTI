@@ -1,266 +1,129 @@
-# 测试用例 - MEMS-MCTI Industrial Precision UI (方案B)
+# 测试用例 - MEMS-MCTI Phase 2+3 SEO 更改
 
 ## 测试环境
 - **浏览器**: Chrome/Edge (最新版本)
-- **分辨率**: 1920x1080 (桌面), 375x667 (移动端)
+- **分辨率**: 1920x1080 (桌面)
 - **操作系统**: Windows 11
-- **测试框架**: 手工测试
+- **Node.js**: v24.14.0
+- **测试类型**: 自动化脚本验证
 
 ---
 
-## 1. 主页测试 (index.html)
+## Phase 2+3 SEO 测试用例
 
-### 1.1 页面加载与主题
-| 用例ID | 描述 | 预期结果 | 状态 |
-|--------|------|----------|------|
-| H001 | 页面加载 | 页面无白屏错误，Loader正常显示并隐藏 | - |
-| H002 | Dark Industrial主题 | 背景色为深色 (#0C0C0E)，橙色强调色 (#FF6B00) | - |
-| H003 | 网格背景 | Hero区域显示技术网格背景动画 | - |
-| H004 | 字体加载 | Inter字体正确加载，无字体替换 | - |
+### T1: FAQ 可见部分添加到产品页
 
-### 1.2 导航栏
-| 用例ID | 描述 | 预期结果 | 状态 |
-|--------|------|----------|------|
-| N001 | Logo显示 | MEMS-MCTI Logo正确显示 | - |
-| N002 | 导航链接 | 首页/产品中心/关于我们/联系我们 链接正确 | - |
-| N003 | 当前页面高亮 | 当前页面链接有橙色下划线/高亮 | - |
-| N004 | 语言切换器 | 点击展开语言下拉菜单，显示8种语言 | - |
-| N005 | 语言切换功能 | 选择语言后页面文本更新 | - |
-| N006 | 滚动时导航栏 | 滚动超过50px后导航栏添加阴影/背景变化 | - |
-| N007 | 移动端菜单 | 小屏幕下显示汉堡菜单按钮 | - |
-| N008 | 移动端菜单展开 | 点击汉堡菜单，导航菜单垂直展开 | - |
-
-### 1.3 Hero区域
-| 用例ID | 描述 | 预期结果 | 状态 |
-|--------|------|----------|------|
-| HR001 | Hero标题 | "精密测控与导航" 大标题居中显示 | - |
-| HR002 | Hero副标题 | 副标题正确显示 | - |
-| HR003 | CTA按钮 | "探索产品"和"联系我们"按钮可点击 | - |
-| HR004 | 动画效果 | 页面加载时Hero内容淡入上移动画 | - |
-| HR005 | 背景效果 | 橙色光晕脉冲动画正常 | - |
-
-### 1.4 技术优势区域
-| 用例ID | 描述 | 预期结果 | 状态 |
-|--------|------|----------|------|
-| F001 | 卡片数量 | 显示4个技术优势卡片 | - |
-| F002 | 卡片内容 | 高精度、小体积、低功耗、高可靠 | - |
-| F003 | 图标显示 | Font Awesome图标正确显示 | - |
-| F004 | 悬停效果 | 鼠标悬停时卡片上移，边框发光 | - |
-| F005 | 滚动动画 | 滚动到视口时卡片依次淡入 | - |
-
-### 1.5 产品中心区域
-| 用例ID | 描述 | 预期结果 | 状态 |
-|--------|------|----------|------|
-| P001 | 产品数量 | 显示7个产品卡片 | - |
-| P002 | 产品图片 | 图片正确加载，显示产品照片 | - |
-| P003 | 产品信息 | 分类、标题、规格标签正确 | - |
-| P004 | 悬停效果 | 悬停时卡片上移，显示橙色边框 | - |
-| P005 | 链接跳转 | 点击产品卡片跳转到对应详情页 | - |
-
-### 1.6 应用领域区域
-| 用例ID | 描述 | 预期结果 | 状态 |
-|--------|------|----------|------|
-| A001 | 领域数量 | 显示6个应用领域图标 | - |
-| A002 | 领域内容 | 航空、航天、船舶、车辆、无人机、测绘 | - |
-
-### 1.7 关于我们区域
-| 用例ID | 描述 | 预期结果 | 状态 |
-|--------|------|----------|------|
-| AB001 | 图片显示 | 导航大图正确显示 | - |
-| AB002 | 内容显示 | 公司描述文本正确 | - |
-| AB003 | 悬停效果 | 鼠标悬停时图片轻微放大 | - |
-
-### 1.8 联系我们区域
-| 用例ID | 描述 | 预期结果 | 状态 |
-|--------|------|----------|------|
-| C001 | 联系信息 | 邮箱、电话、地址信息卡片显示 | - |
-| C002 | 联系表单 | 姓名、邮箱、公司、电话、留言字段存在 | - |
-| C003 | 表单验证 | 空表单提交时显示验证错误 | - |
-| C004 | 提交按钮 | "发送消息"按钮可点击 | - |
-
-### 1.9 页脚
-| 用例ID | 描述 | 预期结果 | 状态 |
-|--------|------|----------|------|
-| FT001 | 页脚布局 | 4列布局显示品牌、产品、公司、联系方式 | - |
-| FT002 | 社交链接 | LinkedIn/Twitter图标存在 | - |
-| FT003 | 版权信息 | 显示2024版权信息 | - |
-
-### 1.10 滚动到顶部按钮
-| 用例ID | 描述 | 预期结果 | 状态 |
-|--------|------|----------|------|
-| STT001 | 按钮显示 | 滚动超过500px后按钮出现 | - |
-| STT002 | 点击功能 | 点击按钮页面平滑滚动到顶部 | - |
+| 用例ID | 描述 | 验证方法 | 预期结果 | 实际结果 | 状态 |
+|--------|------|----------|----------|----------|------|
+| T1-1 | imu.html 有 FAQ accordion | grep class="faq-accordion" | 找到 | 找到 | PASS |
+| T1-2 | ahrs.html 有 FAQ accordion | grep class="faq-accordion" | 找到 | 找到 | PASS |
+| T1-3 | vg.html 有 FAQ accordion | grep class="faq-accordion" | 找到 | 找到 | PASS |
+| T1-4 | las-lam.html 有 FAQ accordion | grep class="faq-accordion" | 找到 | 找到 | PASS |
+| T1-5 | arg.html 有 FAQ accordion | grep class="faq-accordion" | 找到 | 找到 | PASS |
+| T1-6 | gs.html 有 FAQ accordion | grep class="faq-accordion" | 找到 | 找到 | PASS |
+| T1-7 | c3000.html 有 FAQ accordion | grep class="faq-accordion" | 找到 | 找到 | PASS |
 
 ---
 
-## 2. 产品列表页测试 (products/index.html)
+### T2: FAQ Accordion JS 功能
 
-### 2.1 页面结构
-| 用例ID | 描述 | 预期结果 | 状态 |
-|--------|------|----------|------|
-| PL001 | 页面标题 | "产品中心"标题正确 | - |
-| PL002 | 面包屑导航 | 首页 > 产品中心 路径正确 | - |
-
-### 2.2 分类标签
-| 用例ID | 描述 | 预期结果 | 状态 |
-|--------|------|----------|------|
-| CT001 | 标签数量 | 显示8个分类标签 | - |
-| CT002 | 标签内容 | 全部、IMU、AHRS、VG、激光、加速度计、定位、电源 | - |
-| CT003 | 标签悬停 | 悬停时边框变橙色 | - |
-| CT004 | 标签选中 | 点击标签高亮显示 | - |
-
-### 2.3 产品筛选
-| 用例ID | 描述 | 预期结果 | 状态 |
-|--------|------|----------|------|
-| PF001 | 默认显示 | 默认显示全部18个产品 | - |
-| PF002 | 分类筛选 | 点击分类只显示该分类产品 | - |
-| PF003 | 产品计数 | 筛选后计数正确更新 | - |
-| PF004 | 返回全部 | 点击"全部产品"恢复显示全部 | - |
-
-### 2.4 产品网格
-| 用例ID | 描述 | 预期结果 | 状态 |
-|--------|------|----------|------|
-| PG001 | 网格布局 | 4列网格布局(桌面) | - |
-| PG002 | 响应式 | 平板2列，手机1列 | - |
+| 用例ID | 描述 | 验证方法 | 预期结果 | 实际结果 | 状态 |
+|--------|------|----------|----------|----------|------|
+| T2-1 | imu.html 有 FAQ JS | grep document.querySelectorAll('.faq-question') | 找到 | 未找到 | FAIL |
+| T2-2 | ahrs.html 有 FAQ JS | grep document.querySelectorAll('.faq-question') | 找到 | 未找到 | FAIL |
+| T2-3 | vg.html 有 FAQ JS | grep document.querySelectorAll('.faq-question') | 找到 | 未找到 | FAIL |
+| T2-4 | las-lam.html 有 FAQ JS | grep document.querySelectorAll('.faq-question') | 找到 | 未找到 | FAIL |
+| T2-5 | arg.html 有 FAQ JS | grep document.querySelectorAll('.faq-question') | 找到 | 未找到 | FAIL |
+| T2-6 | gs.html 有 FAQ JS | grep document.querySelectorAll('.faq-question') | 找到 | 未找到 | FAIL |
+| T2-7 | c3000.html 有 FAQ JS | grep document.querySelectorAll('.faq-question') | 找到 | 未找到 | FAIL |
 
 ---
 
-## 3. 产品详情页测试 (imu.html, c3000.html)
+### T3: FAQ CSS 添加
 
-### 3.1 页面结构
-| 用例ID | 描述 | 预期结果 | 状态 |
-|--------|------|----------|------|
-| PD001 | 两列布局 | 左侧图片，右侧产品信息 | - |
-| PD002 | 面包屑导航 | 首页 > 产品中心 > 具体产品 正确 | - |
-
-### 3.2 产品图片
-| 用例ID | 描述 | 预期结果 | 状态 |
-|--------|------|----------|------|
-| PI001 | 主图显示 | 产品大图正确显示 | - |
-| PI002 | 缩略图 | 显示3个缩略图 | - |
-| PI003 | 缩略图切换 | 点击缩略图切换主图 | - |
-
-### 3.3 产品信息
-| 用例ID | 描述 | 预期结果 | 状态 |
-|--------|------|----------|------|
-| PINFO001 | 分类标签 | 橙色分类标签正确 | - |
-| PINFO002 | 产品名称 | 中英文名称正确 | - |
-| PINFO003 | 产品描述 | 描述文本正确 | - |
-| PINFO004 | 特性列表 | 6个产品特性列表项 | - |
-| PINFO005 | 技术参数表 | 参数表格正确显示 | - |
-
-### 3.4 分享按钮
-| 用例ID | 描述 | 预期结果 | 状态 |
-|--------|------|----------|------|
-| SB001 | 按钮数量 | 显示7个分享按钮 | - |
-| SB002 | 悬停效果 | 悬停时显示各平台品牌色 | - |
-
-### 3.5 询价表单
-| 用例ID | 描述 | 预期结果 | 状态 |
-|--------|------|----------|------|
-| IF001 | 表单布局 | 2列布局，姓名+邮箱，产品+留言 | - |
-| IF002 | 产品自动填充 | 根据当前页面自动选择产品 | - |
-| IF003 | 表单验证 | 空表单提交时显示错误 | - |
-| IF004 | 提交功能 | 提交按钮可点击 | - |
+| 用例ID | 描述 | 验证方法 | 预期结果 | 实际结果 | 状态 |
+|--------|------|----------|----------|----------|------|
+| T3-1 | imu.html 有 FAQ CSS | grep .faq-accordion { | 找到 | 未找到 | FAIL |
+| T3-2 | ahrs.html 有 FAQ CSS | grep .faq-accordion { | 找到 | 未找到 | FAIL |
+| T3-3 | vg.html 有 FAQ CSS | grep .faq-accordion { | 找到 | 未找到 | FAIL |
+| T3-4 | las-lam.html 有 FAQ CSS | grep .faq-accordion { | 找到 | 未找到 | FAIL |
+| T3-5 | arg.html 有 FAQ CSS | grep .faq-accordion { | 找到 | 未找到 | FAIL |
+| T3-6 | gs.html 有 FAQ CSS | grep .faq-accordion { | 找到 | 未找到 | FAIL |
+| T3-7 | c3000.html 有 FAQ CSS | grep .faq-accordion { | 找到 | 未找到 | FAIL |
 
 ---
 
-## 4. 语言切换测试
+### T4: FAQPage Schema Questions 都有 acceptedAnswer
 
-### 4.1 支持语言
-| 用例ID | 描述 | 预期结果 | 状态 |
-|--------|------|----------|------|
-| L001 | 中文 | 默认中文正确 | - |
-| L002 | 英文 | 切换到英文后页面更新 | - |
-| L003 | 俄文 | 切换到俄文方向RTL | - |
-| L004 | 阿拉伯文 | 切换到阿拉伯文方向RTL，文字从右到左 | - |
-| L005 | 波斯文 | 切换到波斯文方向RTL | - |
-| L006 | 土耳其文 | 土耳其语正常 | - |
-| L007 | 乌兹别克文 | 乌兹别克语正常 | - |
-| L008 | 拉丁文 | 拉丁语正常 | - |
-
-### 4.2 语言偏好
-| 用例ID | 描述 | 预期结果 | 状态 |
-|--------|------|----------|------|
-| LP001 | 本地存储 | 切换语言后刷新页面保持选择 | - |
+| 用例ID | 描述 | 验证方法 | 预期结果 | 实际结果 | 状态 |
+|--------|------|----------|----------|----------|------|
+| T4-1 | imu.html FAQPage | JSON-LD 解析 | 5 Questions, 5 Answers | 5, 5 | PASS |
+| T4-2 | ahrs.html FAQPage | JSON-LD 解析 | 5 Questions, 5 Answers | 5, 5 | PASS |
+| T4-3 | vg.html FAQPage | JSON-LD 解析 | 5 Questions, 5 Answers | 5, 5 | PASS |
+| T4-4 | las-lam.html FAQPage | JSON-LD 解析 | 5 Questions, 5 Answers | 5, 5 | PASS |
+| T4-5 | arg.html FAQPage | JSON-LD 解析 | 5 Questions, 5 Answers | 5, 5 | PASS |
+| T4-6 | gs.html FAQPage | JSON-LD 解析 | 5 Questions, 5 Answers | 5, 5 | PASS |
+| T4-7 | c3000.html FAQPage | JSON-LD 解析 | 5 Questions, 5 Answers | 5, 5 | PASS |
 
 ---
 
-## 5. 动画效果测试
+### T5: BlogListing Schema in blog/index.html
 
-### 5.1 滚动动画
-| 用例ID | 描述 | 预期结果 | 状态 |
-|--------|------|----------|------|
-| AN001 | 淡入上移 | 滚动到视口元素淡入上移显示 | - |
-| AN002 | 交错动画 | 卡片依次延迟100ms淡入 | - |
-| AN003 | 减少动画 | 系统设置减少动画时无动画 | - |
-
-### 5.2 悬停动画
-| 用例ID | 描述 | 预期结果 | 状态 |
-|--------|------|----------|------|
-| HV001 | 卡片悬停 | 卡片上移6px，边框发光 | - |
-| HV002 | 按钮悬停 | 按钮上移2px，阴影增强 | - |
-| HV003 | 图片悬停 | 图片缩放1.05 | - |
-
-### 5.3 导航动画
-| 用例ID | 描述 | 预期结果 | 状态 |
-|--------|------|----------|------|
-| NAV001 | 链接下划线 | 悬停时下划线从左到右展开 | - |
-| NAV002 | 移动菜单 | 汉堡菜单展开动画 | - |
+| 用例ID | 描述 | 验证方法 | 预期结果 | 实际结果 | 状态 |
+|--------|------|----------|----------|----------|------|
+| T5-1 | BlogListing schema | grep "@type": "Blog" | 找到 | 找到 | PASS |
 
 ---
 
-## 6. 表单测试
+### T6: SiteNavigationElement in index.html
 
-### 6.1 验证
-| 用例ID | 描述 | 预期结果 | 状态 |
-|--------|------|----------|------|
-| FV001 | 必填字段 | 未填写时显示错误提示 | - |
-| FV002 | 邮箱格式 | 邮箱格式错误时提示 | - |
-| FV003 | 最小长度 | 留言少于10字符时提示 | - |
-
-### 6.2 提交
-| 用例ID | 描述 | 预期结果 | 状态 |
-|--------|------|----------|------|
-| FS001 | 加载状态 | 提交时按钮显示加载状态 | - |
-| FS002 | 成功消息 | 提交成功后显示成功提示 | - |
-| FS003 | 错误处理 | 提交失败时显示错误消息 | - |
+| 用例ID | 描述 | 验证方法 | 预期结果 | 实际结果 | 状态 |
+|--------|------|----------|----------|----------|------|
+| T6-1 | SiteNavigationElement | grep SiteNavigationElement | 找到 | 找到 | PASS |
 
 ---
 
-## 7. 响应式测试
+### T7: 所有 locale JSON 文件有效
 
-### 7.1 断点
-| 用例ID | 描述 | 预期结果 | 状态 |
-|--------|------|----------|------|
-| R001 | 桌面 >1200px | 4列产品网格 | - |
-| R002 | 平板 992-1199px | 3列产品网格 | - |
-| R003 | 小平板 768-991px | 2列产品网格，导航显示汉堡 | - |
-| R004 | 手机 <768px | 1列布局 | - |
-
----
-
-## 8. JavaScript错误检查
-
-| 用例ID | 描述 | 预期结果 | 状态 |
-|--------|------|----------|------|
-| JS001 | 控制台错误 | 无Error级别错误 | - |
-| JS002 | 模块加载 | ES模块正确加载 | - |
-| JS003 | EmailJS | 初始化无错误（使用demo模式） | - |
-| JS004 | i18n加载 | 翻译文件加载成功 | - |
+| 用例ID | 文件 | 验证方法 | 预期结果 | 实际结果 | 状态 |
+|--------|------|----------|----------|----------|------|
+| T7-1 | locales/en/products.json | JSON.parse | Valid | Valid | PASS |
+| T7-2 | locales/zh/products.json | JSON.parse | Valid | Valid | PASS |
+| T7-3 | locales/ru/products.json | JSON.parse | Valid | Valid | PASS |
+| T7-4 | locales/tr/products.json | JSON.parse | Valid | Valid | PASS |
+| T7-5 | locales/fa/products.json | JSON.parse | Valid | Valid | PASS |
+| T7-6 | locales/uz/products.json | JSON.parse | Valid | Valid | PASS |
+| T7-7 | locales/la/products.json | JSON.parse | Valid | Valid | PASS |
+| T7-8 | locales/ar/products.json | JSON.parse | Valid | Valid | PASS |
+| T7-9 | locales/en/common.json | JSON.parse | Valid | Valid | PASS |
+| T7-10 | locales/zh/common.json | JSON.parse | Valid | Valid | PASS |
+| T7-11 | locales/ru/common.json | JSON.parse | Valid | Valid | PASS |
+| T7-12 | locales/tr/common.json | JSON.parse | Valid | Valid | PASS |
+| T7-13 | locales/fa/common.json | JSON.parse | Valid | Valid | PASS |
+| T7-14 | locales/uz/common.json | JSON.parse | Valid | Valid | PASS |
+| T7-15 | locales/la/common.json | JSON.parse | Valid | Valid | PASS |
+| T7-16 | locales/ar/common.json | JSON.parse | Valid | Valid | PASS |
 
 ---
 
 ## 测试汇总
 
-| 类别 | 通过 | 失败 | 未测试 |
-|------|------|------|--------|
-| 主页测试 | - | - | 32 |
-| 产品列表页 | - | - | 10 |
-| 产品详情页 | - | - | 14 |
-| 语言切换 | - | - | 10 |
-| 动画效果 | - | - | 8 |
-| 表单测试 | - | - | 7 |
-| 响应式测试 | - | - | 4 |
-| JS错误检查 | - | - | 4 |
-| **总计** | **0** | **0** | **89** |
+| 测试 | 通过 | 失败 |
+|------|------|------|
+| T1: FAQ 可见部分 | 7 | 0 |
+| T2: FAQ Accordion JS | 0 | 7 |
+| T3: FAQ CSS | 0 | 7 |
+| T4: FAQPage Schema | 7 | 0 |
+| T5: BlogListing | 1 | 0 |
+| T6: SiteNavigationElement | 1 | 0 |
+| T7: Locale JSON | 16 | 0 |
+| **总计** | **32** | **14** |
+
+---
+
+## Bug 汇总
+
+| Bug ID | 严重度 | 描述 | 位置 |
+|--------|--------|------|------|
+| BUG-T2-01 | Medium | FAQ Accordion JS 未插入 | phase2-3.js 第 206 行 |
+| BUG-T3-01 | Medium | FAQ CSS 未插入 | phase2-3.js 第 202 行 |

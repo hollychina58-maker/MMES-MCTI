@@ -40,6 +40,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome-6.5.1/css/all.min.css">
   <link rel="stylesheet" href="../css/main.css">
+  <style>.faq-accordion{max-width:800px;margin:0 auto}.faq-item{border-bottom:1px solid rgba(255,255,255,0.1)}.faq-question{width:100%;display:flex;justify-content:space-between;align-items:center;padding:1.25rem 0;background:none;border:none;color:var(--text-primary,#fff);font-size:1rem;font-weight:500;text-align:left;cursor:pointer;transition:color 0.3s ease}.faq-question:hover{color:var(--accent-color,#00d4ff)}.faq-question i{transition:transform 0.3s ease;color:var(--accent-color,#00d4ff)}.faq-question[aria-expanded="true"] i{transform:rotate(180deg)}.faq-answer{max-height:0;overflow:hidden;transition:max-height 0.3s ease}.faq-answer p{padding:0 0 1.25rem;color:rgba(255,255,255,0.7);line-height:1.7;margin:0}.faq-item.open .faq-answer{max-height:500px}</style>
 
   <!-- JSON-LD Product Schema -->
   <script type="application/ld+json">
@@ -146,6 +147,17 @@
 ]
 }
 </script>
+<!-- Hreflang Tags -->
+  <link rel="alternate" hreflang="zh" href="https://mmes-mcti.hollychina58.workers.dev/products/vg.html">
+  <link rel="alternate" hreflang="en" href="https://mmes-mcti.hollychina58.workers.dev/?lang=en">
+  <link rel="alternate" hreflang="ru" href="https://mmes-mcti.hollychina58.workers.dev/?lang=ru">
+  <link rel="alternate" hreflang="ar" href="https://mmes-mcti.hollychina58.workers.dev/?lang=ar">
+  <link rel="alternate" hreflang="uz" href="https://mmes-mcti.hollychina58.workers.dev/?lang=uz">
+  <link rel="alternate" hreflang="fa" href="https://mmes-mcti.hollychina58.workers.dev/?lang=fa">
+  <link rel="alternate" hreflang="tr" href="https://mmes-mcti.hollychina58.workers.dev/?lang=tr">
+  <link rel="alternate" hreflang="la" href="https://mmes-mcti.hollychina58.workers.dev/?lang=la">
+  <link rel="alternate" hreflang="x-default" href="https://mmes-mcti.hollychina58.workers.dev/?lang=zh">
+  <!-- End Hreflang -->
 </head>
 <body>
   <div class="page-loader"><div class="loader-spinner"></div></div>
@@ -202,7 +214,7 @@
       <div class="container">
         <div class="product-detail-grid fade-in-up">
           <div class="product-gallery">
-            <img src="../images/PA-VG11.jpg" alt="PA-VG11" class="product-main-image" data-product-name="PA-VG11">
+            <img width="800" height="600" src="../images/PA-VG11.jpg" alt="PA-VG11" class="product-main-image" data-product-name="PA-VG11">
           </div>
           <div class="product-info">
             <div class="product-header">
@@ -291,7 +303,60 @@
     </section>
   </main>
 
-  <footer class="footer">
+  
+    <section class="section faq-section">
+      <div class="container">
+        <h2 class="section-title">常见问题</h2>
+        <div class="faq-accordion">
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false">
+              <span>垂直陀螺仪的自动找北功能是如何工作的？</span>
+              <i class="fas fa-chevron-down"></i>
+            </button>
+            <div class="faq-answer">
+              <p>垂直陀螺仪利用地球自转角速度分量来确定真北方向。设备通过检测重力矢量和地球自转矢量的变化，自动计算并维持方位基准，无需外部参考即可保持航向稳定。</p>
+            </div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false">
+              <span>VG和AHRS有什么区别？</span>
+              <i class="fas fa-chevron-down"></i>
+            </button>
+            <div class="faq-answer">
+              <p>VG（垂直陀螺仪）主要用于维持载体的航向基准，核心是三轴稳定平台或方位基准系统。AHRS是 Attitude Heading Reference System，输出姿态角和航向角，更侧重于数据输出。VG精度更高但结构更复杂。</p>
+            </div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false">
+              <span>PA-VG01支持哪些接口？</span>
+              <i class="fas fa-chevron-down"></i>
+            </button>
+            <div class="faq-answer">
+              <p>PA-VG01支持RS-422和RS-232通信接口，波特率可配置（9600-115200），支持NMEA0183和自定义二进制协议输出。</p>
+            </div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false">
+              <span>垂直陀螺仪适用于哪些应用场景？</span>
+              <i class="fas fa-chevron-down"></i>
+            </button>
+            <div class="faq-answer">
+              <p>PA-VG01广泛应用于各类飞行器（固定翼飞机、直升机、无人机）、船舶稳定平台、车辆导航系统，以及需要高精度航向基准的工业应用。</p>
+            </div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false">
+              <span>VG产品需要定期校准吗？</span>
+              <i class="fas fa-chevron-down"></i>
+            </button>
+            <div class="faq-answer">
+              <p>PA-VG01采用自动找北设计，正常工作前会自动进行自校准，无需手动操作。建议每6个月进行一次全面校准以确保最佳精度。</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+<footer class="footer">
     <div class="container">
       <div class="footer-grid">
         <div class="footer-brand">
@@ -339,5 +404,21 @@
   <script type="module" src="../js/form.js"></script>
   <script type="module" src="../js/scroll-effects.js"></script>
   <script type="module" src="../js/main.js"></script>
+<script>
+// FAQ Accordion
+document.querySelectorAll(".faq-question").forEach(btn => {
+  btn.addEventListener("click", () => {
+    const item = btn.closest(".faq-item");
+    const isOpen = item.classList.contains("open");
+    document.querySelectorAll(".faq-item").forEach(el => {
+      el.classList.remove("open");
+      el.querySelector(".faq-question").setAttribute("aria-expanded", "false");
+    });
+    if (!isOpen) {
+      item.classList.add("open");
+      btn.setAttribute("aria-expanded", "true");
+    }
+  });
+});</script>
 </body>
 </html>

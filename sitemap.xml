@@ -172,4 +172,11 @@
     <xhtml:link rel="alternate" hreflang="zh" href="https://mmes-mcti.hollychina58.workers.dev/blog/articles/rtk-gps-principles.html?lang=zh"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://mmes-mcti.hollychina58.workers.dev/blog/articles/rtk-gps-principles.html?lang=en"/>
   </url>
+  <!-- 404 Page -->
+  <url>
+    <loc>https://mmes-mcti.hollychina58.workers.dev/404.html</loc>
+    <lastmod>2026-04-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.1</priority>
+  </url>
 </urlset>

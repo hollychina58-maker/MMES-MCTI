@@ -46,9 +46,9 @@ const I18n = {
     try {
       // Determine relative path based on current page location
       const path = window.location.pathname;
-      const isInProductsDir = path.includes('/products/');
-      const isInBlogArticlesDir = path.includes('/blog/articles/');
-      const isInBlogDir = path.includes('/blog/');
+      const isInProductsDir = /\/products\//.test(path);
+      const isInBlogArticlesDir = /\/blog\/articles\//.test(path);
+      const isInBlogDir = /\/blog\//.test(path);
 
       let basePath;
       if (isInProductsDir) {
@@ -63,12 +63,18 @@ const I18n = {
 
       // Load common translations (use relative path)
       const commonResponse = await fetch(`${basePath}locales/${langCode}/common.json`);
-      if (!commonResponse.ok) throw new Error(`Failed to load common.json for ${langCode}`);
+      if (!commonResponse.ok) {
+        console.error(`[i18n] Failed to load common.json for ${langCode} from ${basePath}locales/ - status: ${commonResponse.status}`);
+        throw new Error(`Failed to load common.json for ${langCode}`);
+      }
       this.translations.common = await commonResponse.json();
 
       // Load product translations
       const productsResponse = await fetch(`${basePath}locales/${langCode}/products.json`);
-      if (!productsResponse.ok) throw new Error(`Failed to load products.json for ${langCode}`);
+      if (!productsResponse.ok) {
+        console.error(`[i18n] Failed to load products.json for ${langCode} from ${basePath}locales/ - status: ${productsResponse.status}`);
+        throw new Error(`Failed to load products.json for ${langCode}`);
+      }
       this.translations.products = await productsResponse.json();
 
       this.currentLang = langCode;
@@ -79,13 +85,16 @@ const I18n = {
       // Store preference
       localStorage.setItem('preferredLanguage', langCode);
 
-      console.log(`[i18n] Loaded locale: ${langCode}`);
+      console.log(`[i18n] Loaded locale: ${langCode} from basePath: ${basePath}`);
     } catch (error) {
       console.error(`[i18n] Error loading locale ${langCode}:`, error);
 
-      // Fallback to Chinese if loading fails
+      // If the requested locale is not zh, try fallback; otherwise rethrow
       if (langCode !== 'zh') {
+        console.warn(`[i18n] Falling back to Chinese for locale ${langCode}`);
         await this.loadLocale('zh');
+      } else {
+        throw error;
       }
     }
   },

@@ -4,7 +4,8 @@
     "products": "المنتجات",
     "about": "من نحن",
     "contact": "اتصل بنا",
-    "language": "اللغة"
+    "language": "اللغة",
+    "blog": "المدونة التقنية"
   },
   "productNames": {
     "imu": "وحدة القياس بالقصور",

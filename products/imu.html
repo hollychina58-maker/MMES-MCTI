@@ -40,6 +40,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
   <link rel="stylesheet" href="../css/main.css">
+  <style>.faq-accordion{max-width:800px;margin:0 auto}.faq-item{border-bottom:1px solid rgba(255,255,255,0.1)}.faq-question{width:100%;display:flex;justify-content:space-between;align-items:center;padding:1.25rem 0;background:none;border:none;color:var(--text-primary,#fff);font-size:1rem;font-weight:500;text-align:left;cursor:pointer;transition:color 0.3s ease}.faq-question:hover{color:var(--accent-color,#00d4ff)}.faq-question i{transition:transform 0.3s ease;color:var(--accent-color,#00d4ff)}.faq-question[aria-expanded="true"] i{transform:rotate(180deg)}.faq-answer{max-height:0;overflow:hidden;transition:max-height 0.3s ease}.faq-answer p{padding:0 0 1.25rem;color:rgba(255,255,255,0.7);line-height:1.7;margin:0}.faq-item.open .faq-answer{max-height:500px}</style>
 
   <!-- JSON-LD Product Schema -->
   <script type="application/ld+json">
@@ -146,6 +147,17 @@
 ]
 }
 </script>
+<!-- Hreflang Tags -->
+  <link rel="alternate" hreflang="zh" href="https://mmes-mcti.hollychina58.workers.dev/products/imu.html">
+  <link rel="alternate" hreflang="en" href="https://mmes-mcti.hollychina58.workers.dev/?lang=en">
+  <link rel="alternate" hreflang="ru" href="https://mmes-mcti.hollychina58.workers.dev/?lang=ru">
+  <link rel="alternate" hreflang="ar" href="https://mmes-mcti.hollychina58.workers.dev/?lang=ar">
+  <link rel="alternate" hreflang="uz" href="https://mmes-mcti.hollychina58.workers.dev/?lang=uz">
+  <link rel="alternate" hreflang="fa" href="https://mmes-mcti.hollychina58.workers.dev/?lang=fa">
+  <link rel="alternate" hreflang="tr" href="https://mmes-mcti.hollychina58.workers.dev/?lang=tr">
+  <link rel="alternate" hreflang="la" href="https://mmes-mcti.hollychina58.workers.dev/?lang=la">
+  <link rel="alternate" hreflang="x-default" href="https://mmes-mcti.hollychina58.workers.dev/?lang=zh">
+  <!-- End Hreflang -->
 </head>
 <body>
   <div class="page-loader"><div class="loader-spinner"></div></div>
@@ -202,11 +214,11 @@
       <div class="container">
         <div class="product-detail-grid fade-in-up">
           <div class="product-gallery">
-            <img src="../images/PA-IMU-01D.jpg" alt="PA-IMU-01D" class="product-main-image" data-product-name="PA-IMU-01D">
+            <img width="800" height="600" src="../images/PA-IMU-01D.jpg" alt="PA-IMU-01D" class="product-main-image" data-product-name="PA-IMU-01D">
             <div class="product-thumbnails">
-              <img src="../images/PA-IMU-01D.jpg" alt="PA-IMU-01D" class="product-thumbnail active" loading="lazy">
-              <img src="../images/PA-IMU-01G.jpg" alt="PA-IMU-01G" class="product-thumbnail" loading="lazy">
-              <img src="../images/PA-IMU-02D03D.jpg" alt="PA-IMU-02D03D" class="product-thumbnail" loading="lazy">
+              <img src="../images/PA-IMU-01D.jpg" alt="PA-IMU-01D" class="product-thumbnail active" width="800" height="600" loading="lazy">
+              <img src="../images/PA-IMU-01G.jpg" alt="PA-IMU-01G" class="product-thumbnail" width="800" height="600" loading="lazy">
+              <img src="../images/PA-IMU-02D03D.jpg" alt="PA-IMU-02D03D" class="product-thumbnail" width="800" height="600" loading="lazy">
             </div>
           </div>
           <div class="product-info">
@@ -300,7 +312,60 @@
     </section>
   </main>
 
-  <footer class="footer">
+  
+    <section class="section faq-section">
+      <div class="container">
+        <h2 class="section-title">常见问题</h2>
+        <div class="faq-accordion">
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false">
+              <span>PA-IMU-01D的陀螺仪零偏稳定性是多少？</span>
+              <i class="fas fa-chevron-down"></i>
+            </button>
+            <div class="faq-answer">
+              <p>PA-IMU-01D的陀螺仪零偏稳定性小于0.5°/h，加速度计零偏稳定性小于1mg。这一精度水平适用于大多数无人机、车辆姿态测量和工业自动化应用。</p>
+            </div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false">
+              <span>PA-IMU-01D支持哪些通信接口？</span>
+              <i class="fas fa-chevron-down"></i>
+            </button>
+            <div class="faq-answer">
+              <p>PA-IMU-01D支持多种通信接口，包括RS-422、RS-232和CAN接口，可方便地与各种飞控系统和工业控制器进行连接。</p>
+            </div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false">
+              <span>MEMS IMU和光纤陀螺IMU有什么区别？</span>
+              <i class="fas fa-chevron-down"></i>
+            </button>
+            <div class="faq-answer">
+              <p>MEMS IMU（如PA-IMU-01D）采用微机电系统技术，具有体积小（85×45×25mm）、重量轻（<100g）、功耗低（<2W）、成本低的优势，精度适合中低端应用。光纤陀螺IMU精度更高（可达0.01°/h），但体积大、成本高、功耗大，适用于航空航天等高精度需求。</p>
+            </div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false">
+              <span>PA-IMU-01D的工作温度范围是多少？</span>
+              <i class="fas fa-chevron-down"></i>
+            </button>
+            <div class="faq-answer">
+              <p>PA-IMU-01D的工作温度范围为-40°C至+60°C，具有良好的环境适应性，可承受较大的温度变化，适用于各种恶劣环境条件下的应用。</p>
+            </div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false">
+              <span>如何将IMU数据集成到飞控系统中？</span>
+              <i class="fas fa-chevron-down"></i>
+            </button>
+            <div class="faq-answer">
+              <p>PA-IMU-01D输出标准格式的姿态数据，可通过RS-232/RS-422或CAN接口与飞控系统通信。建议在集成前进行零偏校准和温度补偿，以获得最佳性能。典型连接方式为：IMU的TX/RX连接到飞控的UART接口，设置正确的波特率（通常115200或230400）。</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+<footer class="footer">
     <div class="container">
       <div class="footer-grid">
         <div class="footer-brand">
@@ -348,5 +413,21 @@
   <script type="module" src="../js/form.js"></script>
   <script type="module" src="../js/scroll-effects.js"></script>
   <script type="module" src="../js/main.js"></script>
+<script>
+// FAQ Accordion
+document.querySelectorAll(".faq-question").forEach(btn => {
+  btn.addEventListener("click", () => {
+    const item = btn.closest(".faq-item");
+    const isOpen = item.classList.contains("open");
+    document.querySelectorAll(".faq-item").forEach(el => {
+      el.classList.remove("open");
+      el.querySelector(".faq-question").setAttribute("aria-expanded", "false");
+    });
+    if (!isOpen) {
+      item.classList.add("open");
+      btn.setAttribute("aria-expanded", "true");
+    }
+  });
+});</script>
 </body>
 </html>

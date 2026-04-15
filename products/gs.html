@@ -40,6 +40,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
   <link rel="stylesheet" href="../css/main.css">
+  <style>.faq-accordion{max-width:800px;margin:0 auto}.faq-item{border-bottom:1px solid rgba(255,255,255,0.1)}.faq-question{width:100%;display:flex;justify-content:space-between;align-items:center;padding:1.25rem 0;background:none;border:none;color:var(--text-primary,#fff);font-size:1rem;font-weight:500;text-align:left;cursor:pointer;transition:color 0.3s ease}.faq-question:hover{color:var(--accent-color,#00d4ff)}.faq-question i{transition:transform 0.3s ease;color:var(--accent-color,#00d4ff)}.faq-question[aria-expanded="true"] i{transform:rotate(180deg)}.faq-answer{max-height:0;overflow:hidden;transition:max-height 0.3s ease}.faq-answer p{padding:0 0 1.25rem;color:rgba(255,255,255,0.7);line-height:1.7;margin:0}.faq-item.open .faq-answer{max-height:500px}</style>
 
   <!-- JSON-LD Product Schema -->
   <script type="application/ld+json">
@@ -146,6 +147,17 @@
 ]
 }
 </script>
+<!-- Hreflang Tags -->
+  <link rel="alternate" hreflang="zh" href="https://mmes-mcti.hollychina58.workers.dev/products/gs.html">
+  <link rel="alternate" hreflang="en" href="https://mmes-mcti.hollychina58.workers.dev/?lang=en">
+  <link rel="alternate" hreflang="ru" href="https://mmes-mcti.hollychina58.workers.dev/?lang=ru">
+  <link rel="alternate" hreflang="ar" href="https://mmes-mcti.hollychina58.workers.dev/?lang=ar">
+  <link rel="alternate" hreflang="uz" href="https://mmes-mcti.hollychina58.workers.dev/?lang=uz">
+  <link rel="alternate" hreflang="fa" href="https://mmes-mcti.hollychina58.workers.dev/?lang=fa">
+  <link rel="alternate" hreflang="tr" href="https://mmes-mcti.hollychina58.workers.dev/?lang=tr">
+  <link rel="alternate" hreflang="la" href="https://mmes-mcti.hollychina58.workers.dev/?lang=la">
+  <link rel="alternate" hreflang="x-default" href="https://mmes-mcti.hollychina58.workers.dev/?lang=zh">
+  <!-- End Hreflang -->
 </head>
 <body>
   <div class="page-loader"><div class="loader-spinner"></div></div>
@@ -202,13 +214,13 @@
       <div class="container">
         <div class="product-detail-grid fade-in-up">
           <div class="product-gallery">
-            <img src="../images/PA-GS.jpg" alt="PA-GS" class="product-main-image" data-product-name="PA-GS">
+            <img width="800" height="600" src="../images/PA-GS.jpg" alt="PA-GS" class="product-main-image" data-product-name="PA-GS">
             <div class="product-thumbnails">
-              <img src="../images/PA-GS.jpg" alt="PA-GS" class="product-thumbnail active" loading="lazy">
-              <img src="../images/PA-GS01.jpg" alt="PA-GS01" class="product-thumbnail" loading="lazy">
-              <img src="../images/PA-GS02.jpg" alt="PA-GS02" class="product-thumbnail" loading="lazy">
-              <img src="../images/PA-GSAUTO.jpg" alt="PA-GSAUTO" class="product-thumbnail" loading="lazy">
-              <img src="../images/PA-GSFA1.jpg" alt="PA-GSFA1" class="product-thumbnail" loading="lazy">
+              <img src="../images/PA-GS.jpg" alt="PA-GS" class="product-thumbnail active" width="800" height="600" loading="lazy">
+              <img src="../images/PA-GS01.jpg" alt="PA-GS01" class="product-thumbnail" width="800" height="600" loading="lazy">
+              <img src="../images/PA-GS02.jpg" alt="PA-GS02" class="product-thumbnail" width="800" height="600" loading="lazy">
+              <img src="../images/PA-GSAUTO.jpg" alt="PA-GSAUTO" class="product-thumbnail" width="800" height="600" loading="lazy">
+              <img src="../images/PA-GSFA1.jpg" alt="PA-GSFA1" class="product-thumbnail" width="800" height="600" loading="lazy">
             </div>
           </div>
           <div class="product-info">
@@ -304,7 +316,60 @@
     </section>
   </main>
 
-  <footer class="footer">
+  
+    <section class="section faq-section">
+      <div class="container">
+        <h2 class="section-title">常见问题</h2>
+        <div class="faq-accordion">
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false">
+              <span>RTK定位精度能达到多少？</span>
+              <i class="fas fa-chevron-down"></i>
+            </button>
+            <div class="faq-answer">
+              <p>PA-GS系列RTK定位精度在RTK模式下可达1-2cm（水平）、2-3cm（高程）。单点定位精度为1-5米，DGPS模式为0.5-2米。可根据应用需求选择合适的定位模式。</p>
+            </div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false">
+              <span>双天线RTK系统有什么优势？</span>
+              <i class="fas fa-chevron-down"></i>
+            </button>
+            <div class="faq-answer">
+              <p>双天线RTK系统除了提供高精度位置信息外，还能实时测量载体航向角。两天线基线长度2米时，航向角精度可达±0.2°，在船舶导航和车辆定位中可替代传统磁罗经。</p>
+            </div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false">
+              <span>RTK系统需要哪些组件？</span>
+              <i class="fas fa-chevron-down"></i>
+            </button>
+            <div class="faq-answer">
+              <p>完整的RTK系统包括：基准站接收机、移动站接收机、数据链路（UHF电台或网络）、控制软件和天线。PA-GS系列提供完整套装，也可单独购买接收机。</p>
+            </div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false">
+              <span>网络RTK与传统RTK有什么区别？</span>
+              <i class="fas fa-chevron-down"></i>
+            </button>
+            <div class="faq-answer">
+              <p>网络RTK通过CORS（连续运行参考站）网络提供差分修正数据，无需自建基准站，部署更快、成本更低。传统RTK需要自建基准站，精度更高但部署成本较高。</p>
+            </div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false">
+              <span>PA-GS系列支持哪些卫星系统？</span>
+              <i class="fas fa-chevron-down"></i>
+            </button>
+            <div class="faq-answer">
+              <p>PA-GS系列支持GPS、GLONASS和北斗（BDS）三系统联合定位，支持L1/L2/L5多频信号跟踪，定位可用性和精度优于单系统接收机。</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+<footer class="footer">
     <div class="container">
       <div class="footer-grid">
         <div class="footer-brand">
@@ -352,5 +417,21 @@
   <script type="module" src="../js/form.js"></script>
   <script type="module" src="../js/scroll-effects.js"></script>
   <script type="module" src="../js/main.js"></script>
+<script>
+// FAQ Accordion
+document.querySelectorAll(".faq-question").forEach(btn => {
+  btn.addEventListener("click", () => {
+    const item = btn.closest(".faq-item");
+    const isOpen = item.classList.contains("open");
+    document.querySelectorAll(".faq-item").forEach(el => {
+      el.classList.remove("open");
+      el.querySelector(".faq-question").setAttribute("aria-expanded", "false");
+    });
+    if (!isOpen) {
+      item.classList.add("open");
+      btn.setAttribute("aria-expanded", "true");
+    }
+  });
+});</script>
 </body>
 </html>
