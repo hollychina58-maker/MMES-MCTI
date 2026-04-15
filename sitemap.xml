@@ -136,4 +136,40 @@
     <xhtml:link rel="alternate" hreflang="tr" href="https://mmes-mcti.hollychina58.workers.dev/products/c3000.html?lang=tr"/>
     <xhtml:link rel="alternate" hreflang="la" href="https://mmes-mcti.hollychina58.workers.dev/products/c3000.html?lang=la"/>
   </url>
+  <!-- Blog Listing -->
+  <url>
+    <loc>https://mmes-mcti.hollychina58.workers.dev/blog/index.html</loc>
+    <lastmod>2026-04-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://mmes-mcti.hollychina58.workers.dev/blog/index.html?lang=zh"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mmes-mcti.hollychina58.workers.dev/blog/index.html?lang=en"/>
+  </url>
+  <!-- Blog Article: IMU Selection Guide -->
+  <url>
+    <loc>https://mmes-mcti.hollychina58.workers.dev/blog/articles/imu-selection-guide.html</loc>
+    <lastmod>2026-04-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://mmes-mcti.hollychina58.workers.dev/blog/articles/imu-selection-guide.html?lang=zh"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mmes-mcti.hollychina58.workers.dev/blog/articles/imu-selection-guide.html?lang=en"/>
+  </url>
+  <!-- Blog Article: IMU vs AHRS vs GPS-INS -->
+  <url>
+    <loc>https://mmes-mcti.hollychina58.workers.dev/blog/articles/imu-vs-ahrs-gps-ins.html</loc>
+    <lastmod>2026-04-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://mmes-mcti.hollychina58.workers.dev/blog/articles/imu-vs-ahrs-gps-ins.html?lang=zh"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mmes-mcti.hollychina58.workers.dev/blog/articles/imu-vs-ahrs-gps-ins.html?lang=en"/>
+  </url>
+  <!-- Blog Article: RTK GPS Principles -->
+  <url>
+    <loc>https://mmes-mcti.hollychina58.workers.dev/blog/articles/rtk-gps-principles.html</loc>
+    <lastmod>2026-04-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://mmes-mcti.hollychina58.workers.dev/blog/articles/rtk-gps-principles.html?lang=zh"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mmes-mcti.hollychina58.workers.dev/blog/articles/rtk-gps-principles.html?lang=en"/>
+  </url>
 </urlset>

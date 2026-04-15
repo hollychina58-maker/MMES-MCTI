@@ -61,6 +61,56 @@
     }
   }
   </script>
+
+  <!-- FAQPage Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "PA-IMU-01D的陀螺仪零偏稳定性是多少？",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "PA-IMU-01D的陀螺仪零偏稳定性小于0.5°/h，加速度计零偏稳定性小于1mg。这一精度水平适用于大多数无人机、车辆姿态测量和工业自动化应用。"
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "PA-IMU-01D支持哪些通信接口？",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "PA-IMU-01D支持多种通信接口，包括RS-422、RS-232和CAN接口，可方便地与各种飞控系统和工业控制器进行连接。"
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "MEMS IMU和光纤陀螺IMU有什么区别？",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "MEMS IMU（如PA-IMU-01D）采用微机电系统技术，具有体积小（85×45×25mm）、重量轻（<100g）、功耗低（<2W）、成本低的优势，精度适合中低端应用。光纤陀螺IMU精度更高（可达0.01°/h），但体积大、成本高、功耗大，适用于航空航天等高精度需求。"
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "PA-IMU-01D的工作温度范围是多少？",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "PA-IMU-01D的工作温度范围为-40°C至+60°C，具有良好的环境适应性，可承受较大的温度变化，适用于各种恶劣环境条件下的应用。"
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "如何将IMU数据集成到飞控系统中？",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "PA-IMU-01D输出标准格式的姿态数据，可通过RS-232/RS-422或CAN接口与飞控系统通信。建议在集成前进行零偏校准和温度补偿，以获得最佳性能。典型连接方式为：IMU的TX/RX连接到飞控的UART接口，设置正确的波特率（通常115200或230400）。"
+        }
+      }
+    ]
+  }
+  </script>
 </head>
 <body>
   <div class="page-loader"><div class="loader-spinner"></div></div>
@@ -73,6 +123,7 @@
         <a href="../index.html" class="nav-link" data-i18n="nav.home">首页</a>
         <a href="index.html" class="nav-link active" data-i18n="nav.products">产品中心</a>
         <a href="../index.html#about" class="nav-link" data-i18n="nav.about">关于我们</a>
+        <a href="../blog/index.html" class="nav-link" data-i18n="nav.blog">技术博客</a>
         <a href="../index.html#contact" class="nav-link" data-i18n="nav.contact">联系我们</a>
       </nav>
       <div class="nav-actions">

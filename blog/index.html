@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="MEMS-MCTI技术博客 - 深入解析惯性导航、IMU选型、GPS/RTK定位、陀螺仪技术等专业知识，助力工程师选型和系统集成">
+  <title data-i18n="blog.title">技术博客 | MEMS-MCTI - 惯性导航专业知识</title>
+
+  <!-- SEO Meta Tags -->
+  <meta name="keywords" content="惯性导航博客,IMU选型指南,GPS/RTK定位原理,陀螺仪技术,MEMS传感器,导航系统集成">
+  <meta name="author" content="MEMS-MCTI">
+  <meta name="robots" content="index, follow">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="技术博客 | MEMS-MCTI - 惯性导航专业知识">
+  <meta property="og:description" content="深入解析惯性导航、IMU选型、GPS/RTK定位、陀螺仪技术等专业知识">
+  <meta property="og:image" content="https://mmes-mcti.hollychina58.workers.dev/images/og-image.jpg">
+  <meta property="og:url" content="https://mmes-mcti.hollychina58.workers.dev/blog/index.html">
+  <meta property="og:site_name" content="MEMS-MCTI">
+  <meta property="og:locale" content="zh_CN">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="技术博客 | MEMS-MCTI">
+  <meta name="twitter:description" content="深入解析惯性导航、IMU选型、GPS/RTK定位、陀螺仪技术等专业知识">
+
+  <!-- Canonical URL -->
+  <link rel="canonical" href="https://mmes-mcti.hollychina58.workers.dev/blog/index.html">
+
+  <!-- GEO Tags -->
+  <meta name="geo.region" content="CN">
+  <meta name="geo.placename" content="Beijing">
+  <meta name="geo.position" content="39.9042;116.4074">
+  <meta name="ICBM" content="39.9042, 116.4074">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="../css/main.css">
+
+  <!-- Blog Schema -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Blog",
+    "name": "MEMS-MCTI 技术博客",
+    "description": "深入解析惯性导航、IMU选型、GPS/RTK定位、陀螺仪技术等专业知识",
+    "url": "https://mmes-mcti.hollychina58.workers.dev/blog/index.html",
+    "publisher": {
+      "@type": "Organization",
+      "name": "MEMS-MCTI",
+      "url": "https://mmes-mcti.hollychina58.workers.dev"
+    }
+  }
+  </script>
+</head>
+<body>
+  <div class="page-loader"><div class="loader-spinner"></div></div>
+  <a href="#main-content" class="skip-to-content">Skip to content</a>
+
+  <header class="nav">
+    <div class="container nav-inner">
+      <a href="../index.html" class="nav-logo"><span>MEMS-MCTI</span></a>
+      <nav class="nav-menu">
+        <a href="../index.html" class="nav-link">首页</a>
+        <a href="../products/index.html" class="nav-link">产品中心</a>
+        <a href="index.html" class="nav-link active">技术博客</a>
+        <a href="../index.html#about" class="nav-link">关于我们</a>
+        <a href="../index.html#contact" class="nav-link">联系我们</a>
+      </nav>
+      <div class="nav-actions">
+        <div class="lang-switcher">
+          <button class="lang-switcher-btn" aria-label="Select language">
+            <span class="lang-current">中文</span>
+            <i class="fas fa-chevron-down"></i>
+          </button>
+          <div class="lang-dropdown">
+            <div class="lang-option" data-lang="zh"><span class="lang-flag">🇨🇳</span><span class="lang-name">中文</span></div>
+            <div class="lang-option" data-lang="en"><span class="lang-flag">🇬🇧</span><span class="lang-name">English</span></div>
+            <div class="lang-option" data-lang="ru"><span class="lang-flag">🇷🇺</span><span class="lang-name">Русский</span></div>
+            <div class="lang-option" data-lang="ar"><span class="lang-flag">🇸🇦</span><span class="lang-name">العربية</span></div>
+            <div class="lang-option" data-lang="uz"><span class="lang-flag">🇺🇿</span><span class="lang-name">O'zbek</span></div>
+            <div class="lang-option" data-lang="fa"><span class="lang-flag">🇮🇷</span><span class="lang-name">فارسی</span></div>
+            <div class="lang-option" data-lang="tr"><span class="lang-flag">🇹🇷</span><span class="lang-name">Türkçe</span></div>
+            <div class="lang-option" data-lang="la"><span class="lang-flag">🇻🇦</span><span class="lang-name">Latina</span></div>
+          </div>
+        </div>
+        <button class="nav-mobile-toggle" aria-label="Toggle menu"><i class="fas fa-bars"></i></button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <section class="page-header">
+      <div class="container">
+        <nav class="breadcrumb">
+          <a href="../index.html" data-i18n="nav.home">首页</a>
+          <span class="breadcrumb-separator">/</span>
+          <span data-i18n="nav.blog">技术博客</span>
+        </nav>
+        <h1 class="page-title" data-i18n="blog.pageTitle">技术博客</h1>
+        <p class="page-subtitle" data-i18n="blog.pageSubtitle">深入解析惯性导航技术，助力工程师选型与系统集成</p>
+      </div>
+    </section>
+
+    <section class="section tech-grid-bg">
+      <div class="container">
+        <div class="blog-grid">
+          <article class="blog-card fade-in-up">
+            <div class="blog-card-image">
+              <img src="../images/PA-IMU-01D.jpg" alt="MEMS IMU选型指南" data-i18n-alt="articles.imu-selection.h1" loading="lazy">
+              <span class="blog-card-category" data-i18n="articles.category.selection">选型指南</span>
+            </div>
+            <div class="blog-card-content">
+              <div class="blog-card-meta">
+                <span><i class="far fa-calendar"></i> 2026-04-15</span>
+                <span><i class="far fa-clock"></i> <span data-i18n="articles.imu-selection.readTime">15分钟阅读</span></span>
+              </div>
+              <h2 class="blog-card-title">
+                <a href="articles/imu-selection-guide.html" data-i18n="articles.imu-selection.cardTitle">MEMS IMU选型完全指南：如何选择合适的惯性测量单元</a>
+              </h2>
+              <p class="blog-card-excerpt" data-i18n="articles.imu-selection.cardExcerpt">本文详细介绍MEMS惯性测量单元的关键技术参数，包括陀螺仪零偏稳定性、角度随机游走、带宽等核心指标，以及选型时需要考虑的应用场景、环境条件和接口类型。</p>
+              <div class="blog-card-tags">
+                <span class="blog-tag">IMU</span>
+                <span class="blog-tag">MEMS</span>
+                <span class="blog-tag" data-i18n="articles.tag.selection">选型</span>
+              </div>
+              <a href="articles/imu-selection-guide.html" class="btn btn-secondary btn-sm" data-i18n="common.readMore">阅读全文</a>
+            </div>
+          </article>
+
+          <article class="blog-card fade-in-up">
+            <div class="blog-card-image">
+              <img src="../images/PA-AHRS01.jpg" alt="IMU vs AHRS vs GPS-INS" data-i18n-alt="articles.imu-vs-ahrs.h1" loading="lazy">
+              <span class="blog-card-category" data-i18n="articles.category.comparison">技术对比</span>
+            </div>
+            <div class="blog-card-content">
+              <div class="blog-card-meta">
+                <span><i class="far fa-calendar"></i> 2026-04-10</span>
+                <span><i class="far fa-clock"></i> <span data-i18n="articles.imu-vs-ahrs.readTime">12分钟阅读</span></span>
+              </div>
+              <h2 class="blog-card-title">
+                <a href="articles/imu-vs-ahrs-gps-ins.html" data-i18n="articles.imu-vs-ahrs.cardTitle">IMU、AHRS与GPS-INS：你需要哪个导航系统？</a>
+              </h2>
+              <p class="blog-card-excerpt" data-i18n="articles.imu-vs-ahrs.cardExcerpt">深入对比IMU、AHRS和GPS-INS三种导航系统的原理、特点和应用场景，帮助工程师根据具体应用需求选择最合适的导航解决方案。</p>
+              <div class="blog-card-tags">
+                <span class="blog-tag">IMU</span>
+                <span class="blog-tag">AHRS</span>
+                <span class="blog-tag">GPS-INS</span>
+                <span class="blog-tag" data-i18n="articles.tag.navigation">导航</span>
+              </div>
+              <a href="articles/imu-vs-ahrs-gps-ins.html" class="btn btn-secondary btn-sm" data-i18n="common.readMore">阅读全文</a>
+            </div>
+          </article>
+
+          <article class="blog-card fade-in-up">
+            <div class="blog-card-image">
+              <img src="../images/PA-GS02.jpg" alt="RTK GPS原理" data-i18n-alt="articles.rtk-gps.h1" loading="lazy">
+              <span class="blog-card-category" data-i18n="articles.category.principle">技术原理</span>
+            </div>
+            <div class="blog-card-content">
+              <div class="blog-card-meta">
+                <span><i class="far fa-calendar"></i> 2026-04-05</span>
+                <span><i class="far fa-clock"></i> <span data-i18n="articles.rtk-gps.readTime">10分钟阅读</span></span>
+              </div>
+              <h2 class="blog-card-title">
+                <a href="articles/rtk-gps-principles.html" data-i18n="articles.rtk-gps.cardTitle">RTK GPS原理解析：实现厘米级定位的关键技术</a>
+              </h2>
+              <p class="blog-card-excerpt" data-i18n="articles.rtk-gps.cardExcerpt">详细介绍RTK（实时动态差分）定位技术的工作原理，包括载波相位测量、差分修正、模糊度解算等核心技术，以及RTK系统的组成和应用场景。</p>
+              <div class="blog-card-tags">
+                <span class="blog-tag">RTK</span>
+                <span class="blog-tag">GPS</span>
+                <span class="blog-tag" data-i18n="articles.tag.positioning">定位</span>
+                <span class="blog-tag" data-i18n="articles.tag.surveying">测绘</span>
+              </div>
+              <a href="articles/rtk-gps-principles.html" class="btn btn-secondary btn-sm" data-i18n="common.readMore">阅读全文</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="newsletter-box fade-in-up">
+          <h3 data-i18n="blog.subscribe">订阅技术更新</h3>
+          <p data-i18n="blog.subscribeDesc">订阅我们的技术博客，获取最新的惯性导航技术文章和应用案例。</p>
+          <form class="newsletter-form" onsubmit="event.preventDefault(); alert('感谢订阅！');">
+            <input type="email" data-i18n-placeholder="blog.emailPlaceholder" placeholder="输入您的邮箱" required>
+            <button type="submit" class="btn btn-primary" data-i18n="blog.subscribeBtn">订阅</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <h3 data-i18n="footer.brand">MEMS-MCTI</h3>
+          <p data-i18n="footer.tagline">精准导航 智控未来</p>
+        </div>
+        <div class="footer-col">
+          <h4 class="footer-title" data-i18n="footer.productsTitle">产品中心</h4>
+          <div class="footer-links">
+            <a href="../products/imu.html" class="footer-link" data-i18n="productNames.imu">惯性测量单元</a>
+            <a href="../products/ahrs.html" class="footer-link" data-i18n="productNames.ahrs">姿态航向参考系统</a>
+            <a href="../products/gs.html" class="footer-link" data-i18n="productNames.gs">定位测姿系统</a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h4 class="footer-title" data-i18n="footer.blogTitle">技术博客</h4>
+          <div class="footer-links">
+            <a href="articles/imu-selection-guide.html" class="footer-link" data-i18n="articles.imu-selection.footerLink">IMU选型指南</a>
+            <a href="articles/imu-vs-ahrs-gps-ins.html" class="footer-link" data-i18n="articles.imu-vs-ahrs.footerLink">导航系统对比</a>
+            <a href="articles/rtk-gps-principles.html" class="footer-link" data-i18n="articles.rtk-gps.footerLink">RTK定位原理</a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h4 class="footer-title" data-i18n="footer.contactTitle">联系方式</h4>
+          <div class="footer-links">
+            <span class="footer-link">Email: hollychina58@gmail.com</span>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p class="footer-copyright" data-i18n="footer.copyright">© 2024 测控与导航专业公司 版权所有</p>
+      </div>
+    </div>
+  </footer>
+
+  <button class="scroll-top" aria-label="Scroll to top"><i class="fas fa-chevron-up"></i></button>
+
+  <script type="module" src="../js/i18n.js"></script>
+  <script type="module" src="../js/scroll-effects.js"></script>
+  <script type="module" src="../js/main.js"></script>
+</body>
+</html>

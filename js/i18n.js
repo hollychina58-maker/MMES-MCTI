@@ -45,8 +45,21 @@ const I18n = {
 
     try {
       // Determine relative path based on current page location
-      const isInProductsDir = window.location.pathname.includes('/products/');
-      const basePath = isInProductsDir ? '../' : './';
+      const path = window.location.pathname;
+      const isInProductsDir = path.includes('/products/');
+      const isInBlogArticlesDir = path.includes('/blog/articles/');
+      const isInBlogDir = path.includes('/blog/');
+
+      let basePath;
+      if (isInProductsDir) {
+        basePath = '../';
+      } else if (isInBlogArticlesDir) {
+        basePath = '../../';
+      } else if (isInBlogDir) {
+        basePath = '../';
+      } else {
+        basePath = './';
+      }
 
       // Load common translations (use relative path)
       const commonResponse = await fetch(`${basePath}locales/${langCode}/common.json`);

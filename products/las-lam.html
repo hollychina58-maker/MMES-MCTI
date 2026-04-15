@@ -61,6 +61,56 @@
     }
   }
   </script>
+
+  <!-- FAQPage Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "激光捷联惯性导航系统和传统平台式惯性导航系统有什么区别？",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "传统平台式惯性导航系统将陀螺仪安装在高精度稳定平台上，通过框架隔离载体运动。激光捷联惯性导航系统（LAS/LAM）则将激光陀螺仪和加速度计直接固连在载体上，通过数学平台算法实现姿态解算。捷联式系统体积小、重量轻、可靠性高，是现代惯性导航的主流发展方向。"
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "PA-LASI-A和PA-LASIII-A有什么区别？",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "两个型号的主要区别在精度等级：PA-LASI-A定位精度<1m (CEP)，姿态精度±0.1°，航向精度±0.2°，陀螺零偏稳定性<0.01°/h；PA-LASIII-A定位精度<0.5m (CEP)，姿态精度±0.05°，航向精度±0.1°，陀螺零偏稳定性<0.005°/h。用户可根据精度需求选择合适的型号。"
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "激光陀螺仪相比MEMS陀螺仪有什么优势？",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "激光陀螺仪利用环形激光器中相向传播的光束频率差来测量角速度，具有零偏稳定性好（可达0.001°/h）、线性度好、动态范围大、环境适应性强的优势。但体积、成本和功耗都远高于MEMS陀螺仪，适用于对精度有严格要求的航空航天和军事应用。"
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "激光捷联惯性导航系统如何实现高精度定位？",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "PA-LAS/LAM系列集成GPS/北斗接收机，采用多系统融合算法，将惯性导航系统（INS）的高频更新能力与GPS/北斗的绝对定位能力相结合。通过卡尔曼滤波最优融合，GPS失效时仍能保持高精度定位，GPS可用时不断修正INS误差，实现连续高精度定位定向。"
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "激光捷联惯性导航系统符合哪些航空标准？",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "PA-LAS/LAM系列符合DO-160（航空电子设备环境条件）和DO-178C（机载软件适航）标准，满足民用航空和军用飞机对惯性导航系统的严苛要求。产品经过严格的温度冲击、振动、冲击和高海拔测试，可在各种恶劣环境下可靠工作。"
+        }
+      }
+    ]
+  }
+  </script>
 </head>
 <body>
   <div class="page-loader"><div class="loader-spinner"></div></div>
@@ -73,6 +123,7 @@
         <a href="../index.html" class="nav-link" data-i18n="nav.home">首页</a>
         <a href="index.html" class="nav-link active" data-i18n="nav.products">产品中心</a>
         <a href="../index.html#about" class="nav-link" data-i18n="nav.about">关于我们</a>
+        <a href="../blog/index.html" class="nav-link" data-i18n="nav.blog">技术博客</a>
         <a href="../index.html#contact" class="nav-link" data-i18n="nav.contact">联系我们</a>
       </nav>
       <div class="nav-actions">

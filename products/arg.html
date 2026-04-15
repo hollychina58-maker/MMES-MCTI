@@ -61,6 +61,56 @@
     }
   }
   </script>
+
+  <!-- FAQPage Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "应变式加速度计和MEMS加速度计有什么区别？",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "应变式加速度计基于应变片变形测量原理，测量精度高、稳定性好、频率范围宽（0-500Hz），适用于精密测量和工业应用。MEMS加速度计基于微机电系统技术，体积小、成本低、功耗低，但精度和稳定性相对较低。PA-ARG系列采用应变式测量原理，零偏稳定性<0.5mg，适合结构健康监测、桥梁检测等高精度应用。"
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "PA-ARG-A和PA-ARG-D有什么区别？",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "PA-ARG-A和PA-ARG-D的主要区别在于测量精度和应用场景。两者都采用应变片测量原理，但A系列偏向通用工业应用，D系列具有更高的稳定性和更低的噪声，适用于地震监测等超高精度需求的场合。"
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "三轴加速度计PA-3ARG-A和单轴加速度计有什么区别？",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "单轴加速度计只能测量一个方向的加速度，需要三个正交安装才能完成三维空间加速度测量。PA-3ARG-A三轴加速度计将三个敏感轴集成在一个单元中，体积更小、集成更方便，且三轴正交性由工厂标定保证，精度更高，适用于需要测量完整三维加速度的应用。"
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "加速度计的测量范围是什么意思？",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "测量范围是指加速度计能够测量的最大加速度值，通常以g（重力加速度）为单位。PA-ARG系列提供±10g、±20g、±50g等多种量程可选。选型时建议选择测量范围为实际最大加速度1.5-2倍的型号，以获得最佳测量精度。"
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "加速度计在结构健康监测中如何应用？",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "在结构健康监测中，高精度加速度计用于测量桥梁、建筑、塔架等结构物在风荷载、交通荷载下的微振动响应。PA-ARG系列凭借其<0.5mg的零偏稳定性和0.1mg的分辨率，能够检测到毫米级甚至更小的振动位移，为结构安全评估提供精确数据支持。"
+        }
+      }
+    ]
+  }
+  </script>
 </head>
 <body>
   <div class="page-loader"><div class="loader-spinner"></div></div>
@@ -73,6 +123,7 @@
         <a href="../index.html" class="nav-link" data-i18n="nav.home">首页</a>
         <a href="index.html" class="nav-link active" data-i18n="nav.products">产品中心</a>
         <a href="../index.html#about" class="nav-link" data-i18n="nav.about">关于我们</a>
+        <a href="../blog/index.html" class="nav-link" data-i18n="nav.blog">技术博客</a>
         <a href="../index.html#contact" class="nav-link" data-i18n="nav.contact">联系我们</a>
       </nav>
       <div class="nav-actions">

@@ -61,6 +61,56 @@
     }
   }
   </script>
+
+  <!-- FAQPage Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "C3000电源模块支持哪些输入电压？",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "PM-C3000支持18~36V DC宽电压输入范围，可直接从车载电池或工业电源供电。PM-TS-VG支持115V AC / 400Hz标准航空电源输入，适用于机载和军用电源系统。"
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "电源模块的输出电压有哪些？",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "PM-C3000输出5V / 12V / ±15V多种电压，最大输出功率30W；PM-TS-VG输出28V / 12V / 5V，最大输出功率50W。可根据惯性导航系统的供电需求选择合适的模块。"
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "电源模块有哪些保护功能？",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "PA-C3000系列电源模块具备完善的保护功能：过压保护（OVP）、过流保护（OCP）、短路保护（SCP）和过热保护（OTP）。当输出短路或过载时，模块自动进入保护模式，故障排除后自动恢复，有效保护后级惯性导航设备的安全。"
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "电源模块的转换效率是多少？",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "PM-C3000电源模块转换效率>85%，远高于传统线性电源的40-60%，这意味着更少的能量损耗和更低的热量产生，提高了系统整体效率和可靠性。"
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "航空电源模块符合哪些标准？",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "PM-TS-VG符合航空电源标准DO-160关于输入电源特性、电磁兼容性和环境适应性的要求，可直接应用于机载电子设备和军用系统。产品经过严格的温度循环、振动冲击和电磁兼容测试。"
+        }
+      }
+    ]
+  }
+  </script>
 </head>
 <body>
   <div class="page-loader"><div class="loader-spinner"></div></div>
@@ -73,6 +123,7 @@
         <a href="../index.html" class="nav-link" data-i18n="nav.home">首页</a>
         <a href="index.html" class="nav-link active" data-i18n="nav.products">产品中心</a>
         <a href="../index.html#about" class="nav-link" data-i18n="nav.about">关于我们</a>
+        <a href="../blog/index.html" class="nav-link" data-i18n="nav.blog">技术博客</a>
         <a href="../index.html#contact" class="nav-link" data-i18n="nav.contact">联系我们</a>
       </nav>
       <div class="nav-actions">

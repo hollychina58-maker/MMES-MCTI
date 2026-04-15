@@ -61,6 +61,56 @@
     }
   }
   </script>
+
+  <!-- FAQPage Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "什么是自动找北功能？",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "自动找北是利用陀螺仪敏感地球自转角速度分量来确定真北方向的功能。PA-VG11垂直陀螺仪通过测量地球自转矢量在陀螺仪敏感轴上的投影，结合加速度计测量的重力矢量，自动计算真北方向。整个找北过程小于5分钟，航向精度可达±1.0°。"
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "垂直陀螺仪和MEMS IMU有什么区别？",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "垂直陀螺仪（VG）是一种三轴稳定平台，陀螺仪安装在精密框架上，具有极高的姿态稳定性和航向精度。PA-VG11的俯仰/横滚精度达±0.5°，航向精度达±1.0°，远优于普通MEMS IMU。VG主要用于对精度要求极高的航空和军事领域。"
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "PA-VG11的供电要求是什么？",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "PA-VG11采用115V AC / 400Hz电源供电，这是航空和军用设备的常用电源标准，符合DO-160环境条件要求。需要配套电源模块（如PM-TS-VG）将28V DC或115V AC转换为所需电压。"
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "垂直陀螺仪适用于哪些飞行器？",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "PA-VG11垂直陀螺仪广泛应用于各类飞行器，包括：固定翼飞机、直升机的姿态参考和航向指示、无人机（UAV）的自主导航系统、以及航空摄影测量平台的稳定控制。其高可靠性和环境适应性使其成为航空领域的首选。"
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "PA-VG11的稳定时间是多少？",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "PA-VG11的稳定时间小于5分钟，这意味着从开机到输出精确姿态数据只需不到5分钟即可完成，适用于需要快速响应的应用场景。"
+        }
+      }
+    ]
+  }
+  </script>
 </head>
 <body>
   <div class="page-loader"><div class="loader-spinner"></div></div>
@@ -73,6 +123,7 @@
         <a href="../index.html" class="nav-link" data-i18n="nav.home">首页</a>
         <a href="index.html" class="nav-link active" data-i18n="nav.products">产品中心</a>
         <a href="../index.html#about" class="nav-link" data-i18n="nav.about">关于我们</a>
+        <a href="../blog/index.html" class="nav-link" data-i18n="nav.blog">技术博客</a>
         <a href="../index.html#contact" class="nav-link" data-i18n="nav.contact">联系我们</a>
       </nav>
       <div class="nav-actions">

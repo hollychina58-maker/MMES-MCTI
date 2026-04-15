@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="测控与导航专业公司 - 高品质惯性导航产品与解决方案">
-  <title data-i18n="footer.brand">测控与导航 | MEMS-MCTI</title>
+  <meta name="description" content="MEMS-MCTI专业惯性导航产品制造商，提供高精度MEMS IMU、AHRS、垂直陀螺仪、激光捷联惯性导航、GPS定位测姿系统。精度达0.01°/h，广泛应用于航空、航天、船舶、无人机、车辆导航领域。">
+  <title data-i18n="footer.brand">高精度惯性导航系统 | IMU, AHRS, GPS/INS - MEMS-MCTI</title>
 
   <!-- SEO Meta Tags -->
   <meta name="keywords" content="惯性导航,MEMS陀螺仪,IMU,AHRS,GPS定位,垂直陀螺仪,激光惯性导航,加速度计,导航系统,测控">
@@ -13,7 +13,7 @@
 
   <!-- Open Graph / Facebook -->
   <meta property="og:type" content="website">
-  <meta property="og:title" content="测控与导航 | MEMS-MCTI - 高品质惯性导航产品">
+  <meta property="og:title" content="高精度惯性导航系统 | IMU, AHRS, GPS/INS - MEMS-MCTI">
   <meta property="og:description" content="测控与导航专业公司 - 高品质惯性导航产品与解决方案，服务于航空、航天、船舶、车辆等领域">
   <meta property="og:image" content="https://mmes-mcti.hollychina58.workers.dev/images/og-image.jpg">
   <meta property="og:url" content="https://mmes-mcti.hollychina58.workers.dev/index.html">
@@ -87,6 +87,92 @@
     }
   }
   </script>
+
+  <!-- BreadcrumbList Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "首页",
+        "item": "https://mmes-mcti.hollychina58.workers.dev"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "产品中心",
+        "item": "https://mmes-mcti.hollychina58.workers.dev/products/index.html"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "技术博客",
+        "item": "https://mmes-mcti.hollychina58.workers.dev/blog/index.html"
+      }
+    ]
+  }
+  </script>
+
+  <!-- FAQPage Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "什么是IMU惯性测量单元？",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "IMU（Inertial Measurement Unit，惯性测量单元）是一种测量物体比力、角速率和姿态的电子设备。它通常包含三轴陀螺仪和三轴加速度计，用于测量物体的旋转运动和线性加速度。MEMS IMU采用微机电系统技术，具有体积小、重量轻、功耗低、成本低的优势，广泛应用于无人机、航空、航天、船舶和车辆导航领域。"
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "IMU和AHRS有什么区别？",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "IMU提供原始传感器数据（加速度和角速率），需要外部处理器进行姿态解算。AHRS（Attitude and Heading Reference System，姿态航向参考系统）在IMU基础上集成了磁力计和/或GPS，并内置姿态融合算法，能够直接输出完整的俯仰角、横滚角和航向角。简单说，AHRS = IMU + 磁力计/GPS + 融合算法。"
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "陀螺仪零偏稳定性是什么意思？",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "陀螺仪零偏稳定性（Bias Stability）是衡量陀螺仪性能的核心指标，表示陀螺仪在静止状态下输出随机游走的程度，通常以°/h（度/小时）为单位。数值越小表示精度越高。例如，0.5°/h意味着每小时漂移不超过0.5度。高精度应用（如航空导航）需要零偏稳定性优于0.01°/h的陀螺仪。"
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "RTK GPS和普通GPS有什么区别？",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "RTK（Real-Time Kinematic，实时动态差分）是一种高精度GPS定位技术，通过基准站实时传输差分修正数据，可以实现实时2厘米级的定位精度，而普通单点GPS精度通常在1-5米。RTK需要基准站和流动站配合工作，广泛应用于测绘、无人机导航、精准农业和自动驾驶等领域。"
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "如何选择合适的惯性导航产品？",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "选择惯性导航产品主要考虑以下因素：1）精度需求：根据应用场景确定陀螺仪零偏稳定性要求；2）动态性能：关注带宽和数据更新率；3）环境适应性：工作温度范围、抗冲击振动能力；4）接口类型：RS232、RS422、CAN等；5）体积重量：根据安装空间限制选择；6）电源要求：电压和功耗。我司产品线覆盖从低成本MEMS到高精度光纤陀螺，可满足不同应用需求。"
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "MEMS陀螺仪和光纤陀螺仪有什么区别？",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "MEMS陀螺仪基于微机电系统技术，体积小、成本低、功耗低，但精度相对较低（通常0.5-10°/h）。光纤陀螺仪（FOG）利用光纤干涉原理测量角速度，精度高（可达0.001°/h），但体积大、成本高、功耗大。光纤陀螺仪适用于航空航天等高精度应用，MEMS陀螺仪则广泛应用于无人机、汽车和消费电子领域。"
+        }
+      }
+    ]
+  }
+  </script>
 </head>
 <body>
   <!-- Page Loader -->
@@ -107,6 +193,7 @@
       <nav class="nav-menu">
         <a href="index.html" class="nav-link active" data-i18n="nav.home">首页</a>
         <a href="products/index.html" class="nav-link" data-i18n="nav.products">产品中心</a>
+        <a href="blog/index.html" class="nav-link" data-i18n="nav.blog">技术博客</a>
         <a href="#about" class="nav-link" data-i18n="nav.about">关于我们</a>
         <a href="#contact" class="nav-link" data-i18n="nav.contact">联系我们</a>
       </nav>

@@ -61,6 +61,56 @@
     }
   }
   </script>
+
+  <!-- FAQPage Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "RTK GPS和普通GPS的定位精度有多大差异？",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "普通单点GPS定位精度通常在1-5米（CEP），而RTK（实时动态差分）GPS定位精度可达2厘米（CEP）。PA-GS系列支持RTK差分定位，通过基准站实时发送差分修正数据，流动站实时计算精确位置，适用于测绘、精准农业、无人机着陆等高精度需求场景。"
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "双天线GPS和单天线GPS有什么区别？",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "单天线GPS只能测量位置（经纬度），双天线GPS通过两个天线间的基线向量可以同时测量载体的航向角。PA-GS02采用双天线配置，航向精度达±0.2°（2m基线），且航向精度与基线长度成正比。双天线方案广泛应用于车辆定向、船舶导航和精确农业机械。"
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "PA-GS支持哪些卫星系统？",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "PA-GS系列支持多系统融合定位，跟踪信号包括：GPS L1/L2、GLONASS L1/L2、BDS B1/B2。多系统融合的优势在于可见卫星数量更多、定位可用性更高、抗干扰能力更强，特别在城市峡谷、山谷等遮挡环境下优势明显。"
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "GPS测姿系统的数据更新率是多少？",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "PA-GS系列提供两种数据更新率模式：20Hz和100Hz。20Hz模式适合大多数静态或低速动态应用，功耗较低；100Hz模式适合高速动态应用如无人机导航和车辆高速行驶时的实时定位定向。"
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "如何选择合适的GPS定位测姿系统？",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "选型主要考虑：1）精度需求：普通导航选PA-GS，高精度RTK选PA-GS01/02；2）航向需求：需要测航向选双天线型号（GS02），只需定位选单天线型号；3）载体类型：车载应用选PA-GSAUTO/PA-GSFA1；4）数据更新率要求：高速运动选100Hz。"
+        }
+      }
+    ]
+  }
+  </script>
 </head>
 <body>
   <div class="page-loader"><div class="loader-spinner"></div></div>
@@ -73,6 +123,7 @@
         <a href="../index.html" class="nav-link" data-i18n="nav.home">首页</a>
         <a href="index.html" class="nav-link active" data-i18n="nav.products">产品中心</a>
         <a href="../index.html#about" class="nav-link" data-i18n="nav.about">关于我们</a>
+        <a href="../blog/index.html" class="nav-link" data-i18n="nav.blog">技术博客</a>
         <a href="../index.html#contact" class="nav-link" data-i18n="nav.contact">联系我们</a>
       </nav>
       <div class="nav-actions">

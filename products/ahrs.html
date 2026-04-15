@@ -61,6 +61,56 @@
     }
   }
   </script>
+
+  <!-- FAQPage Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "AHRS和普通IMU有什么区别？",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "AHRS（姿态航向参考系统）与IMU的核心区别在于：AHRS内置了姿态融合算法，能够直接输出完整的俯仰角、横滚角和航向角，无需外部处理器进行复杂计算。PA-AHRS01集成了GPS/GLONASS接收机、三轴MEMS陀螺仪、加速度计和磁力计，开机即可输出高精度姿态数据。"
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "PA-AHRS01的数据更新率是多少？",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "PA-AHRS01的数据更新率高达100Hz，能够满足高速动态应用的需求，如无人机飞行控制、高速车辆姿态测量等场景。"
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "AHRS如何实现航向测量？",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "PA-AHRS01通过三种方式确定航向：1）三轴磁力计测量地球磁场方向，提供绝对航向参考；2）GPS速度矢量推算航向（GPS可用时）；3）陀螺仪积分提供短期高动态航向变化。三种数据通过卡尔曼滤波融合，实现高精度、高动态的航向输出。"
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "PA-AHRS01支持什么通信协议？",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "PA-AHRS01支持NMEA0183协议，这是GPS/AHRS设备的标准输出格式，可与Pixhawk、Ardupilot等主流飞控系统直接兼容。同时也支持定制协议输出。"
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "AHRS在无人机上的典型应用有哪些？",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "PA-AHRS01在无人机领域的典型应用包括：飞行控制系统的姿态参考、航向保持与自主导航、地面站姿态显示、以及多无人机协同编队飞行。其体积小、功耗低、精度高的特点使其成为无人机系统的理想选择。"
+        }
+      }
+    ]
+  }
+  </script>
 </head>
 <body>
   <div class="page-loader"><div class="loader-spinner"></div></div>
@@ -73,6 +123,7 @@
         <a href="../index.html" class="nav-link" data-i18n="nav.home">首页</a>
         <a href="index.html" class="nav-link active" data-i18n="nav.products">产品中心</a>
         <a href="../index.html#about" class="nav-link" data-i18n="nav.about">关于我们</a>
+        <a href="../blog/index.html" class="nav-link" data-i18n="nav.blog">技术博客</a>
         <a href="../index.html#contact" class="nav-link" data-i18n="nav.contact">联系我们</a>
       </nav>
       <div class="nav-actions">
