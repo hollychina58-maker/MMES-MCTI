@@ -172,6 +172,51 @@
     <xhtml:link rel="alternate" hreflang="zh" href="https://mmes-mcti.hollychina58.workers.dev/blog/articles/rtk-gps-principles.html?lang=zh"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://mmes-mcti.hollychina58.workers.dev/blog/articles/rtk-gps-principles.html?lang=en"/>
   </url>
+  <!-- Blog Article: UAV IMU Selection Guide -->
+  <url>
+    <loc>https://mmes-mcti.hollychina58.workers.dev/blog/articles/uav-imu-selection-guide.html</loc>
+    <lastmod>2026-04-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://mmes-mcti.hollychina58.workers.dev/blog/articles/uav-imu-selection-guide.html?lang=zh"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mmes-mcti.hollychina58.workers.dev/blog/articles/uav-imu-selection-guide.html?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://mmes-mcti.hollychina58.workers.dev/blog/articles/uav-imu-selection-guide.html?lang=ru"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://mmes-mcti.hollychina58.workers.dev/blog/articles/uav-imu-selection-guide.html?lang=ar"/>
+    <xhtml:link rel="alternate" hreflang="uz" href="https://mmes-mcti.hollychina58.workers.dev/blog/articles/uav-imu-selection-guide.html?lang=uz"/>
+    <xhtml:link rel="alternate" hreflang="fa" href="https://mmes-mcti.hollychina58.workers.dev/blog/articles/uav-imu-selection-guide.html?lang=fa"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://mmes-mcti.hollychina58.workers.dev/blog/articles/uav-imu-selection-guide.html?lang=tr"/>
+    <xhtml:link rel="alternate" hreflang="la" href="https://mmes-mcti.hollychina58.workers.dev/blog/articles/uav-imu-selection-guide.html?lang=la"/>
+  </url>
+  <!-- Blog Article: Laser Gyro vs MEMS IMU -->
+  <url>
+    <loc>https://mmes-mcti.hollychina58.workers.dev/blog/articles/laser-gyro-vs-mems-imu.html</loc>
+    <lastmod>2026-04-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://mmes-mcti.hollychina58.workers.dev/blog/articles/laser-gyro-vs-mems-imu.html?lang=zh"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mmes-mcti.hollychina58.workers.dev/blog/articles/laser-gyro-vs-mems-imu.html?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://mmes-mcti.hollychina58.workers.dev/blog/articles/laser-gyro-vs-mems-imu.html?lang=ru"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://mmes-mcti.hollychina58.workers.dev/blog/articles/laser-gyro-vs-mems-imu.html?lang=ar"/>
+    <xhtml:link rel="alternate" hreflang="uz" href="https://mmes-mcti.hollychina58.workers.dev/blog/articles/laser-gyro-vs-mems-imu.html?lang=uz"/>
+    <xhtml:link rel="alternate" hreflang="fa" href="https://mmes-mcti.hollychina58.workers.dev/blog/articles/laser-gyro-vs-mems-imu.html?lang=fa"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://mmes-mcti.hollychina58.workers.dev/blog/articles/laser-gyro-vs-mems-imu.html?lang=tr"/>
+    <xhtml:link rel="alternate" hreflang="la" href="https://mmes-mcti.hollychina58.workers.dev/blog/articles/laser-gyro-vs-mems-imu.html?lang=la"/>
+  </url>
+  <!-- Blog Article: AHRS Application Guide -->
+  <url>
+    <loc>https://mmes-mcti.hollychina58.workers.dev/blog/articles/ahrs-application-guide.html</loc>
+    <lastmod>2026-04-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://mmes-mcti.hollychina58.workers.dev/blog/articles/ahrs-application-guide.html?lang=zh"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mmes-mcti.hollychina58.workers.dev/blog/articles/ahrs-application-guide.html?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://mmes-mcti.hollychina58.workers.dev/blog/articles/ahrs-application-guide.html?lang=ru"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://mmes-mcti.hollychina58.workers.dev/blog/articles/ahrs-application-guide.html?lang=ar"/>
+    <xhtml:link rel="alternate" hreflang="uz" href="https://mmes-mcti.hollychina58.workers.dev/blog/articles/ahrs-application-guide.html?lang=uz"/>
+    <xhtml:link rel="alternate" hreflang="fa" href="https://mmes-mcti.hollychina58.workers.dev/blog/articles/ahrs-application-guide.html?lang=fa"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://mmes-mcti.hollychina58.workers.dev/blog/articles/ahrs-application-guide.html?lang=tr"/>
+    <xhtml:link rel="alternate" hreflang="la" href="https://mmes-mcti.hollychina58.workers.dev/blog/articles/ahrs-application-guide.html?lang=la"/>
+  </url>
   <!-- 404 Page -->
   <url>
     <loc>https://mmes-mcti.hollychina58.workers.dev/404.html</loc>
