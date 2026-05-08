@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm -v)",
+      "Bash(npx create-next-app@latest project --typescript --tailwind --eslint --app --src-dir --import-alias \"@/*\" --no-git --use-npm)",
+      "Bash(npx create-next-app@latest website --typescript --tailwind --eslint --app --src-dir --import-alias \"@/*\" --no-git --use-npm)",
+      "Bash(npm run *)",
+      "Bash(npm install *)",
+      "Bash(npx playwright *)",
+      "Bash(node --input-type=module -e ' *)",
+      "Bash(node -e ' *)",
+      "mcp__plugin_everything-claude-code_github__get_file_contents"
+    ]
+  }
+}
