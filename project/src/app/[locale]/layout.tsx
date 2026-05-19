@@ -1,0 +1,55 @@
+import { NextIntlClientProvider } from "next-intl";
+import { getMessages, setRequestLocale } from "next-intl/server";
+import { notFound } from "next/navigation";
+import { routing, Locale } from "@/routing";
+import { Header } from "@/components/Header";
+import { Footer } from "@/components/Footer";
+import { GA4 } from "@/components/GA4";
+import { SEO } from "@/components/SEO";
+import { PlausibleAnalytics } from "@/components/PlausibleAnalytics";
+import { Inter } from "next/font/google";
+import "../globals.css";
+
+const inter = Inter({
+  subsets: ["latin"],
+  display: "swap",
+  variable: "--font-inter",
+});
+
+export default async function LocaleLayout({
+  children,
+  params,
+}: {
+  children: React.ReactNode;
+  params: Promise<{ locale: string }>;
+}) {
+  const { locale } = await params;
+
+  if (!routing.locales.includes(locale as Locale)) {
+    notFound();
+  }
+
+  setRequestLocale(locale);
+  const messages = await getMessages();
+  const isRTL = locale === "ar" || locale === "fa";
+
+  return (
+    <html lang={locale} dir={isRTL ? "rtl" : "ltr"} className={inter.variable}>
+      <head>
+        <GA4 />
+        <PlausibleAnalytics />
+        <SEO locale={locale} canonical="" />
+        {process.env.NEXT_PUBLIC_GSC_VERIFICATION && (
+          <meta name="google-site-verification" content={process.env.NEXT_PUBLIC_GSC_VERIFICATION} />
+        )}
+      </head>
+      <body className="min-h-screen flex flex-col bg-slate-50 dark:bg-slate-900 font-sans">
+        <NextIntlClientProvider messages={messages}>
+          <Header locale={locale as Locale} />
+          <main className="flex-1">{children}</main>
+          <Footer />
+        </NextIntlClientProvider>
+      </body>
+    </html>
+  );
+}
