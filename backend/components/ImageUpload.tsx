@@ -1,12 +1,46 @@
 'use client';
 
 import { useState, useCallback } from 'react';
-import { getAuthHeader } from '../lib/api-auth';
 
 interface ImageUploadProps {
   value?: string;
   onChange: (url: string) => void;
   label?: string;
+}
+
+const MAX_DIMENSION = 1200;
+const JPEG_QUALITY = 0.8;
+
+async function compressImage(file: File): Promise<Blob> {
+  return new Promise((resolve, reject) => {
+    const img = new Image();
+    img.onload = () => {
+      let { width, height } = img;
+      if (width > MAX_DIMENSION || height > MAX_DIMENSION) {
+        const ratio = Math.min(MAX_DIMENSION / width, MAX_DIMENSION / height);
+        width = Math.round(width * ratio);
+        height = Math.round(height * ratio);
+      }
+
+      const canvas = document.createElement('canvas');
+      canvas.width = width;
+      canvas.height = height;
+      const ctx = canvas.getContext('2d');
+      if (!ctx) { reject(new Error('Canvas not supported')); return; }
+
+      ctx.drawImage(img, 0, 0, width, height);
+      canvas.toBlob(
+        (blob) => {
+          if (blob) resolve(blob);
+          else reject(new Error('Compression failed'));
+        },
+        'image/jpeg',
+        JPEG_QUALITY
+      );
+    };
+    img.onerror = () => reject(new Error('Failed to load image'));
+    img.src = URL.createObjectURL(file);
+  });
 }
 
 export function ImageUpload({ value, onChange, label }: ImageUploadProps) {
@@ -27,17 +61,27 @@ export function ImageUpload({ value, onChange, label }: ImageUploadProps) {
       setError(null);
 
       try {
-        const formData = new FormData();
-        formData.append('file', file);
-        formData.append('upload_preset', 'products');
+        // Compress image client-side before sending
+        let blob: Blob;
+        try {
+          blob = await compressImage(file);
+        } catch {
+          blob = file; // fallback to original if compression fails
+        }
 
-        const authHeader = getAuthHeader();
-        // Don't set Content-Type for FormData - browser needs to set it with boundary
-        delete authHeader['Content-Type'];
+        const apiKey = sessionStorage.getItem('admin_api_key');
+        if (!apiKey) {
+          setError('登录已过期，正在跳转登录页...');
+          setTimeout(() => { window.location.href = '/admin/login'; }, 1000);
+          return;
+        }
+
+        const formData = new FormData();
+        formData.append('file', blob, file.name);
 
         const res = await fetch('/api/upload', {
           method: 'POST',
-          headers: authHeader,
+          headers: { 'Authorization': `Bearer ${apiKey}` },
           body: formData,
         });
 
@@ -96,7 +140,7 @@ export function ImageUpload({ value, onChange, label }: ImageUploadProps) {
                 </label>
                 <p className="pl-1">或拖拽上传</p>
               </div>
-              <p className="text-xs text-slate-500">PNG, JPG, GIF 最大 10MB</p>
+              <p className="text-xs text-slate-500">PNG, JPG, GIF 自动压缩至1200px</p>
             </>
           )}
           {uploading && (
@@ -105,7 +149,7 @@ export function ImageUpload({ value, onChange, label }: ImageUploadProps) {
                 <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4" />
                 <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4z" />
               </svg>
-              上传中...
+              压缩上传中...
             </div>
           )}
           {error && <p className="text-sm text-red-500">{error}</p>}
